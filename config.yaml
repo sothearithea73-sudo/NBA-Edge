@@ -1,0 +1,70 @@
+# ---------------------------------------------------------------------------
+# NBA Edge — every model weight and betting rule lives in this one file.
+# Edit a number, commit, and the next scheduled run uses it.
+# Points are always "points of margin" from the HOME team's point of view
+# unless a comment says otherwise.
+# ---------------------------------------------------------------------------
+
+display_timezone: Australia/Brisbane
+
+season:
+  # ESPN labels a season by the year it ENDS: 2026-27 season = 2027.
+  current: 2027
+
+ratings:
+  half_life_days: 45          # a game this many days old counts half as much
+  previous_season_weight: 0.5 # how much last season counts at the start of this one (fades as the season goes)
+  ridge_lambda: 4.0           # pulls team ratings toward average; higher = more cautious
+
+model:
+  margin_sd: 12.5             # spread of real results around the projected margin (backtest re-fits this)
+  total_sd: 18.0              # same, for game totals
+  model_weight: 0.6           # blend with the market: 1.0 = trust model only, 0.0 = trust market only
+  uncertainty_interval: 0.80  # the range shown on each card (80% = 8 in 10 games land inside it)
+
+situational:                  # points of margin, applied to the affected team
+  back_to_back: -1.6
+  three_in_four: -0.8
+  rest_advantage_per_day: 0.4 # per extra day of rest vs the opponent
+  rest_cap_days: 2
+  travel_per_1000km: -0.3     # only when the team is on 0-1 days of rest
+  timezone_per_hour: -0.25    # only when the team is on 0-1 days of rest
+  altitude_home_bonus: 0.8    # Denver / Utah at home
+
+injuries:
+  # Chance a player suits up, by injury-report status
+  play_probability:
+    out: 0.0
+    doubtful: 0.2
+    questionable: 0.5
+    day-to-day: 0.6
+    probable: 0.9
+    available: 1.0
+  prior_minutes: 600          # shrinks small-sample on/off numbers toward zero
+  recent_games: 15            # window for expected minutes and "games played lately"
+  max_player_impact: 7.0      # cap on any one player's effect (points)
+  max_team_adjust: 12.0       # cap on a team's total injury adjustment
+  offense_share: 0.6          # how much of a missing player's effect comes off his own team's scoring (rest is added to the opponent's)
+
+betting:
+  edge_threshold: 0.03        # "Value bet" needs at least this edge (3%)
+  lean_fraction: 0.5          # "Lean" needs at least edge_threshold x this
+  kelly_fraction: 0.25        # quarter Kelly
+  max_stake_pct: 0.02         # never more than 2% of bankroll on one bet
+  max_daily_exposure_pct: 0.08 # all stakes on one day scaled down to fit under 8%
+  min_books: 2                # need prices from at least this many bookmakers
+  one_bet_per_game: true      # moneyline and spread on one game are correlated; keep only the best
+
+odds:
+  regions: au                 # au = Sportsbet, TAB, Ladbrokes, Neds, etc. "au,us" doubles API usage
+  markets: h2h,spreads,totals
+  max_calls_per_day: 4        # protects the free 500-credits-a-month plan
+  stale_hours: 6              # older odds than this = no picks
+
+schedule:
+  morning_cron: "0 20 * * *"  # must match the first cron line in .github/workflows/daily-update.yml
+  pretip_window_minutes: [35, 95]  # pre-tip refresh fires when a tip-off is this many minutes away
+
+fetch:
+  max_new_boxscores_per_run: 450
+  sleep_seconds: 0.25

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NBA Edge</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">NBA&nbsp;Edge<span class="sub">model vs market, updated daily</span></div>
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-view="today" role="tab">Today</button>
+    <button class="tab" data-view="results" role="tab">Results</button>
+    <button class="tab" data-view="about" role="tab">How it works</button>
+  </nav>
+</header>
+
+<section class="bankroll">
+  <label>Bankroll $ <input id="bankroll" type="number" min="0" step="50" inputmode="decimal"></label>
+  <span id="exposure" class="muted"></span>
+</section>
+
+<main>
+  <section id="view-today" class="view"></section>
+  <section id="view-results" class="view" hidden></section>
+  <section id="view-about" class="view" hidden></section>
+</main>
+
+<footer class="rg">
+  <p><strong>Gamble responsibly.</strong> These are probability estimates, not guarantees. Most bettors lose over time, and so can a model.
+  Only bet what you can afford to lose, set a limit before you start, and never chase losses.
+  Need to talk to someone? <a href="https://www.gamblinghelponline.org.au">Gambling Help Online</a>, 1800 858 858 (free, 24/7, Australia).</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
