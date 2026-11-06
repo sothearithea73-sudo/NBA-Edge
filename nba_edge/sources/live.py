@@ -38,7 +38,7 @@ class LiveSources:
                 if cached is not None:
                     games = [game_from_json(g) for g in cached]
                 else:
-                    games = espn.fetch_scoreboard(a, b)
+                    games = self._fetch_range(a, b)
                     # Only cache a month once it is fully in the past and every game is final
                     full_month = (b + timedelta(days=1)).day == 1 or b == date(season, 6, 30)
                     if full_month and b < self.today - timedelta(days=3) and all(g["completed"] for g in games):
@@ -47,6 +47,26 @@ class LiveSources:
                 for g in games:
                     found[g["id"]] = g
         return sorted(found.values(), key=lambda g: g["tip"])
+
+    def _fetch_range(self, a, b):
+        """Try one request for the whole range; if ESPN refuses it, go day by day."""
+        try:
+            return espn.fetch_scoreboard(a, b)
+        except espn.SourceError as e:
+            log.info("Range request refused (%s) - fetching %s to %s day by day", e, a, b)
+        games, fails, d = [], 0, a
+        while d <= b:
+            try:
+                data = espn.get_json(f"{espn.BASE}/scoreboard", {"dates": f"{d:%Y%m%d}"}, tries=2)
+                games += [g for g in (espn.parse_event(ev) for ev in data.get("events", [])) if g]
+            except espn.SourceError as e:
+                fails += 1
+                log.warning("%s", e)
+                if fails >= 5 and not games:
+                    raise espn.SourceError(f"ESPN scoreboard unavailable ({e})") from e
+            time.sleep(self.cfg["fetch"]["sleep_seconds"])
+            d += timedelta(days=1)
+        return games
 
     def box_scores(self, games):
         """Box scores for finished current-season games, cached per season."""
