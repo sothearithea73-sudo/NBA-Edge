@@ -1,34 +1,34 @@
 {
- "generated_at": "2026-11-06T22:52:57.493592+00:00",
- "generated_local": "Sat 7 Nov, 8:52am",
+ "generated_at": "2026-11-06T23:49:07.575281+00:00",
+ "generated_local": "Sat 7 Nov, 9:49am",
  "mode": "pretip",
  "timezone": "Australia/Brisbane",
  "slate_date": "2026-11-06",
  "sources": {
   "schedule": {
    "ok": true,
-   "updated": "2026-11-06T22:52:57.493592+00:00",
+   "updated": "2026-11-06T23:49:07.575281+00:00",
    "message": "1531 games loaded"
   },
   "box_scores": {
    "ok": true,
-   "updated": "2026-11-06T22:52:57.493592+00:00",
+   "updated": "2026-11-06T23:49:07.575281+00:00",
    "message": "123 games of player data"
   },
   "injuries": {
    "ok": true,
-   "updated": "2026-11-06T22:52:57.493592+00:00",
-   "message": "97 players listed"
+   "updated": "2026-11-06T23:49:07.575281+00:00",
+   "message": "93 players listed"
   },
   "odds": {
    "ok": true,
-   "updated": "2026-11-06T22:52:57.493592+00:00",
-   "remaining": "491",
+   "updated": "2026-11-06T23:49:07.575281+00:00",
+   "remaining": "488",
    "message": "13 events"
   }
  },
  "warnings": [
-  "Stakes scaled to 62% to stay under the daily exposure limit."
+  "Stakes scaled to 61% to stay under the daily exposure limit."
  ],
  "games": [
   {
@@ -531,13 +531,13 @@
        "label": "ATL",
        "line": null,
        "model_p": 0.8437,
-       "market_p": 0.7387,
-       "blend_p": 0.8017,
-       "edge": 0.063,
-       "best_price": 1.33,
+       "market_p": 0.7306,
+       "blend_p": 0.7984,
+       "edge": 0.0679,
+       "best_price": 1.35,
        "best_book": "Betfair",
-       "ev": 0.0662,
-       "kelly": 0.2007,
+       "ev": 0.0779,
+       "kelly": 0.2225,
        "n_books": 10
       },
       {
@@ -545,12 +545,12 @@
        "label": "WSH",
        "line": null,
        "model_p": 0.1563,
-       "market_p": 0.2613,
-       "blend_p": 0.1983,
-       "edge": -0.063,
-       "best_price": 3.9,
+       "market_p": 0.2694,
+       "blend_p": 0.2016,
+       "edge": -0.0679,
+       "best_price": 3.75,
        "best_book": "Betfair",
-       "ev": -0.2265,
+       "ev": -0.2441,
        "kelly": 0.0,
        "n_books": 10
       }
@@ -560,9 +560,9 @@
       "label": "ATL",
       "line": null,
       "verdict": "Lean",
-      "edge": 0.063,
-      "ev": 0.0662,
-      "price": 1.33,
+      "edge": 0.0679,
+      "ev": 0.0779,
+      "price": 1.35,
       "book": "Betfair",
       "stake_pct": 0.0,
       "reason": "another bet on this game was stronger"
@@ -574,43 +574,43 @@
      "sides": [
       {
        "side": "home",
-       "label": "ATL -9.5",
-       "line": -9.5,
-       "model_p": 0.5986,
-       "market_p": 0.4868,
-       "blend_p": 0.5539,
-       "edge": 0.067,
-       "best_price": 1.96,
-       "best_book": "Unibet",
-       "ev": 0.0856,
-       "kelly": 0.0891,
-       "n_books": 3
+       "label": "ATL -8.5",
+       "line": -8.5,
+       "model_p": 0.6291,
+       "market_p": 0.4921,
+       "blend_p": 0.5743,
+       "edge": 0.0822,
+       "best_price": 1.95,
+       "best_book": "PointsBet (AU)",
+       "ev": 0.12,
+       "kelly": 0.1263,
+       "n_books": 4
       },
       {
        "side": "away",
-       "label": "WSH +9.5",
-       "line": 9.5,
-       "model_p": 0.4014,
-       "market_p": 0.5132,
-       "blend_p": 0.4461,
-       "edge": -0.067,
-       "best_price": 1.9,
-       "best_book": "PointsBet (AU)",
-       "ev": -0.1523,
+       "label": "WSH +8.5",
+       "line": 8.5,
+       "model_p": 0.3709,
+       "market_p": 0.5079,
+       "blend_p": 0.4257,
+       "edge": -0.0822,
+       "best_price": 1.89,
+       "best_book": "Unibet",
+       "ev": -0.1955,
        "kelly": 0.0,
-       "n_books": 3
+       "n_books": 4
       }
      ],
      "pick": {
       "side": "home",
-      "label": "ATL -9.5",
-      "line": -9.5,
+      "label": "ATL -8.5",
+      "line": -8.5,
       "verdict": "Value bet",
-      "edge": 0.067,
-      "ev": 0.0856,
-      "price": 1.96,
-      "book": "Unibet",
-      "stake_pct": 0.0125,
+      "edge": 0.0822,
+      "ev": 0.12,
+      "price": 1.95,
+      "book": "PointsBet (AU)",
+      "stake_pct": 0.0121,
       "reason": ""
      }
     },
@@ -620,42 +620,42 @@
      "sides": [
       {
        "side": "over",
-       "label": "Over 227.5",
-       "line": 227.5,
-       "model_p": 0.5222,
+       "label": "Over 228.5",
+       "line": 228.5,
+       "model_p": 0.5,
        "market_p": 0.5013,
-       "blend_p": 0.5138,
-       "edge": 0.0125,
+       "blend_p": 0.5005,
+       "edge": -0.0008,
        "best_price": 1.9,
-       "best_book": "TAB",
-       "ev": -0.0237,
+       "best_book": "PointsBet (AU)",
+       "ev": -0.049,
        "kelly": 0.0,
-       "n_books": 2
+       "n_books": 4
       },
       {
        "side": "under",
-       "label": "Under 227.5",
-       "line": 227.5,
-       "model_p": 0.4778,
+       "label": "Under 228.5",
+       "line": 228.5,
+       "model_p": 0.5,
        "market_p": 0.4987,
-       "blend_p": 0.4862,
-       "edge": -0.0125,
-       "best_price": 1.91,
-       "best_book": "SportsBet",
-       "ev": -0.0714,
+       "blend_p": 0.4995,
+       "edge": 0.0008,
+       "best_price": 1.93,
+       "best_book": "TABtouch",
+       "ev": -0.036,
        "kelly": 0.0,
-       "n_books": 2
+       "n_books": 4
       }
      ],
      "pick": {
-      "side": "over",
-      "label": "Over 227.5",
-      "line": 227.5,
+      "side": "under",
+      "label": "Under 228.5",
+      "line": 228.5,
       "verdict": "Pass",
-      "edge": 0.0125,
-      "ev": -0.0237,
-      "price": 1.9,
-      "book": "TAB",
+      "edge": 0.0008,
+      "ev": -0.036,
+      "price": 1.93,
+      "book": "TABtouch",
       "stake_pct": 0.0,
       "reason": ""
      }
@@ -670,12 +670,12 @@
      "at": "2026-11-06T08:35:51.745661+00:00"
     },
     "now": {
-     "home_p": 0.7387,
-     "spread": -9.5,
-     "total": 227.5
+     "home_p": 0.7306,
+     "spread": -8.5,
+     "total": 228.5
     }
    },
-   "odds_updated": "2026-11-06T22:53:32Z"
+   "odds_updated": "2026-11-06T23:49:46Z"
   },
   {
    "id": "401909288",
@@ -1129,13 +1129,13 @@
        "label": "CHA",
        "line": null,
        "model_p": 0.4086,
-       "market_p": 0.2279,
-       "blend_p": 0.3363,
-       "edge": 0.1084,
-       "best_price": 4.6,
-       "best_book": "Betfair",
-       "ev": 0.5471,
-       "kelly": 0.152,
+       "market_p": 0.2185,
+       "blend_p": 0.3325,
+       "edge": 0.1141,
+       "best_price": 4.75,
+       "best_book": "Unibet",
+       "ev": 0.5795,
+       "kelly": 0.1545,
        "n_books": 10
       },
       {
@@ -1143,12 +1143,12 @@
        "label": "BOS",
        "line": null,
        "model_p": 0.5914,
-       "market_p": 0.7721,
-       "blend_p": 0.6637,
-       "edge": -0.1084,
+       "market_p": 0.7815,
+       "blend_p": 0.6675,
+       "edge": -0.1141,
        "best_price": 1.27,
        "best_book": "Betfair",
-       "ev": -0.1571,
+       "ev": -0.1523,
        "kelly": 0.0,
        "n_books": 10
       }
@@ -1158,11 +1158,11 @@
       "label": "CHA",
       "line": null,
       "verdict": "Value bet",
-      "edge": 0.1084,
-      "ev": 0.5471,
-      "price": 4.6,
-      "book": "Betfair",
-      "stake_pct": 0.0125,
+      "edge": 0.1141,
+      "ev": 0.5795,
+      "price": 4.75,
+      "book": "Unibet",
+      "stake_pct": 0.0121,
       "reason": ""
      }
     },
@@ -1175,13 +1175,13 @@
        "label": "CHA +10.5",
        "line": 10.5,
        "model_p": 0.7287,
-       "market_p": 0.5105,
-       "blend_p": 0.6414,
-       "edge": 0.1309,
-       "best_price": 1.88,
-       "best_book": "SportsBet",
-       "ev": 0.2058,
-       "kelly": 0.2339,
+       "market_p": 0.5053,
+       "blend_p": 0.6393,
+       "edge": 0.134,
+       "best_price": 1.9,
+       "best_book": "TAB",
+       "ev": 0.2147,
+       "kelly": 0.2385,
        "n_books": 3
       },
       {
@@ -1189,12 +1189,12 @@
        "label": "BOS -10.5",
        "line": -10.5,
        "model_p": 0.2713,
-       "market_p": 0.4895,
-       "blend_p": 0.3586,
-       "edge": -0.1309,
+       "market_p": 0.4947,
+       "blend_p": 0.3607,
+       "edge": -0.134,
        "best_price": 1.95,
        "best_book": "PointsBet (AU)",
-       "ev": -0.3007,
+       "ev": -0.2967,
        "kelly": 0.0,
        "n_books": 3
       }
@@ -1204,10 +1204,10 @@
       "label": "CHA +10.5",
       "line": 10.5,
       "verdict": "Lean",
-      "edge": 0.1309,
-      "ev": 0.2058,
-      "price": 1.88,
-      "book": "SportsBet",
+      "edge": 0.134,
+      "ev": 0.2147,
+      "price": 1.9,
+      "book": "TAB",
       "stake_pct": 0.0,
       "reason": "another bet on this game was stronger"
      }
@@ -1218,40 +1218,40 @@
      "sides": [
       {
        "side": "over",
-       "label": "Over 207.5",
-       "line": 207.5,
-       "model_p": 0.6285,
-       "market_p": 0.5066,
-       "blend_p": 0.5797,
-       "edge": 0.0731,
+       "label": "Over 209.5",
+       "line": 209.5,
+       "model_p": 0.5858,
+       "market_p": 0.5013,
+       "blend_p": 0.552,
+       "edge": 0.0507,
        "best_price": 1.9,
        "best_book": "PointsBet (AU)",
-       "ev": 0.1014,
-       "kelly": 0.1127,
-       "n_books": 2
+       "ev": 0.0488,
+       "kelly": 0.0542,
+       "n_books": 4
       },
       {
        "side": "under",
-       "label": "Under 207.5",
-       "line": 207.5,
-       "model_p": 0.3715,
-       "market_p": 0.4934,
-       "blend_p": 0.4203,
-       "edge": -0.0731,
-       "best_price": 1.95,
-       "best_book": "TAB",
-       "ev": -0.1804,
+       "label": "Under 209.5",
+       "line": 209.5,
+       "model_p": 0.4142,
+       "market_p": 0.4987,
+       "blend_p": 0.448,
+       "edge": -0.0507,
+       "best_price": 1.91,
+       "best_book": "SportsBet",
+       "ev": -0.1443,
        "kelly": 0.0,
-       "n_books": 2
+       "n_books": 4
       }
      ],
      "pick": {
       "side": "over",
-      "label": "Over 207.5",
-      "line": 207.5,
+      "label": "Over 209.5",
+      "line": 209.5,
       "verdict": "Lean",
-      "edge": 0.0731,
-      "ev": 0.1014,
+      "edge": 0.0507,
+      "ev": 0.0488,
       "price": 1.9,
       "book": "PointsBet (AU)",
       "stake_pct": 0.0,
@@ -1268,12 +1268,12 @@
      "at": "2026-11-06T08:35:51.745661+00:00"
     },
     "now": {
-     "home_p": 0.2279,
+     "home_p": 0.2185,
      "spread": 10.5,
-     "total": 207.5
+     "total": 209.5
     }
    },
-   "odds_updated": "2026-11-06T22:53:32Z"
+   "odds_updated": "2026-11-06T23:49:46Z"
   },
   {
    "id": "401909289",
@@ -1320,14 +1320,6 @@
       "note": ""
      },
      {
-      "name": "Tyrese Proctor",
-      "status": "questionable",
-      "detail": "Proctor (ankle) is questionable to play in Friday's game against the 76ers.",
-      "impact": -0.2,
-      "exp_min": 14.4,
-      "note": ""
-     },
-     {
       "name": "Peyton Watson",
       "status": "questionable",
       "detail": "Watson (hamstring) is questionable for Friday's game against the 76ers.",
@@ -1355,7 +1347,7 @@
      },
      {
       "name": "Tyrese Proctor",
-      "note": "questionable"
+      "note": ""
      }
     ],
     "roster": [
@@ -1456,8 +1448,8 @@
       "onoff": 12.57,
       "impact": 0.54,
       "played_share": 0.88,
-      "status": "questionable",
-      "detail": "Proctor (ankle) is questionable to play in Friday's game against the 76ers."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "Tristan Enaruna",
@@ -1490,7 +1482,7 @@
       "detail": ""
      }
     ],
-    "injury_adj": -1.6
+    "injury_adj": -1.32
    },
    "away": {
     "abbr": "PHI",
@@ -1530,9 +1522,9 @@
      },
      {
       "name": "Adem Bona",
-      "status": "questionable",
-      "detail": "Bona (back) is doubtful to play in Friday's game against the Cavaliers, Ky Carlin of USA Today reports.",
-      "impact": 0.53,
+      "status": "out",
+      "detail": "Bona (neck) is listed as out for Friday's game versus the Cavaliers.",
+      "impact": 1.07,
       "exp_min": 14.2,
       "note": ""
      }
@@ -1647,8 +1639,8 @@
       "onoff": -20.46,
       "impact": -1.07,
       "played_share": 1.0,
-      "status": "questionable",
-      "detail": "Bona (back) is doubtful to play in Friday's game against the Cavaliers, Ky Carlin of USA Today reports."
+      "status": "out",
+      "detail": "Bona (neck) is listed as out for Friday's game versus the Cavaliers."
      },
      {
       "name": "Jabari Walker",
@@ -1691,7 +1683,7 @@
       "detail": ""
      }
     ],
-    "injury_adj": 1.72
+    "injury_adj": 2.25
    },
    "projection": {
     "base_margin": 1.58,
@@ -1711,26 +1703,26 @@
      },
      {
       "label": "CLE injuries / lineup",
-      "pts": -1.6,
+      "pts": -1.32,
       "favours": "PHI",
-      "size": 1.6
+      "size": 1.32
      },
      {
       "label": "PHI injuries / lineup",
-      "pts": -1.72,
+      "pts": -2.25,
       "favours": "PHI",
-      "size": 1.72
+      "size": 2.25
      }
     ],
-    "margin": -2.45,
-    "total": 228.8,
-    "home_pts": 113.2,
-    "away_pts": 115.6,
-    "margin_lo": -18.5,
-    "margin_hi": 13.6,
-    "total_lo": 205.7,
-    "total_hi": 251.9,
-    "home_win_p": 0.4224,
+    "margin": -2.71,
+    "total": 229.0,
+    "home_pts": 113.1,
+    "away_pts": 115.8,
+    "margin_lo": -18.7,
+    "margin_hi": 13.3,
+    "total_lo": 205.9,
+    "total_hi": 252.0,
+    "home_win_p": 0.4143,
     "interval": 0.8
    },
    "markets": [
@@ -1742,13 +1734,13 @@
        "side": "home",
        "label": "CLE",
        "line": null,
-       "model_p": 0.4223,
-       "market_p": 0.4315,
-       "blend_p": 0.426,
-       "edge": -0.0055,
-       "best_price": 2.36,
+       "model_p": 0.4142,
+       "market_p": 0.426,
+       "blend_p": 0.4189,
+       "edge": -0.0071,
+       "best_price": 2.4,
        "best_book": "Betfair",
-       "ev": 0.0053,
+       "ev": 0.0054,
        "kelly": 0.0039,
        "n_books": 10
       },
@@ -1756,13 +1748,13 @@
        "side": "away",
        "label": "PHI",
        "line": null,
-       "model_p": 0.5777,
-       "market_p": 0.5685,
-       "blend_p": 0.574,
-       "edge": 0.0055,
+       "model_p": 0.5858,
+       "market_p": 0.574,
+       "blend_p": 0.5811,
+       "edge": 0.0071,
        "best_price": 1.71,
-       "best_book": "SportsBet",
-       "ev": -0.0184,
+       "best_book": "Betfair",
+       "ev": -0.0063,
        "kelly": 0.0,
        "n_books": 10
       }
@@ -1772,10 +1764,10 @@
       "label": "PHI",
       "line": null,
       "verdict": "Pass",
-      "edge": 0.0055,
-      "ev": -0.0184,
+      "edge": 0.0071,
+      "ev": -0.0063,
       "price": 1.71,
-      "book": "SportsBet",
+      "book": "Betfair",
       "stake_pct": 0.0,
       "reason": ""
      }
@@ -1788,29 +1780,29 @@
        "side": "home",
        "label": "CLE +2.5",
        "line": 2.5,
-       "model_p": 0.5016,
-       "market_p": 0.4934,
-       "blend_p": 0.4983,
-       "edge": 0.0049,
-       "best_price": 1.95,
-       "best_book": "PointsBet (AU)",
-       "ev": -0.0283,
+       "model_p": 0.4933,
+       "market_p": 0.4908,
+       "blend_p": 0.4923,
+       "edge": 0.0015,
+       "best_price": 1.96,
+       "best_book": "SportsBet",
+       "ev": -0.0351,
        "kelly": 0.0,
-       "n_books": 4
+       "n_books": 3
       },
       {
        "side": "away",
        "label": "PHI -2.5",
        "line": -2.5,
-       "model_p": 0.4984,
-       "market_p": 0.5066,
-       "blend_p": 0.5017,
-       "edge": -0.0049,
-       "best_price": 1.95,
-       "best_book": "SportsBet",
-       "ev": -0.0217,
+       "model_p": 0.5067,
+       "market_p": 0.5092,
+       "blend_p": 0.5077,
+       "edge": -0.0015,
+       "best_price": 1.87,
+       "best_book": "TABtouch",
+       "ev": -0.0506,
        "kelly": 0.0,
-       "n_books": 4
+       "n_books": 3
       }
      ],
      "pick": {
@@ -1818,10 +1810,10 @@
       "label": "CLE +2.5",
       "line": 2.5,
       "verdict": "Pass",
-      "edge": 0.0049,
-      "ev": -0.0283,
-      "price": 1.95,
-      "book": "PointsBet (AU)",
+      "edge": 0.0015,
+      "ev": -0.0351,
+      "price": 1.96,
+      "book": "SportsBet",
       "stake_pct": 0.0,
       "reason": ""
      }
@@ -1834,29 +1826,29 @@
        "side": "over",
        "label": "Over 231.5",
        "line": 231.5,
-       "model_p": 0.4404,
-       "market_p": 0.5,
-       "blend_p": 0.4642,
-       "edge": -0.0358,
-       "best_price": 1.9,
-       "best_book": "PointsBet (AU)",
-       "ev": -0.118,
+       "model_p": 0.4448,
+       "market_p": 0.5079,
+       "blend_p": 0.47,
+       "edge": -0.0379,
+       "best_price": 1.89,
+       "best_book": "TABtouch",
+       "ev": -0.1117,
        "kelly": 0.0,
-       "n_books": 3
+       "n_books": 2
       },
       {
        "side": "under",
        "label": "Under 231.5",
        "line": 231.5,
-       "model_p": 0.5596,
-       "market_p": 0.5,
-       "blend_p": 0.5358,
-       "edge": 0.0358,
-       "best_price": 1.9,
-       "best_book": "PointsBet (AU)",
-       "ev": 0.018,
-       "kelly": 0.02,
-       "n_books": 3
+       "model_p": 0.5552,
+       "market_p": 0.4921,
+       "blend_p": 0.53,
+       "edge": 0.0379,
+       "best_price": 1.95,
+       "best_book": "TAB",
+       "ev": 0.0335,
+       "kelly": 0.0352,
+       "n_books": 2
       }
      ],
      "pick": {
@@ -1864,11 +1856,11 @@
       "label": "Under 231.5",
       "line": 231.5,
       "verdict": "Value bet",
-      "edge": 0.0358,
-      "ev": 0.018,
-      "price": 1.9,
-      "book": "PointsBet (AU)",
-      "stake_pct": 0.0031,
+      "edge": 0.0379,
+      "ev": 0.0335,
+      "price": 1.95,
+      "book": "TAB",
+      "stake_pct": 0.0053,
       "reason": ""
      }
     }
@@ -1882,12 +1874,12 @@
      "at": "2026-11-06T08:35:51.745661+00:00"
     },
     "now": {
-     "home_p": 0.4315,
+     "home_p": 0.426,
      "spread": 2.5,
      "total": 231.5
     }
    },
-   "odds_updated": "2026-11-06T22:53:32Z"
+   "odds_updated": "2026-11-06T23:49:46Z"
   },
   {
    "id": "401909290",
@@ -1918,22 +1910,6 @@
     },
     "injuries": [
      {
-      "name": "Kyrie Irving",
-      "status": "questionable",
-      "detail": "Irving (illness) is probable for Friday's game against Utah.",
-      "impact": -0.37,
-      "exp_min": 30,
-      "note": ""
-     },
-     {
-      "name": "Santi Aldama",
-      "status": "questionable",
-      "detail": "Aldama (knee) is probable to suit up for Friday's game against the Jazz.",
-      "impact": 0.0,
-      "exp_min": 0,
-      "note": "No minutes this season"
-     },
-     {
       "name": "Tarik Biberovic",
       "status": "out",
       "detail": "Biberovic (heel) is listed as out for Monday's game against Sacramento.",
@@ -1956,14 +1932,6 @@
       "impact": 0.29,
       "exp_min": 11.8,
       "note": ""
-     },
-     {
-      "name": "Max Christie",
-      "status": "questionable",
-      "detail": "Christie (hip) is probable for Friday's game against the Jazz.",
-      "impact": 0.48,
-      "exp_min": 23.9,
-      "note": ""
      }
     ],
     "lineup": [
@@ -1985,7 +1953,7 @@
      },
      {
       "name": "Kyrie Irving",
-      "note": "questionable"
+      "note": ""
      }
     ],
     "roster": [
@@ -2016,8 +1984,8 @@
       "onoff": 10.21,
       "impact": 1.47,
       "played_share": 0.75,
-      "status": "questionable",
-      "detail": "Irving (illness) is probable for Friday's game against Utah."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "Zaccharie Risacher",
@@ -2046,8 +2014,8 @@
       "onoff": -11.93,
       "impact": -1.29,
       "played_share": 0.88,
-      "status": "questionable",
-      "detail": "Christie (hip) is probable for Friday's game against the Jazz."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "Daniel Gafford",
@@ -2120,7 +2088,7 @@
       "detail": ""
      }
     ],
-    "injury_adj": 0.7
+    "injury_adj": 0.8
    },
    "away": {
     "abbr": "UTAH",
@@ -2335,9 +2303,9 @@
      },
      {
       "label": "DAL injuries / lineup",
-      "pts": 0.7,
+      "pts": 0.8,
       "favours": "DAL",
-      "size": 0.7
+      "size": 0.8
      },
      {
       "label": "UTAH injuries / lineup",
@@ -2346,15 +2314,15 @@
       "size": 0.47
      }
     ],
-    "margin": 7.57,
+    "margin": 7.66,
     "total": 231.7,
-    "home_pts": 119.6,
-    "away_pts": 112.1,
+    "home_pts": 119.7,
+    "away_pts": 112.0,
     "margin_lo": -8.4,
-    "margin_hi": 23.6,
-    "total_lo": 208.6,
+    "margin_hi": 23.7,
+    "total_lo": 208.7,
     "total_hi": 254.8,
-    "home_win_p": 0.7277,
+    "home_win_p": 0.7301,
     "interval": 0.8
    },
    "markets": [
@@ -2366,27 +2334,27 @@
        "side": "home",
        "label": "DAL",
        "line": null,
-       "model_p": 0.7276,
+       "model_p": 0.73,
        "market_p": 0.692,
-       "blend_p": 0.7134,
-       "edge": 0.0214,
+       "blend_p": 0.7148,
+       "edge": 0.0228,
        "best_price": 1.41,
        "best_book": "Betfair",
-       "ev": 0.0058,
-       "kelly": 0.0142,
+       "ev": 0.0078,
+       "kelly": 0.0191,
        "n_books": 10
       },
       {
        "side": "away",
        "label": "UTAH",
        "line": null,
-       "model_p": 0.2724,
+       "model_p": 0.27,
        "market_p": 0.308,
-       "blend_p": 0.2866,
-       "edge": -0.0214,
-       "best_price": 3.3,
+       "blend_p": 0.2852,
+       "edge": -0.0228,
+       "best_price": 3.35,
        "best_book": "Betfair",
-       "ev": -0.0541,
+       "ev": -0.0445,
        "kelly": 0.0,
        "n_books": 10
       }
@@ -2396,8 +2364,8 @@
       "label": "DAL",
       "line": null,
       "verdict": "Lean",
-      "edge": 0.0214,
-      "ev": 0.0058,
+      "edge": 0.0228,
+      "ev": 0.0078,
       "price": 1.41,
       "book": "Betfair",
       "stake_pct": 0.0,
@@ -2412,13 +2380,13 @@
        "side": "home",
        "label": "DAL -6.5",
        "line": -6.5,
-       "model_p": 0.5341,
+       "model_p": 0.537,
        "market_p": 0.5059,
-       "blend_p": 0.5228,
-       "edge": 0.0169,
+       "blend_p": 0.5246,
+       "edge": 0.0186,
        "best_price": 1.9,
        "best_book": "PointsBet (AU)",
-       "ev": -0.0066,
+       "ev": -0.0033,
        "kelly": 0.0,
        "n_books": 4
       },
@@ -2426,13 +2394,13 @@
        "side": "away",
        "label": "UTAH +6.5",
        "line": 6.5,
-       "model_p": 0.4659,
+       "model_p": 0.463,
        "market_p": 0.4941,
-       "blend_p": 0.4772,
-       "edge": -0.0169,
+       "blend_p": 0.4754,
+       "edge": -0.0186,
        "best_price": 1.95,
        "best_book": "Unibet",
-       "ev": -0.0695,
+       "ev": -0.0729,
        "kelly": 0.0,
        "n_books": 4
       }
@@ -2442,8 +2410,8 @@
       "label": "DAL -6.5",
       "line": -6.5,
       "verdict": "Pass",
-      "edge": 0.0169,
-      "ev": -0.0066,
+      "edge": 0.0186,
+      "ev": -0.0033,
       "price": 1.9,
       "book": "PointsBet (AU)",
       "stake_pct": 0.0,
@@ -2459,28 +2427,28 @@
        "label": "Over 225.5",
        "line": 225.5,
        "model_p": 0.6347,
-       "market_p": 0.5,
-       "blend_p": 0.5808,
-       "edge": 0.0808,
+       "market_p": 0.5066,
+       "blend_p": 0.5835,
+       "edge": 0.0769,
        "best_price": 1.9,
        "best_book": "PointsBet (AU)",
-       "ev": 0.1036,
-       "kelly": 0.1151,
-       "n_books": 3
+       "ev": 0.1086,
+       "kelly": 0.1207,
+       "n_books": 2
       },
       {
        "side": "under",
        "label": "Under 225.5",
        "line": 225.5,
        "model_p": 0.3653,
-       "market_p": 0.5,
-       "blend_p": 0.4192,
-       "edge": -0.0808,
-       "best_price": 1.93,
-       "best_book": "TABtouch",
-       "ev": -0.191,
+       "market_p": 0.4934,
+       "blend_p": 0.4165,
+       "edge": -0.0769,
+       "best_price": 1.95,
+       "best_book": "TAB",
+       "ev": -0.1878,
        "kelly": 0.0,
-       "n_books": 3
+       "n_books": 2
       }
      ],
      "pick": {
@@ -2488,11 +2456,11 @@
       "label": "Over 225.5",
       "line": 225.5,
       "verdict": "Value bet",
-      "edge": 0.0808,
-      "ev": 0.1036,
+      "edge": 0.0769,
+      "ev": 0.1086,
       "price": 1.9,
       "book": "PointsBet (AU)",
-      "stake_pct": 0.0125,
+      "stake_pct": 0.0121,
       "reason": ""
      }
     }
@@ -2511,7 +2479,7 @@
      "total": 225.5
     }
    },
-   "odds_updated": "2026-11-06T22:53:32Z"
+   "odds_updated": "2026-11-06T23:49:46Z"
   },
   {
    "id": "401909291",
@@ -2983,12 +2951,12 @@
        "label": "MEM",
        "line": null,
        "model_p": 0.3793,
-       "market_p": 0.393,
-       "blend_p": 0.3848,
-       "edge": -0.0082,
-       "best_price": 2.58,
+       "market_p": 0.3915,
+       "blend_p": 0.3842,
+       "edge": -0.0073,
+       "best_price": 2.6,
        "best_book": "Betfair",
-       "ev": -0.0072,
+       "ev": -0.001,
        "kelly": 0.0,
        "n_books": 10
       },
@@ -2997,12 +2965,12 @@
        "label": "OKC",
        "line": null,
        "model_p": 0.6207,
-       "market_p": 0.607,
-       "blend_p": 0.6152,
-       "edge": 0.0082,
-       "best_price": 1.62,
+       "market_p": 0.6085,
+       "blend_p": 0.6158,
+       "edge": 0.0073,
+       "best_price": 1.61,
        "best_book": "Betfair",
-       "ev": -0.0034,
+       "ev": -0.0086,
        "kelly": 0.0,
        "n_books": 10
       }
@@ -3012,9 +2980,9 @@
       "label": "OKC",
       "line": null,
       "verdict": "Pass",
-      "edge": 0.0082,
-      "ev": -0.0034,
-      "price": 1.62,
+      "edge": 0.0073,
+      "ev": -0.0086,
+      "price": 1.61,
       "book": "Betfair",
       "stake_pct": 0.0,
       "reason": ""
@@ -3108,7 +3076,7 @@
       "ev": 0.0354,
       "price": 1.9,
       "book": "SportsBet",
-      "stake_pct": 0.0061,
+      "stake_pct": 0.0059,
       "reason": ""
      }
     }
@@ -3122,12 +3090,12 @@
      "at": "2026-11-06T08:35:51.745661+00:00"
     },
     "now": {
-     "home_p": 0.393,
+     "home_p": 0.3915,
      "spread": 4.5,
      "total": 223.5
     }
    },
-   "odds_updated": "2026-11-06T22:53:32Z"
+   "odds_updated": "2026-11-06T23:49:46Z"
   },
   {
    "id": "401909292",
@@ -3344,9 +3312,9 @@
     "injuries": [
      {
       "name": "Immanuel Quickley",
-      "status": "questionable",
+      "status": "out",
       "detail": "Quickley (hamstring) is questionable for Friday against the Bucks.",
-      "impact": -0.1,
+      "impact": -0.21,
       "exp_min": 31.8,
       "note": ""
      },
@@ -3405,12 +3373,12 @@
       "note": ""
      },
      {
-      "name": "Immanuel Quickley",
-      "note": "questionable"
-     },
-     {
       "name": "Ja'Kobe Walter",
       "note": ""
+     },
+     {
+      "name": "Jamal Shead",
+      "note": "in for Immanuel Quickley"
      }
     ],
     "roster": [
@@ -3441,7 +3409,7 @@
       "onoff": 1.04,
       "impact": 0.21,
       "played_share": 1.0,
-      "status": "questionable",
+      "status": "out",
       "detail": "Quickley (hamstring) is questionable for Friday against the Bucks."
      },
      {
@@ -3545,7 +3513,7 @@
       "detail": "Anderson is questionable for Friday against the Bucks due to illness."
      }
     ],
-    "injury_adj": 1.29
+    "injury_adj": 1.18
    },
    "projection": {
     "base_margin": -8.71,
@@ -3583,20 +3551,20 @@
      },
      {
       "label": "TOR injuries / lineup",
-      "pts": -1.29,
+      "pts": -1.18,
       "favours": "TOR",
-      "size": 1.29
+      "size": 1.18
      }
     ],
-    "margin": -9.88,
+    "margin": -9.77,
     "total": 230.0,
     "home_pts": 110.1,
-    "away_pts": 120.0,
-    "margin_lo": -25.9,
-    "margin_hi": 6.1,
-    "total_lo": 207.0,
+    "away_pts": 119.9,
+    "margin_lo": -25.8,
+    "margin_hi": 6.2,
+    "total_lo": 206.9,
     "total_hi": 253.1,
-    "home_win_p": 0.2147,
+    "home_win_p": 0.2171,
     "interval": 0.8
    },
    "markets": [
@@ -3608,13 +3576,13 @@
        "side": "home",
        "label": "MIL",
        "line": null,
-       "model_p": 0.2146,
-       "market_p": 0.3773,
-       "blend_p": 0.2797,
-       "edge": -0.0976,
-       "best_price": 2.72,
+       "model_p": 0.2172,
+       "market_p": 0.405,
+       "blend_p": 0.2924,
+       "edge": -0.1127,
+       "best_price": 2.48,
        "best_book": "Betfair",
-       "ev": -0.2392,
+       "ev": -0.275,
        "kelly": 0.0,
        "n_books": 10
       },
@@ -3622,14 +3590,14 @@
        "side": "away",
        "label": "TOR",
        "line": null,
-       "model_p": 0.7854,
-       "market_p": 0.6227,
-       "blend_p": 0.7203,
-       "edge": 0.0976,
-       "best_price": 1.57,
+       "model_p": 0.7828,
+       "market_p": 0.595,
+       "blend_p": 0.7076,
+       "edge": 0.1127,
+       "best_price": 1.66,
        "best_book": "Betfair",
-       "ev": 0.1308,
-       "kelly": 0.2296,
+       "ev": 0.1747,
+       "kelly": 0.2647,
        "n_books": 10
       }
      ],
@@ -3638,9 +3606,9 @@
       "label": "TOR",
       "line": null,
       "verdict": "Lean",
-      "edge": 0.0976,
-      "ev": 0.1308,
-      "price": 1.57,
+      "edge": 0.1127,
+      "ev": 0.1747,
+      "price": 1.66,
       "book": "Betfair",
       "stake_pct": 0.0,
       "reason": "another bet on this game was stronger"
@@ -3652,43 +3620,43 @@
      "sides": [
       {
        "side": "home",
-       "label": "MIL +4.5",
-       "line": 4.5,
-       "model_p": 0.3335,
-       "market_p": 0.5,
-       "blend_p": 0.4001,
-       "edge": -0.0999,
-       "best_price": 1.93,
-       "best_book": "TABtouch",
-       "ev": -0.2279,
+       "label": "MIL +3.5",
+       "line": 3.5,
+       "model_p": 0.308,
+       "market_p": 0.4849,
+       "blend_p": 0.3787,
+       "edge": -0.1061,
+       "best_price": 1.97,
+       "best_book": "Unibet",
+       "ev": -0.2539,
        "kelly": 0.0,
-       "n_books": 5
+       "n_books": 4
       },
       {
        "side": "away",
-       "label": "TOR -4.5",
-       "line": -4.5,
-       "model_p": 0.6665,
-       "market_p": 0.5,
-       "blend_p": 0.5999,
-       "edge": 0.0999,
-       "best_price": 1.9,
+       "label": "TOR -3.5",
+       "line": -3.5,
+       "model_p": 0.692,
+       "market_p": 0.5151,
+       "blend_p": 0.6213,
+       "edge": 0.1061,
+       "best_price": 1.95,
        "best_book": "PointsBet (AU)",
-       "ev": 0.1399,
-       "kelly": 0.1554,
-       "n_books": 5
+       "ev": 0.2115,
+       "kelly": 0.2226,
+       "n_books": 4
       }
      ],
      "pick": {
       "side": "away",
-      "label": "TOR -4.5",
-      "line": -4.5,
+      "label": "TOR -3.5",
+      "line": -3.5,
       "verdict": "Value bet",
-      "edge": 0.0999,
-      "ev": 0.1399,
-      "price": 1.9,
+      "edge": 0.1061,
+      "ev": 0.2115,
+      "price": 1.95,
       "book": "PointsBet (AU)",
-      "stake_pct": 0.0125,
+      "stake_pct": 0.0121,
       "reason": ""
      }
     },
@@ -3698,44 +3666,44 @@
      "sides": [
       {
        "side": "over",
-       "label": "Over 229.5",
-       "line": 229.5,
-       "model_p": 0.5111,
-       "market_p": 0.5,
-       "blend_p": 0.5066,
-       "edge": 0.0066,
-       "best_price": 1.95,
-       "best_book": "TAB",
-       "ev": -0.012,
-       "kelly": 0.0,
+       "label": "Over 227.5",
+       "line": 227.5,
+       "model_p": 0.5552,
+       "market_p": 0.5053,
+       "blend_p": 0.5352,
+       "edge": 0.03,
+       "best_price": 1.9,
+       "best_book": "PointsBet (AU)",
+       "ev": 0.017,
+       "kelly": 0.0188,
        "n_books": 3
       },
       {
        "side": "under",
-       "label": "Under 229.5",
-       "line": 229.5,
-       "model_p": 0.4889,
-       "market_p": 0.5,
-       "blend_p": 0.4934,
-       "edge": -0.0066,
-       "best_price": 1.92,
-       "best_book": "TABtouch",
-       "ev": -0.0528,
+       "label": "Under 227.5",
+       "line": 227.5,
+       "model_p": 0.4448,
+       "market_p": 0.4947,
+       "blend_p": 0.4648,
+       "edge": -0.03,
+       "best_price": 1.96,
+       "best_book": "SportsBet",
+       "ev": -0.0891,
        "kelly": 0.0,
        "n_books": 3
       }
      ],
      "pick": {
       "side": "over",
-      "label": "Over 229.5",
-      "line": 229.5,
-      "verdict": "Pass",
-      "edge": 0.0066,
-      "ev": -0.012,
-      "price": 1.95,
-      "book": "TAB",
+      "label": "Over 227.5",
+      "line": 227.5,
+      "verdict": "Lean",
+      "edge": 0.03,
+      "ev": 0.017,
+      "price": 1.9,
+      "book": "PointsBet (AU)",
       "stake_pct": 0.0,
-      "reason": ""
+      "reason": "another bet on this game was stronger"
      }
     }
    ],
@@ -3750,12 +3718,12 @@
      "at": "2026-11-06T08:35:51.745661+00:00"
     },
     "now": {
-     "home_p": 0.3773,
-     "spread": 4.5,
-     "total": 229.5
+     "home_p": 0.405,
+     "spread": 3.5,
+     "total": 227.5
     }
    },
-   "odds_updated": "2026-11-06T22:53:32Z"
+   "odds_updated": "2026-11-06T23:49:46Z"
   },
   {
    "id": "401909293",
@@ -4188,9 +4156,9 @@
        "market_p": 0.4066,
        "blend_p": 0.3708,
        "edge": -0.0358,
-       "best_price": 2.46,
+       "best_price": 2.48,
        "best_book": "Betfair",
-       "ev": -0.0879,
+       "ev": -0.0804,
        "kelly": 0.0,
        "n_books": 10
       },
@@ -4202,10 +4170,10 @@
        "market_p": 0.5934,
        "blend_p": 0.6292,
        "edge": 0.0358,
-       "best_price": 1.66,
+       "best_price": 1.65,
        "best_book": "Betfair",
-       "ev": 0.0445,
-       "kelly": 0.0674,
+       "ev": 0.0382,
+       "kelly": 0.0588,
        "n_books": 10
       }
      ],
@@ -4215,8 +4183,8 @@
       "line": null,
       "verdict": "Lean",
       "edge": 0.0358,
-      "ev": 0.0445,
-      "price": 1.66,
+      "ev": 0.0382,
+      "price": 1.65,
       "book": "Betfair",
       "stake_pct": 0.0,
       "reason": "another bet on this game was stronger"
@@ -4234,9 +4202,9 @@
        "market_p": 0.4947,
        "blend_p": 0.4708,
        "edge": -0.024,
-       "best_price": 1.93,
+       "best_price": 1.92,
        "best_book": "Unibet",
-       "ev": -0.0914,
+       "ev": -0.0961,
        "kelly": 0.0,
        "n_books": 5
       },
@@ -4310,7 +4278,7 @@
       "ev": 0.0483,
       "price": 1.91,
       "book": "TABtouch",
-      "stake_pct": 0.0083,
+      "stake_pct": 0.0081,
       "reason": ""
      }
     }
@@ -4329,7 +4297,7 @@
      "total": 230.5
     }
    },
-   "odds_updated": "2026-11-06T22:53:32Z"
+   "odds_updated": "2026-11-06T23:49:46Z"
   },
   {
    "id": "401909294",
@@ -4818,12 +4786,12 @@
        "label": "LAL -3.5",
        "line": -3.5,
        "model_p": 0.4602,
-       "market_p": 0.4967,
-       "blend_p": 0.4748,
-       "edge": -0.0219,
-       "best_price": 1.93,
+       "market_p": 0.4987,
+       "blend_p": 0.4756,
+       "edge": -0.0231,
+       "best_price": 1.91,
        "best_book": "Unibet",
-       "ev": -0.0837,
+       "ev": -0.0916,
        "kelly": 0.0,
        "n_books": 4
       },
@@ -4832,12 +4800,12 @@
        "label": "POR +3.5",
        "line": 3.5,
        "model_p": 0.5398,
-       "market_p": 0.5033,
-       "blend_p": 0.5252,
-       "edge": 0.0219,
+       "market_p": 0.5013,
+       "blend_p": 0.5244,
+       "edge": 0.0231,
        "best_price": 1.9,
        "best_book": "PointsBet (AU)",
-       "ev": -0.0021,
+       "ev": -0.0036,
        "kelly": 0.0,
        "n_books": 4
       }
@@ -4847,8 +4815,8 @@
       "label": "POR +3.5",
       "line": 3.5,
       "verdict": "Pass",
-      "edge": 0.0219,
-      "ev": -0.0021,
+      "edge": 0.0231,
+      "ev": -0.0036,
       "price": 1.9,
       "book": "PointsBet (AU)",
       "stake_pct": 0.0,
@@ -4916,7 +4884,7 @@
      "total": 231.5
     }
    },
-   "odds_updated": "2026-11-06T22:53:32Z"
+   "odds_updated": "2026-11-06T23:49:46Z"
   },
   {
    "id": "401909295",
@@ -5385,9 +5353,9 @@
        "market_p": 0.8877,
        "blend_p": 0.8595,
        "edge": -0.0282,
-       "best_price": 1.11,
+       "best_price": 1.1,
        "best_book": "Betfair",
-       "ev": -0.0459,
+       "ev": -0.0545,
        "kelly": 0.0,
        "n_books": 10
       }
@@ -5414,13 +5382,13 @@
        "label": "SAC +17.5",
        "line": 17.5,
        "model_p": 0.6563,
-       "market_p": 0.5,
-       "blend_p": 0.5938,
-       "edge": 0.0938,
-       "best_price": 1.92,
-       "best_book": "TABtouch",
-       "ev": 0.1401,
-       "kelly": 0.1522,
+       "market_p": 0.5013,
+       "blend_p": 0.5943,
+       "edge": 0.093,
+       "best_price": 1.9,
+       "best_book": "PointsBet (AU)",
+       "ev": 0.1292,
+       "kelly": 0.1435,
        "n_books": 5
       },
       {
@@ -5428,12 +5396,12 @@
        "label": "SA -17.5",
        "line": -17.5,
        "model_p": 0.3437,
-       "market_p": 0.5,
-       "blend_p": 0.4062,
-       "edge": -0.0938,
+       "market_p": 0.4987,
+       "blend_p": 0.4057,
+       "edge": -0.093,
        "best_price": 1.92,
        "best_book": "SportsBet",
-       "ev": -0.2201,
+       "ev": -0.2211,
        "kelly": 0.0,
        "n_books": 5
       }
@@ -5443,11 +5411,11 @@
       "label": "SAC +17.5",
       "line": 17.5,
       "verdict": "Value bet",
-      "edge": 0.0938,
-      "ev": 0.1401,
-      "price": 1.92,
-      "book": "TABtouch",
-      "stake_pct": 0.0125,
+      "edge": 0.093,
+      "ev": 0.1292,
+      "price": 1.9,
+      "book": "PointsBet (AU)",
+      "stake_pct": 0.0121,
       "reason": ""
      }
     },
@@ -5460,28 +5428,28 @@
        "label": "Over 231.5",
        "line": 231.5,
        "model_p": 0.4338,
-       "market_p": 0.5,
-       "blend_p": 0.4603,
-       "edge": -0.0397,
-       "best_price": 1.9,
+       "market_p": 0.4961,
+       "blend_p": 0.4587,
+       "edge": -0.0373,
+       "best_price": 1.95,
        "best_book": "PointsBet (AU)",
-       "ev": -0.1254,
+       "ev": -0.1055,
        "kelly": 0.0,
-       "n_books": 3
+       "n_books": 4
       },
       {
        "side": "under",
        "label": "Under 231.5",
        "line": 231.5,
        "model_p": 0.5662,
-       "market_p": 0.5,
-       "blend_p": 0.5397,
-       "edge": 0.0397,
+       "market_p": 0.5039,
+       "blend_p": 0.5413,
+       "edge": 0.0373,
        "best_price": 1.9,
-       "best_book": "PointsBet (AU)",
-       "ev": 0.0254,
-       "kelly": 0.0283,
-       "n_books": 3
+       "best_book": "TAB",
+       "ev": 0.0284,
+       "kelly": 0.0316,
+       "n_books": 4
       }
      ],
      "pick": {
@@ -5489,10 +5457,10 @@
       "label": "Under 231.5",
       "line": 231.5,
       "verdict": "Lean",
-      "edge": 0.0397,
-      "ev": 0.0254,
+      "edge": 0.0373,
+      "ev": 0.0284,
       "price": 1.9,
-      "book": "PointsBet (AU)",
+      "book": "TAB",
       "stake_pct": 0.0,
       "reason": "another bet on this game was stronger"
      }
@@ -5512,7 +5480,7 @@
      "total": 231.5
     }
    },
-   "odds_updated": "2026-11-06T22:53:32Z"
+   "odds_updated": "2026-11-06T23:49:46Z"
   }
  ],
  "settings": {
