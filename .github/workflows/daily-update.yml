@@ -1,0 +1,82 @@
+name: Daily NBA update
+
+# GitHub cron times are UTC. Brisbane is UTC+10 all year (no daylight saving).
+#   0 20 * * *          -> 6:00am Brisbane: morning run (grades yesterday, builds today)
+#   15,45 15-23 * * *   -> 1:15am-9:45am Brisbane, every 30 min
+#   15,45 0-2 * * *     -> 10:15am-12:45pm Brisbane, every 30 min
+# The 30-minute checks only do a full update when a tip-off is 35-95 minutes away.
+on:
+  schedule:
+    - cron: "0 20 * * *"
+    - cron: "15,45 15-23 * * *"
+    - cron: "15,45 0-2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: nba-update
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      run: ${{ steps.gate.outputs.run }}
+      mode: ${{ steps.gate.outputs.mode }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - id: gate
+        name: Decide whether to update now
+        run: python -m nba_edge.gate --event "${{ github.event_name }}" --schedule "${{ github.event.schedule }}"
+
+  update:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Pull data, run model, build pages data
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python -m nba_edge.run --mode "${{ needs.gate.outputs.mode }}"
+
+      - name: Save updated data to the repo
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site/data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Data update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
