@@ -75,8 +75,8 @@
    "flagged_at": "2026-11-07T20:23:48.167761+00:00",
    "close_line": 5.5,
    "close_fair_p": 0.5,
-   "close_price": 1.9,
-   "close_at": "2026-11-07T20:50:28.200088+00:00",
+   "close_price": 1.92,
+   "close_at": "2026-11-07T23:45:49.305747+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -101,9 +101,9 @@
    "stake_pct": 0.0133,
    "flagged_at": "2026-11-07T20:23:48.167761+00:00",
    "close_line": -6.5,
-   "close_fair_p": 0.5046,
+   "close_fair_p": 0.5072,
    "close_price": 1.9,
-   "close_at": "2026-11-07T20:50:28.200088+00:00",
+   "close_at": "2026-11-07T23:45:49.305747+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -127,10 +127,10 @@
    "ev": 0.135,
    "stake_pct": 0.0169,
    "flagged_at": "2026-11-07T20:23:48.167761+00:00",
-   "close_line": -6.5,
-   "close_fair_p": 0.5144,
-   "close_price": 1.91,
-   "close_at": "2026-11-07T20:50:28.200088+00:00",
+   "close_line": -7.5,
+   "close_fair_p": 0.4921,
+   "close_price": 1.94,
+   "close_at": "2026-11-07T23:45:49.305747+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -155,9 +155,9 @@
    "stake_pct": 0.0169,
    "flagged_at": "2026-11-07T20:23:48.167761+00:00",
    "close_line": null,
-   "close_fair_p": 0.6488,
-   "close_price": 1.52,
-   "close_at": "2026-11-07T20:50:28.200088+00:00",
+   "close_fair_p": 0.6326,
+   "close_price": 1.56,
+   "close_at": "2026-11-07T23:45:49.305747+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -182,9 +182,9 @@
    "stake_pct": 0.0169,
    "flagged_at": "2026-11-07T20:23:48.167761+00:00",
    "close_line": -12.5,
-   "close_fair_p": 0.4908,
-   "close_price": 1.95,
-   "close_at": "2026-11-07T20:50:28.200088+00:00",
+   "close_fair_p": 0.5,
+   "close_price": 1.9,
+   "close_at": "2026-11-07T23:45:49.305747+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -208,10 +208,10 @@
    "ev": 0.083,
    "stake_pct": 0.0166,
    "flagged_at": "2026-11-07T20:50:28.200088+00:00",
-   "close_line": -5.5,
-   "close_fair_p": 0.498,
-   "close_price": 1.95,
-   "close_at": "2026-11-07T20:50:28.200088+00:00",
+   "close_line": -4.5,
+   "close_fair_p": 0.5,
+   "close_price": 1.92,
+   "close_at": "2026-11-07T23:45:49.305747+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -590,6 +590,6 @@
    "flat_profit": -1.0
   }
  ],
- "generated_at": "2026-11-07T20:50:28.200088+00:00",
+ "generated_at": "2026-11-07T23:45:49.305747+00:00",
  "backtest": null
 }
