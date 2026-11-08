@@ -1,35 +1,33 @@
 {
- "generated_at": "2026-11-08T22:48:14.136146+00:00",
- "generated_local": "Mon 9 Nov, 8:48am",
+ "generated_at": "2026-11-08T23:46:55.890117+00:00",
+ "generated_local": "Mon 9 Nov, 9:46am",
  "mode": "pretip",
  "timezone": "Australia/Brisbane",
  "slate_date": "2026-11-08",
  "sources": {
   "schedule": {
    "ok": true,
-   "updated": "2026-11-08T22:48:14.136146+00:00",
+   "updated": "2026-11-08T23:46:55.890117+00:00",
    "message": "1548 games loaded"
   },
   "box_scores": {
    "ok": true,
-   "updated": "2026-11-08T22:48:14.136146+00:00",
+   "updated": "2026-11-08T23:46:55.890117+00:00",
    "message": "140 games of player data"
   },
   "injuries": {
    "ok": true,
-   "updated": "2026-11-08T22:48:14.136146+00:00",
-   "message": "88 players listed"
+   "updated": "2026-11-08T23:46:55.890117+00:00",
+   "message": "90 players listed"
   },
   "odds": {
    "ok": true,
    "updated": "2026-11-08T22:48:14.136146+00:00",
    "remaining": "464",
-   "message": "12 events"
+   "message": "daily odds-call limit (4) reached, using last saved odds"
   }
  },
- "warnings": [
-  "Stakes scaled to 89% to stay under the daily exposure limit."
- ],
+ "warnings": [],
  "games": [
   {
    "id": "401909945",
@@ -634,9 +632,9 @@
    "tip_utc": "2026-11-08T23:00:00+00:00",
    "tip_local": "Mon 9 Nov, 9:00am",
    "et_date": "2026-11-08",
-   "state": "pre",
-   "status_text": "11/8 - 6:00 PM EST",
-   "score": null,
+   "state": "in",
+   "status_text": "6:51 - 2nd",
+   "score": "45-26",
    "home": {
     "abbr": "DET",
     "name": "Detroit Pistons",
@@ -1099,13 +1097,13 @@
       "side": "home",
       "label": "DET",
       "line": null,
-      "verdict": "Lean",
+      "verdict": "No pick",
       "edge": 0.0764,
       "ev": 0.1061,
       "price": 1.42,
       "book": "Betfair",
       "stake_pct": 0.0,
-      "reason": "another bet on this game was stronger"
+      "reason": "Game has started"
      }
     },
     {
@@ -1145,13 +1143,13 @@
       "side": "home",
       "label": "DET -7.5",
       "line": -7.5,
-      "verdict": "Value bet",
+      "verdict": "No pick",
       "edge": 0.0837,
       "ev": 0.124,
       "price": 1.93,
       "book": "TABtouch",
-      "stake_pct": 0.0178,
-      "reason": ""
+      "stake_pct": 0.0,
+      "reason": "Game has started"
      }
     },
     {
@@ -1191,13 +1189,13 @@
       "side": "over",
       "label": "Over 216.5",
       "line": 216.5,
-      "verdict": "Lean",
+      "verdict": "No pick",
       "edge": 0.0674,
       "ev": 0.0806,
       "price": 1.9,
       "book": "PlayUp",
       "stake_pct": 0.0,
-      "reason": "another bet on this game was stronger"
+      "reason": "Game has started"
      }
     }
    ],
@@ -1419,14 +1417,6 @@
     },
     "injuries": [
      {
-      "name": "Keyonte George",
-      "status": "questionable",
-      "detail": "George (illness) has been downgraded to questionable for Sunday's game against Minnesota.",
-      "impact": -0.01,
-      "exp_min": 32.3,
-      "note": ""
-     },
-     {
       "name": "Jusuf Nurkic",
       "status": "out",
       "detail": "Nurkic (toe) has begun participating in on-court activities as he continues recovering from a right foot injury sustained during an Oct. 4 preseason game against Denver. He will be re-evaluated in two weeks, the Jazz announced Friday.",
@@ -1441,20 +1431,12 @@
       "impact": 0.28,
       "exp_min": 26,
       "note": ""
-     },
-     {
-      "name": "Lauri Markkanen",
-      "status": "questionable",
-      "detail": "Markkanen is questionable for Sunday's game against the Timberwolves due to a right wrist sprain.",
-      "impact": 0.67,
-      "exp_min": 30.9,
-      "note": ""
      }
     ],
     "lineup": [
      {
       "name": "Lauri Markkanen",
-      "note": "questionable"
+      "note": ""
      },
      {
       "name": "Jaxson Hayes",
@@ -1462,7 +1444,7 @@
      },
      {
       "name": "Keyonte George",
-      "note": "questionable"
+      "note": ""
      },
      {
       "name": "Ace Bailey",
@@ -1481,8 +1463,8 @@
       "onoff": 0.07,
       "impact": 0.02,
       "played_share": 1.0,
-      "status": "questionable",
-      "detail": "George (illness) has been downgraded to questionable for Sunday's game against Minnesota."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "Lauri Markkanen",
@@ -1491,8 +1473,8 @@
       "onoff": -9.25,
       "impact": -1.74,
       "played_share": 0.89,
-      "status": "questionable",
-      "detail": "Markkanen is questionable for Sunday's game against the Timberwolves due to a right wrist sprain."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "Ace Bailey",
@@ -1605,7 +1587,7 @@
       "detail": ""
      }
     ],
-    "injury_adj": 1.33
+    "injury_adj": 0.47
    },
    "projection": {
     "base_margin": 13.76,
@@ -1631,20 +1613,20 @@
      },
      {
       "label": "UTAH injuries / lineup",
-      "pts": -1.33,
+      "pts": -0.47,
       "favours": "UTAH",
-      "size": 1.33
+      "size": 0.47
      }
     ],
-    "margin": 11.54,
-    "total": 228.2,
-    "home_pts": 119.9,
-    "away_pts": 108.3,
-    "margin_lo": -4.5,
-    "margin_hi": 27.6,
-    "total_lo": 205.1,
-    "total_hi": 251.2,
-    "home_win_p": 0.8222,
+    "margin": 12.4,
+    "total": 228.0,
+    "home_pts": 120.2,
+    "away_pts": 107.8,
+    "margin_lo": -3.6,
+    "margin_hi": 28.4,
+    "total_lo": 204.9,
+    "total_hi": 251.1,
+    "home_win_p": 0.8395,
     "interval": 0.8
    },
    "markets": [
@@ -1656,13 +1638,13 @@
        "side": "home",
        "label": "MIN",
        "line": null,
-       "model_p": 0.822,
+       "model_p": 0.8394,
        "market_p": 0.8219,
-       "blend_p": 0.822,
-       "edge": 0.0001,
+       "blend_p": 0.8324,
+       "edge": 0.0105,
        "best_price": 1.19,
        "best_book": "Betfair",
-       "ev": -0.0219,
+       "ev": -0.0095,
        "kelly": 0.0,
        "n_books": 12
       },
@@ -1670,14 +1652,14 @@
        "side": "away",
        "label": "UTAH",
        "line": null,
-       "model_p": 0.178,
+       "model_p": 0.1606,
        "market_p": 0.1781,
-       "blend_p": 0.178,
-       "edge": -0.0001,
+       "blend_p": 0.1676,
+       "edge": -0.0105,
        "best_price": 6.0,
        "best_book": "Betfair",
-       "ev": 0.0682,
-       "kelly": 0.0136,
+       "ev": 0.0057,
+       "kelly": 0.0011,
        "n_books": 12
       }
      ],
@@ -1686,8 +1668,8 @@
       "label": "MIN",
       "line": null,
       "verdict": "Pass",
-      "edge": 0.0001,
-      "ev": -0.0219,
+      "edge": 0.0105,
+      "ev": -0.0095,
       "price": 1.19,
       "book": "Betfair",
       "stake_pct": 0.0,
@@ -1702,13 +1684,13 @@
        "side": "home",
        "label": "MIN -11.5",
        "line": -11.5,
-       "model_p": 0.5013,
+       "model_p": 0.5287,
        "market_p": 0.5,
-       "blend_p": 0.5008,
-       "edge": 0.0008,
+       "blend_p": 0.5172,
+       "edge": 0.0172,
        "best_price": 1.9,
        "best_book": "PointsBet (AU)",
-       "ev": -0.0485,
+       "ev": -0.0173,
        "kelly": 0.0,
        "n_books": 3
       },
@@ -1716,13 +1698,13 @@
        "side": "away",
        "label": "UTAH +11.5",
        "line": 11.5,
-       "model_p": 0.4987,
+       "model_p": 0.4713,
        "market_p": 0.5,
-       "blend_p": 0.4992,
-       "edge": -0.0008,
+       "blend_p": 0.4828,
+       "edge": -0.0172,
        "best_price": 1.9,
        "best_book": "PointsBet (AU)",
-       "ev": -0.0515,
+       "ev": -0.0827,
        "kelly": 0.0,
        "n_books": 3
       }
@@ -1732,8 +1714,8 @@
       "label": "MIN -11.5",
       "line": -11.5,
       "verdict": "Pass",
-      "edge": 0.0008,
-      "ev": -0.0485,
+      "edge": 0.0172,
+      "ev": -0.0173,
       "price": 1.9,
       "book": "PointsBet (AU)",
       "stake_pct": 0.0,
@@ -1748,27 +1730,27 @@
        "side": "over",
        "label": "Over 222.5",
        "line": 222.5,
-       "model_p": 0.6243,
+       "model_p": 0.62,
        "market_p": 0.5033,
-       "blend_p": 0.5759,
-       "edge": 0.0726,
+       "blend_p": 0.5733,
+       "edge": 0.07,
        "best_price": 1.9,
        "best_book": "PointsBet (AU)",
-       "ev": 0.0941,
-       "kelly": 0.1046,
+       "ev": 0.0893,
+       "kelly": 0.0993,
        "n_books": 4
       },
       {
        "side": "under",
        "label": "Under 222.5",
        "line": 222.5,
-       "model_p": 0.3757,
+       "model_p": 0.38,
        "market_p": 0.4967,
-       "blend_p": 0.4241,
-       "edge": -0.0726,
+       "blend_p": 0.4267,
+       "edge": -0.07,
        "best_price": 1.96,
        "best_book": "SportsBet",
-       "ev": -0.1687,
+       "ev": -0.1637,
        "kelly": 0.0,
        "n_books": 4
       }
@@ -1778,11 +1760,11 @@
       "label": "Over 222.5",
       "line": 222.5,
       "verdict": "Value bet",
-      "edge": 0.0726,
-      "ev": 0.0941,
+      "edge": 0.07,
+      "ev": 0.0893,
       "price": 1.9,
       "book": "PointsBet (AU)",
-      "stake_pct": 0.0178,
+      "stake_pct": 0.02,
       "reason": ""
      }
     }
@@ -2354,7 +2336,7 @@
       "ev": 0.0358,
       "price": 1.92,
       "book": "PlayUp",
-      "stake_pct": 0.0087,
+      "stake_pct": 0.0097,
       "reason": ""
      }
     },
@@ -3478,7 +3460,7 @@
       "ev": 0.1886,
       "price": 2.1,
       "book": "Betfair",
-      "stake_pct": 0.0178,
+      "stake_pct": 0.02,
       "reason": ""
      }
     },
@@ -3634,12 +3616,20 @@
       "impact": 0.0,
       "exp_min": 0,
       "note": "No minutes this season"
+     },
+     {
+      "name": "Domantas Sabonis",
+      "status": "questionable",
+      "detail": "Sabonis has been downgraded to questionable for Sunday's game against Miami due to left knee soreness.",
+      "impact": 0.29,
+      "exp_min": 35.6,
+      "note": ""
      }
     ],
     "lineup": [
      {
       "name": "Domantas Sabonis",
-      "note": ""
+      "note": "questionable"
      },
      {
       "name": "Leaky Black",
@@ -3676,8 +3666,8 @@
       "onoff": -2.27,
       "impact": -0.59,
       "played_share": 1.0,
-      "status": "available",
-      "detail": ""
+      "status": "questionable",
+      "detail": "Sabonis has been downgraded to questionable for Sunday's game against Miami due to left knee soreness."
      },
      {
       "name": "Zach LaVine",
@@ -3780,7 +3770,7 @@
       "detail": ""
      }
     ],
-    "injury_adj": 0.33
+    "injury_adj": 0.63
    },
    "away": {
     "abbr": "MIA",
@@ -3970,20 +3960,20 @@
      },
      {
       "label": "SAC injuries / lineup",
-      "pts": 0.33,
+      "pts": 0.63,
       "favours": "SAC",
-      "size": 0.33
+      "size": 0.63
      }
     ],
-    "margin": -4.26,
+    "margin": -3.96,
     "total": 240.7,
-    "home_pts": 118.2,
-    "away_pts": 122.5,
-    "margin_lo": -20.3,
-    "margin_hi": 11.8,
-    "total_lo": 217.6,
-    "total_hi": 263.7,
-    "home_win_p": 0.3667,
+    "home_pts": 118.4,
+    "away_pts": 122.3,
+    "margin_lo": -20.0,
+    "margin_hi": 12.1,
+    "total_lo": 217.7,
+    "total_hi": 263.8,
+    "home_win_p": 0.3756,
     "interval": 0.8
    },
    "markets": [
@@ -3995,27 +3985,27 @@
        "side": "home",
        "label": "SAC",
        "line": null,
-       "model_p": 0.3666,
+       "model_p": 0.3757,
        "market_p": 0.2076,
-       "blend_p": 0.303,
-       "edge": 0.0954,
+       "blend_p": 0.3085,
+       "edge": 0.1009,
        "best_price": 5.6,
        "best_book": "SportsBet",
-       "ev": 0.6968,
-       "kelly": 0.1515,
+       "ev": 0.7273,
+       "kelly": 0.1581,
        "n_books": 12
       },
       {
        "side": "away",
        "label": "MIA",
        "line": null,
-       "model_p": 0.6334,
+       "model_p": 0.6243,
        "market_p": 0.7924,
-       "blend_p": 0.697,
-       "edge": -0.0954,
+       "blend_p": 0.6915,
+       "edge": -0.1009,
        "best_price": 1.25,
        "best_book": "Betfair",
-       "ev": -0.1288,
+       "ev": -0.1356,
        "kelly": 0.0,
        "n_books": 12
       }
@@ -4025,11 +4015,11 @@
       "label": "SAC",
       "line": null,
       "verdict": "Value bet",
-      "edge": 0.0954,
-      "ev": 0.6968,
+      "edge": 0.1009,
+      "ev": 0.7273,
       "price": 5.6,
       "book": "SportsBet",
-      "stake_pct": 0.0178,
+      "stake_pct": 0.02,
       "reason": ""
      }
     },
@@ -4041,27 +4031,27 @@
        "side": "home",
        "label": "SAC +11.5",
        "line": 11.5,
-       "model_p": 0.7188,
+       "model_p": 0.7268,
        "market_p": 0.4967,
-       "blend_p": 0.63,
-       "edge": 0.1332,
+       "blend_p": 0.6348,
+       "edge": 0.1381,
        "best_price": 1.93,
        "best_book": "TABtouch",
-       "ev": 0.2158,
-       "kelly": 0.232,
+       "ev": 0.2251,
+       "kelly": 0.2421,
        "n_books": 4
       },
       {
        "side": "away",
        "label": "MIA -11.5",
        "line": -11.5,
-       "model_p": 0.2812,
+       "model_p": 0.2732,
        "market_p": 0.5033,
-       "blend_p": 0.37,
-       "edge": -0.1332,
+       "blend_p": 0.3652,
+       "edge": -0.1381,
        "best_price": 1.92,
        "best_book": "SportsBet",
-       "ev": -0.2895,
+       "ev": -0.2988,
        "kelly": 0.0,
        "n_books": 4
       }
@@ -4071,8 +4061,8 @@
       "label": "SAC +11.5",
       "line": 11.5,
       "verdict": "Lean",
-      "edge": 0.1332,
-      "ev": 0.2158,
+      "edge": 0.1381,
+      "ev": 0.2251,
       "price": 1.93,
       "book": "TABtouch",
       "stake_pct": 0.0,
