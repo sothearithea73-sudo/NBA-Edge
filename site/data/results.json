@@ -74,9 +74,9 @@
    "stake_pct": 0.0159,
    "flagged_at": "2026-11-08T18:56:19.225899+00:00",
    "close_line": null,
-   "close_fair_p": 0.4735,
-   "close_price": 2.1,
-   "close_at": "2026-11-08T20:24:10.576308+00:00",
+   "close_fair_p": 0.4717,
+   "close_price": 2.12,
+   "close_at": "2026-11-08T21:48:42.050366+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -101,9 +101,9 @@
    "stake_pct": 0.0159,
    "flagged_at": "2026-11-08T18:56:19.225899+00:00",
    "close_line": null,
-   "close_fair_p": 0.2241,
+   "close_fair_p": 0.2248,
    "close_price": 4.7,
-   "close_at": "2026-11-08T20:24:10.576308+00:00",
+   "close_at": "2026-11-08T21:48:42.050366+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -129,8 +129,8 @@
    "flagged_at": "2026-11-08T18:56:19.225899+00:00",
    "close_line": -7.5,
    "close_fair_p": 0.5,
-   "close_price": 1.95,
-   "close_at": "2026-11-08T20:24:10.576308+00:00",
+   "close_price": 1.92,
+   "close_at": "2026-11-08T21:48:42.050366+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -155,9 +155,9 @@
    "stake_pct": 0.0159,
    "flagged_at": "2026-11-08T18:56:19.225899+00:00",
    "close_line": 222.5,
-   "close_fair_p": 0.5013,
-   "close_price": 1.9,
-   "close_at": "2026-11-08T20:24:10.576308+00:00",
+   "close_fair_p": 0.5,
+   "close_price": 1.93,
+   "close_at": "2026-11-08T21:48:42.050366+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -181,10 +181,10 @@
    "ev": 0.1199,
    "stake_pct": 0.0159,
    "flagged_at": "2026-11-08T18:56:19.225899+00:00",
-   "close_line": -6.5,
-   "close_fair_p": 0.5013,
-   "close_price": 1.91,
-   "close_at": "2026-11-08T20:24:10.576308+00:00",
+   "close_line": -7.5,
+   "close_fair_p": 0.5,
+   "close_price": 1.94,
+   "close_at": "2026-11-08T21:48:42.050366+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -797,6 +797,6 @@
    "flat_profit": -1.0
   }
  ],
- "generated_at": "2026-11-08T20:24:10.576308+00:00",
+ "generated_at": "2026-11-08T21:48:42.050366+00:00",
  "backtest": null
 }
