@@ -1,16 +1,16 @@
 {
  "overall": {
-  "bets": 20,
-  "pending": 6,
+  "bets": 21,
+  "pending": 5,
   "wins": 12,
-  "losses": 8,
+  "losses": 9,
   "pushes": 0,
-  "staked_units": 23.19,
-  "profit_units": 2.83,
-  "roi": 0.1221,
-  "flat_roi": 0.08,
-  "avg_clv": -0.041,
-  "beat_close_pct": 0.2
+  "staked_units": 24.16,
+  "profit_units": 1.86,
+  "roi": 0.077,
+  "flat_roi": 0.0286,
+  "avg_clv": -0.0412,
+  "beat_close_pct": 0.19
  },
  "by_market": {
   "h2h": {
@@ -40,17 +40,17 @@
    "beat_close_pct": 0.222
   },
   "totals": {
-   "bets": 5,
-   "pending": 2,
+   "bets": 6,
+   "pending": 1,
    "wins": 2,
-   "losses": 3,
+   "losses": 4,
    "pushes": 0,
-   "staked_units": 3.99,
-   "profit_units": -2.19,
-   "roi": -0.5476,
-   "flat_roi": -0.24,
-   "avg_clv": -0.0389,
-   "beat_close_pct": 0.2
+   "staked_units": 4.96,
+   "profit_units": -3.16,
+   "roi": -0.6361,
+   "flat_roi": -0.3667,
+   "avg_clv": -0.04,
+   "beat_close_pct": 0.167
   }
  },
  "picks": [
@@ -74,9 +74,9 @@
    "stake_pct": 0.0159,
    "flagged_at": "2026-11-08T18:56:19.225899+00:00",
    "close_line": null,
-   "close_fair_p": 0.4717,
-   "close_price": 2.12,
-   "close_at": "2026-11-08T21:48:42.050366+00:00",
+   "close_fair_p": 0.4735,
+   "close_price": 2.1,
+   "close_at": "2026-11-08T22:48:14.136146+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -101,9 +101,9 @@
    "stake_pct": 0.0159,
    "flagged_at": "2026-11-08T18:56:19.225899+00:00",
    "close_line": null,
-   "close_fair_p": 0.2248,
-   "close_price": 4.7,
-   "close_at": "2026-11-08T21:48:42.050366+00:00",
+   "close_fair_p": 0.2076,
+   "close_price": 5.6,
+   "close_at": "2026-11-08T22:48:14.136146+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -130,7 +130,7 @@
    "close_line": -7.5,
    "close_fair_p": 0.5,
    "close_price": 1.92,
-   "close_at": "2026-11-08T21:48:42.050366+00:00",
+   "close_at": "2026-11-08T22:48:14.136146+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -155,9 +155,9 @@
    "stake_pct": 0.0159,
    "flagged_at": "2026-11-08T18:56:19.225899+00:00",
    "close_line": 222.5,
-   "close_fair_p": 0.5,
-   "close_price": 1.93,
-   "close_at": "2026-11-08T21:48:42.050366+00:00",
+   "close_fair_p": 0.5033,
+   "close_price": 1.9,
+   "close_at": "2026-11-08T22:48:14.136146+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -182,9 +182,9 @@
    "stake_pct": 0.0159,
    "flagged_at": "2026-11-08T18:56:19.225899+00:00",
    "close_line": -7.5,
-   "close_fair_p": 0.5,
-   "close_price": 1.94,
-   "close_at": "2026-11-08T21:48:42.050366+00:00",
+   "close_fair_p": 0.4987,
+   "close_price": 1.93,
+   "close_at": "2026-11-08T22:48:14.136146+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -212,9 +212,11 @@
    "close_fair_p": 0.5026,
    "close_price": 1.95,
    "close_at": "2026-11-08T20:24:10.576308+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -0.97,
+   "clv": -0.0451,
+   "final": "PHI 127 - CHI 121",
+   "flat_profit": -1.0
   },
   {
    "id": "401909944:spreads:home",
@@ -797,6 +799,6 @@
    "flat_profit": -1.0
   }
  ],
- "generated_at": "2026-11-08T21:48:42.050366+00:00",
+ "generated_at": "2026-11-08T22:48:14.136146+00:00",
  "backtest": null
 }
