@@ -74,9 +74,9 @@
    "stake_pct": 0.0163,
    "flagged_at": "2026-11-10T20:32:39.392820+00:00",
    "close_line": null,
-   "close_fair_p": 0.5411,
-   "close_price": 1.85,
-   "close_at": "2026-11-10T20:32:39.392820+00:00",
+   "close_fair_p": 0.5367,
+   "close_price": 1.86,
+   "close_at": "2026-11-10T23:46:51.325990+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -101,9 +101,9 @@
    "stake_pct": 0.0163,
    "flagged_at": "2026-11-10T20:32:39.392820+00:00",
    "close_line": null,
-   "close_fair_p": 0.3203,
-   "close_price": 3.2,
-   "close_at": "2026-11-10T20:32:39.392820+00:00",
+   "close_fair_p": 0.3401,
+   "close_price": 2.92,
+   "close_at": "2026-11-10T23:46:51.325990+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -128,9 +128,9 @@
    "stake_pct": 0.0163,
    "flagged_at": "2026-11-10T20:32:39.392820+00:00",
    "close_line": null,
-   "close_fair_p": 0.3932,
+   "close_fair_p": 0.394,
    "close_price": 2.6,
-   "close_at": "2026-11-10T20:32:39.392820+00:00",
+   "close_at": "2026-11-10T23:46:51.325990+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -155,9 +155,9 @@
    "stake_pct": 0.0163,
    "flagged_at": "2026-11-10T20:32:39.392820+00:00",
    "close_line": null,
-   "close_fair_p": 0.2279,
-   "close_price": 4.5,
-   "close_at": "2026-11-10T20:32:39.392820+00:00",
+   "close_fair_p": 0.2351,
+   "close_price": 4.3,
+   "close_at": "2026-11-10T23:46:51.325990+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -181,10 +181,10 @@
    "ev": 0.0681,
    "stake_pct": 0.0146,
    "flagged_at": "2026-11-10T20:32:39.392820+00:00",
-   "close_line": -15.5,
-   "close_fair_p": 0.5,
-   "close_price": 1.95,
-   "close_at": "2026-11-10T20:32:39.392820+00:00",
+   "close_line": -16.5,
+   "close_fair_p": 0.4921,
+   "close_price": 1.96,
+   "close_at": "2026-11-10T23:46:51.325990+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -1176,6 +1176,6 @@
    "flat_profit": -1.0
   }
  ],
- "generated_at": "2026-11-10T20:32:39.392820+00:00",
+ "generated_at": "2026-11-10T23:46:51.325990+00:00",
  "backtest": null
 }
