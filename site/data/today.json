@@ -1,35 +1,33 @@
 {
- "generated_at": "2026-11-10T00:18:10.951536+00:00",
- "generated_local": "Tue 10 Nov, 10:18am",
+ "generated_at": "2026-11-10T01:14:14.448234+00:00",
+ "generated_local": "Tue 10 Nov, 11:14am",
  "mode": "pretip",
  "timezone": "Australia/Brisbane",
  "slate_date": "2026-11-09",
  "sources": {
   "schedule": {
    "ok": true,
-   "updated": "2026-11-10T00:18:10.951536+00:00",
+   "updated": "2026-11-10T01:14:14.448234+00:00",
    "message": "1561 games loaded"
   },
   "box_scores": {
    "ok": true,
-   "updated": "2026-11-10T00:18:10.951536+00:00",
+   "updated": "2026-11-10T01:14:14.448234+00:00",
    "message": "146 games of player data"
   },
   "injuries": {
    "ok": true,
-   "updated": "2026-11-10T00:18:10.951536+00:00",
-   "message": "100 players listed"
+   "updated": "2026-11-10T01:14:14.448234+00:00",
+   "message": "94 players listed"
   },
   "odds": {
    "ok": true,
    "updated": "2026-11-10T00:18:10.951536+00:00",
    "remaining": "452",
-   "message": "16 events"
+   "message": "daily odds-call limit (4) reached, using last saved odds"
   }
  },
- "warnings": [
-  "Stakes scaled to 80% to stay under the daily exposure limit."
- ],
+ "warnings": [],
  "games": [
   {
    "id": "401909952",
@@ -37,8 +35,8 @@
    "tip_local": "Tue 10 Nov, 10:00am",
    "et_date": "2026-11-09",
    "state": "in",
-   "status_text": "6:53 - 1st",
-   "score": "7-15",
+   "status_text": "Halftime",
+   "score": "68-57",
    "home": {
     "abbr": "ATL",
     "name": "Atlanta Hawks",
@@ -641,8 +639,8 @@
    "tip_local": "Tue 10 Nov, 10:00am",
    "et_date": "2026-11-09",
    "state": "in",
-   "status_text": "8:02 - 1st",
-   "score": "14-5",
+   "status_text": "Halftime",
+   "score": "53-69",
    "home": {
     "abbr": "CHA",
     "name": "Charlotte Hornets",
@@ -1261,8 +1259,8 @@
    "tip_local": "Tue 10 Nov, 10:00am",
    "et_date": "2026-11-09",
    "state": "in",
-   "status_text": "8:47 - 1st",
-   "score": "9-10",
+   "status_text": "1:47 - 2nd",
+   "score": "52-59",
    "home": {
     "abbr": "DET",
     "name": "Detroit Pistons",
@@ -1886,9 +1884,9 @@
    "tip_utc": "2026-11-10T00:30:00+00:00",
    "tip_local": "Tue 10 Nov, 10:30am",
    "et_date": "2026-11-09",
-   "state": "pre",
-   "status_text": "11/9 - 7:30 PM EST",
-   "score": null,
+   "state": "in",
+   "status_text": "9:59 - 2nd",
+   "score": "34-31",
    "home": {
     "abbr": "TOR",
     "name": "Toronto Raptors",
@@ -2373,13 +2371,13 @@
       "side": "home",
       "label": "TOR",
       "line": null,
-      "verdict": "Value bet",
+      "verdict": "No pick",
       "edge": 0.1476,
       "ev": 0.3175,
       "price": 2.12,
       "book": "Betfair",
-      "stake_pct": 0.016,
-      "reason": ""
+      "stake_pct": 0.0,
+      "reason": "Game has started"
      }
     },
     {
@@ -2419,13 +2417,13 @@
       "side": "home",
       "label": "TOR +1.5",
       "line": 1.5,
-      "verdict": "Lean",
+      "verdict": "No pick",
       "edge": 0.1553,
       "ev": 0.2712,
       "price": 1.94,
       "book": "PlayUp",
       "stake_pct": 0.0,
-      "reason": "another bet on this game was stronger"
+      "reason": "Game has started"
      }
     },
     {
@@ -2465,13 +2463,13 @@
       "side": "over",
       "label": "Over 225.5",
       "line": 225.5,
-      "verdict": "Lean",
+      "verdict": "No pick",
       "edge": 0.0808,
       "ev": 0.1036,
       "price": 1.9,
       "book": "TAB",
       "stake_pct": 0.0,
-      "reason": "another bet on this game was stronger"
+      "reason": "Game has started"
      }
     }
    ],
@@ -2496,9 +2494,9 @@
    "tip_utc": "2026-11-10T01:00:00+00:00",
    "tip_local": "Tue 10 Nov, 11:00am",
    "et_date": "2026-11-09",
-   "state": "pre",
-   "status_text": "11/9 - 8:00 PM EST",
-   "score": null,
+   "state": "in",
+   "status_text": "8:48 - 1st",
+   "score": "12-7",
    "home": {
     "abbr": "DAL",
     "name": "Dallas Mavericks",
@@ -3005,13 +3003,13 @@
       "side": "home",
       "label": "DAL",
       "line": null,
-      "verdict": "Value bet",
+      "verdict": "No pick",
       "edge": 0.0713,
       "ev": 0.1022,
       "price": 1.58,
       "book": "Betfair",
-      "stake_pct": 0.016,
-      "reason": ""
+      "stake_pct": 0.0,
+      "reason": "Game has started"
      }
     },
     {
@@ -3051,13 +3049,13 @@
       "side": "home",
       "label": "DAL -4.5",
       "line": -4.5,
-      "verdict": "Lean",
+      "verdict": "No pick",
       "edge": 0.0682,
       "ev": 0.0871,
       "price": 1.9,
       "book": "SportsBet",
       "stake_pct": 0.0,
-      "reason": "another bet on this game was stronger"
+      "reason": "Game has started"
      }
     },
     {
@@ -3097,13 +3095,13 @@
       "side": "under",
       "label": "Under 226.5",
       "line": 226.5,
-      "verdict": "Pass",
+      "verdict": "No pick",
       "edge": 0.0039,
       "ev": -0.043,
       "price": 1.95,
       "book": "PlayUp",
       "stake_pct": 0.0,
-      "reason": ""
+      "reason": "Game has started"
      }
     }
    ],
@@ -3353,82 +3351,34 @@
     },
     "injuries": [
      {
-      "name": "Jamal Murray",
-      "status": "questionable",
-      "detail": "Murray (leg) is probable for Monday against Houston.",
-      "impact": -1.82,
-      "exp_min": 36.5,
-      "note": ""
-     },
-     {
-      "name": "Christian Braun",
-      "status": "questionable",
-      "detail": "Braun (left calf contusion/illness) is probable for Monday's matchup against the Rockets.",
-      "impact": -1.72,
-      "exp_min": 34.2,
-      "note": ""
-     },
-     {
-      "name": "Nikola Jokic",
-      "status": "questionable",
-      "detail": "Jokic (right elbow sprain) is probable for Monday's game against the Rockets.",
-      "impact": -0.88,
-      "exp_min": 35.9,
-      "note": ""
-     },
-     {
-      "name": "Cameron Johnson",
-      "status": "questionable",
-      "detail": "Johnson (ankle) is probable for Monday against Houston.",
-      "impact": -0.19,
-      "exp_min": 27.6,
-      "note": ""
-     },
-     {
       "name": "Julian Strawther",
       "status": "out",
       "detail": "Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated in six weeks, Vinny Benedetto of The Denver Gazette reports.",
       "impact": 0.0,
       "exp_min": 0,
       "note": "No minutes this season"
-     },
-     {
-      "name": "Aaron Gordon",
-      "status": "questionable",
-      "detail": "Gordon (left calf injury management) is probable for Monday's game against Houston.",
-      "impact": 0.05,
-      "exp_min": 29.1,
-      "note": ""
-     },
-     {
-      "name": "DeMar DeRozan",
-      "status": "questionable",
-      "detail": "DeRozan (back) is probable for Monday against Houston.",
-      "impact": 0.59,
-      "exp_min": 24.7,
-      "note": ""
      }
     ],
     "lineup": [
      {
       "name": "Aaron Gordon",
-      "note": "questionable"
+      "note": ""
      },
      {
       "name": "Cameron Johnson",
-      "note": "questionable"
+      "note": ""
      },
      {
       "name": "Nikola Jokic",
-      "note": "questionable"
+      "note": ""
      },
      {
       "name": "Jamal Murray",
-      "note": "questionable"
+      "note": ""
      },
      {
       "name": "Christian Braun",
-      "note": "questionable"
+      "note": ""
      }
     ],
     "roster": [
@@ -3439,8 +3389,8 @@
       "onoff": 14.61,
       "impact": 3.64,
       "played_share": 1.0,
-      "status": "questionable",
-      "detail": "Murray (leg) is probable for Monday against Houston."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "Nikola Jokic",
@@ -3449,8 +3399,8 @@
       "onoff": 7.29,
       "impact": 1.76,
       "played_share": 1.0,
-      "status": "questionable",
-      "detail": "Jokic (right elbow sprain) is probable for Monday's game against the Rockets."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "Christian Braun",
@@ -3459,8 +3409,8 @@
       "onoff": 15.38,
       "impact": 3.44,
       "played_share": 1.0,
-      "status": "questionable",
-      "detail": "Braun (left calf contusion/illness) is probable for Monday's matchup against the Rockets."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "Aaron Gordon",
@@ -3469,8 +3419,8 @@
       "onoff": -0.6,
       "impact": -0.1,
       "played_share": 1.0,
-      "status": "questionable",
-      "detail": "Gordon (left calf injury management) is probable for Monday's game against Houston."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "Cameron Johnson",
@@ -3479,8 +3429,8 @@
       "onoff": 13.99,
       "impact": 1.5,
       "played_share": 0.62,
-      "status": "questionable",
-      "detail": "Johnson (ankle) is probable for Monday against Houston."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "DeMar DeRozan",
@@ -3489,8 +3439,8 @@
       "onoff": -13.75,
       "impact": -1.58,
       "played_share": 0.88,
-      "status": "questionable",
-      "detail": "DeRozan (back) is probable for Monday against Houston."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "Trevon Brazile",
@@ -3563,7 +3513,7 @@
       "detail": ""
      }
     ],
-    "injury_adj": -3.92
+    "injury_adj": 0.41
    },
    "projection": {
     "base_margin": 4.81,
@@ -3601,20 +3551,20 @@
      },
      {
       "label": "DEN injuries / lineup",
-      "pts": 3.92,
-      "favours": "HOU",
-      "size": 3.92
+      "pts": -0.41,
+      "favours": "DEN",
+      "size": 0.41
      }
     ],
-    "margin": 9.43,
-    "total": 224.9,
-    "home_pts": 117.2,
-    "away_pts": 107.7,
-    "margin_lo": -6.6,
-    "margin_hi": 25.5,
-    "total_lo": 201.8,
-    "total_hi": 248.0,
-    "home_win_p": 0.7747,
+    "margin": 5.1,
+    "total": 225.8,
+    "home_pts": 115.4,
+    "away_pts": 110.3,
+    "margin_lo": -10.9,
+    "margin_hi": 21.1,
+    "total_lo": 202.7,
+    "total_hi": 248.9,
+    "home_win_p": 0.6584,
     "interval": 0.8
    },
    "markets": [
@@ -3626,27 +3576,27 @@
        "side": "home",
        "label": "HOU",
        "line": null,
-       "model_p": 0.7747,
+       "model_p": 0.6584,
        "market_p": 0.6101,
-       "blend_p": 0.7088,
-       "edge": 0.0988,
+       "blend_p": 0.639,
+       "edge": 0.029,
        "best_price": 1.61,
        "best_book": "Betfair",
-       "ev": 0.1412,
-       "kelly": 0.2315,
+       "ev": 0.0289,
+       "kelly": 0.0473,
        "n_books": 12
       },
       {
        "side": "away",
        "label": "DEN",
        "line": null,
-       "model_p": 0.2253,
+       "model_p": 0.3416,
        "market_p": 0.3899,
-       "blend_p": 0.2912,
-       "edge": -0.0988,
+       "blend_p": 0.361,
+       "edge": -0.029,
        "best_price": 2.6,
        "best_book": "Betfair",
-       "ev": -0.243,
+       "ev": -0.0615,
        "kelly": 0.0,
        "n_books": 12
       }
@@ -3655,12 +3605,12 @@
       "side": "home",
       "label": "HOU",
       "line": null,
-      "verdict": "Value bet",
-      "edge": 0.0988,
-      "ev": 0.1412,
+      "verdict": "Lean",
+      "edge": 0.029,
+      "ev": 0.0289,
       "price": 1.61,
       "book": "Betfair",
-      "stake_pct": 0.016,
+      "stake_pct": 0.0,
       "reason": ""
      }
     },
@@ -3672,27 +3622,27 @@
        "side": "home",
        "label": "HOU -4.5",
        "line": -4.5,
-       "model_p": 0.6534,
+       "model_p": 0.5191,
        "market_p": 0.5,
-       "blend_p": 0.592,
-       "edge": 0.092,
+       "blend_p": 0.5115,
+       "edge": 0.0115,
        "best_price": 1.9,
        "best_book": "SportsBet",
-       "ev": 0.1248,
-       "kelly": 0.1387,
+       "ev": -0.0282,
+       "kelly": 0.0,
        "n_books": 4
       },
       {
        "side": "away",
        "label": "DEN +4.5",
        "line": 4.5,
-       "model_p": 0.3466,
+       "model_p": 0.4809,
        "market_p": 0.5,
-       "blend_p": 0.408,
-       "edge": -0.092,
+       "blend_p": 0.4885,
+       "edge": -0.0115,
        "best_price": 1.9,
        "best_book": "SportsBet",
-       "ev": -0.2248,
+       "ev": -0.0718,
        "kelly": 0.0,
        "n_books": 4
       }
@@ -3701,13 +3651,13 @@
       "side": "home",
       "label": "HOU -4.5",
       "line": -4.5,
-      "verdict": "Lean",
-      "edge": 0.092,
-      "ev": 0.1248,
+      "verdict": "Pass",
+      "edge": 0.0115,
+      "ev": -0.0282,
       "price": 1.9,
       "book": "SportsBet",
       "stake_pct": 0.0,
-      "reason": "another bet on this game was stronger"
+      "reason": ""
      }
     },
     {
@@ -3718,27 +3668,27 @@
        "side": "over",
        "label": "Over 223.5",
        "line": 223.5,
-       "model_p": 0.531,
+       "model_p": 0.5508,
        "market_p": 0.5105,
-       "blend_p": 0.5228,
-       "edge": 0.0123,
+       "blend_p": 0.5347,
+       "edge": 0.0242,
        "best_price": 1.88,
        "best_book": "PlayUp",
-       "ev": -0.0172,
-       "kelly": 0.0,
+       "ev": 0.0052,
+       "kelly": 0.0059,
        "n_books": 5
       },
       {
        "side": "under",
        "label": "Under 223.5",
        "line": 223.5,
-       "model_p": 0.469,
+       "model_p": 0.4492,
        "market_p": 0.4895,
-       "blend_p": 0.4772,
-       "edge": -0.0123,
+       "blend_p": 0.4653,
+       "edge": -0.0242,
        "best_price": 1.96,
        "best_book": "SportsBet",
-       "ev": -0.0647,
+       "ev": -0.088,
        "kelly": 0.0,
        "n_books": 5
       }
@@ -3747,9 +3697,9 @@
       "side": "over",
       "label": "Over 223.5",
       "line": 223.5,
-      "verdict": "Pass",
-      "edge": 0.0123,
-      "ev": -0.0172,
+      "verdict": "Lean",
+      "edge": 0.0242,
+      "ev": 0.0052,
       "price": 1.88,
       "book": "PlayUp",
       "stake_pct": 0.0,
@@ -3757,10 +3707,7 @@
      }
     }
    ],
-   "warnings": [
-    "Jamal Murray (DEN) is questionable: worth ~1.8 pts. Re-check before tip-off.",
-    "Christian Braun (DEN) is questionable: worth ~1.7 pts. Re-check before tip-off."
-   ],
+   "warnings": [],
    "movement": {
     "open": {
      "home_p": 0.6115,
@@ -3814,9 +3761,9 @@
      },
      {
       "name": "Jordan Goodwin",
-      "status": "questionable",
-      "detail": "Goodwin (calf) is questionable for Monday's game against the Spurs.",
-      "impact": 0.07,
+      "status": "out",
+      "detail": "Goodwin (calf) has been ruled out for Monday's game against the Spurs, Kellan Olson of ArizonaSports.com reports.",
+      "impact": 0.33,
       "exp_min": 18.8,
       "note": ""
      }
@@ -3921,8 +3868,8 @@
       "onoff": -9.99,
       "impact": -0.53,
       "played_share": 0.62,
-      "status": "questionable",
-      "detail": "Goodwin (calf) is questionable for Monday's game against the Spurs."
+      "status": "out",
+      "detail": "Goodwin (calf) has been ruled out for Monday's game against the Spurs, Kellan Olson of ArizonaSports.com reports."
      },
      {
       "name": "Luke Kennard",
@@ -3975,7 +3922,7 @@
       "detail": ""
      }
     ],
-    "injury_adj": 0.33
+    "injury_adj": 0.6
    },
    "away": {
     "abbr": "SA",
@@ -4202,9 +4149,9 @@
      },
      {
       "label": "PHX injuries / lineup",
-      "pts": 0.33,
+      "pts": 0.6,
       "favours": "PHX",
-      "size": 0.33
+      "size": 0.6
      },
      {
       "label": "SA injuries / lineup",
@@ -4213,15 +4160,15 @@
       "size": 3.92
      }
     ],
-    "margin": -2.66,
-    "total": 226.3,
-    "home_pts": 111.8,
-    "away_pts": 114.5,
-    "margin_lo": -18.7,
-    "margin_hi": 13.4,
+    "margin": -2.39,
+    "total": 226.4,
+    "home_pts": 112.0,
+    "away_pts": 114.4,
+    "margin_lo": -18.4,
+    "margin_hi": 13.6,
     "total_lo": 203.3,
-    "total_hi": 249.4,
-    "home_win_p": 0.4158,
+    "total_hi": 249.5,
+    "home_win_p": 0.4241,
     "interval": 0.8
    },
    "markets": [
@@ -4233,27 +4180,27 @@
        "side": "home",
        "label": "PHX",
        "line": null,
-       "model_p": 0.4157,
+       "model_p": 0.4242,
        "market_p": 0.251,
-       "blend_p": 0.3498,
-       "edge": 0.0988,
+       "blend_p": 0.3549,
+       "edge": 0.1039,
        "best_price": 4.2,
        "best_book": "Betfair",
-       "ev": 0.4693,
-       "kelly": 0.1467,
+       "ev": 0.4906,
+       "kelly": 0.1533,
        "n_books": 12
       },
       {
        "side": "away",
        "label": "SA",
        "line": null,
-       "model_p": 0.5843,
+       "model_p": 0.5758,
        "market_p": 0.749,
-       "blend_p": 0.6502,
-       "edge": -0.0988,
+       "blend_p": 0.6451,
+       "edge": -0.1039,
        "best_price": 1.3,
        "best_book": "Betfair",
-       "ev": -0.1548,
+       "ev": -0.1614,
        "kelly": 0.0,
        "n_books": 12
       }
@@ -4263,11 +4210,11 @@
       "label": "PHX",
       "line": null,
       "verdict": "Value bet",
-      "edge": 0.0988,
-      "ev": 0.4693,
+      "edge": 0.1039,
+      "ev": 0.4906,
       "price": 4.2,
       "book": "Betfair",
-      "stake_pct": 0.016,
+      "stake_pct": 0.02,
       "reason": ""
      }
     },
@@ -4279,27 +4226,27 @@
        "side": "home",
        "label": "PHX +9.5",
        "line": 9.5,
-       "model_p": 0.7079,
+       "model_p": 0.7153,
        "market_p": 0.5132,
-       "blend_p": 0.63,
-       "edge": 0.1168,
+       "blend_p": 0.6344,
+       "edge": 0.1213,
        "best_price": 1.9,
        "best_book": "PointsBet (AU)",
-       "ev": 0.197,
-       "kelly": 0.2189,
+       "ev": 0.2054,
+       "kelly": 0.2282,
        "n_books": 3
       },
       {
        "side": "away",
        "label": "SA -9.5",
        "line": -9.5,
-       "model_p": 0.2921,
+       "model_p": 0.2847,
        "market_p": 0.4868,
-       "blend_p": 0.37,
-       "edge": -0.1168,
+       "blend_p": 0.3656,
+       "edge": -0.1213,
        "best_price": 1.96,
        "best_book": "Unibet",
-       "ev": -0.2748,
+       "ev": -0.2835,
        "kelly": 0.0,
        "n_books": 3
       }
@@ -4309,8 +4256,8 @@
       "label": "PHX +9.5",
       "line": 9.5,
       "verdict": "Lean",
-      "edge": 0.1168,
-      "ev": 0.197,
+      "edge": 0.1213,
+      "ev": 0.2054,
       "price": 1.9,
       "book": "PointsBet (AU)",
       "stake_pct": 0.0,
@@ -4325,13 +4272,13 @@
        "side": "over",
        "label": "Over 226.5",
        "line": 226.5,
-       "model_p": 0.4956,
+       "model_p": 0.4978,
        "market_p": 0.4974,
-       "blend_p": 0.4963,
-       "edge": -0.0011,
+       "blend_p": 0.4976,
+       "edge": 0.0002,
        "best_price": 1.95,
        "best_book": "TAB",
-       "ev": -0.0322,
+       "ev": -0.0296,
        "kelly": 0.0,
        "n_books": 3
       },
@@ -4339,26 +4286,26 @@
        "side": "under",
        "label": "Under 226.5",
        "line": 226.5,
-       "model_p": 0.5044,
+       "model_p": 0.5022,
        "market_p": 0.5026,
-       "blend_p": 0.5037,
-       "edge": 0.0011,
+       "blend_p": 0.5024,
+       "edge": -0.0002,
        "best_price": 1.9,
        "best_book": "PlayUp",
-       "ev": -0.0429,
+       "ev": -0.0455,
        "kelly": 0.0,
        "n_books": 3
       }
      ],
      "pick": {
-      "side": "under",
-      "label": "Under 226.5",
+      "side": "over",
+      "label": "Over 226.5",
       "line": 226.5,
       "verdict": "Pass",
-      "edge": 0.0011,
-      "ev": -0.0429,
-      "price": 1.9,
-      "book": "PlayUp",
+      "edge": 0.0002,
+      "ev": -0.0296,
+      "price": 1.95,
+      "book": "TAB",
       "stake_pct": 0.0,
       "reason": ""
      }
@@ -5009,7 +4956,7 @@
       "ev": 0.1784,
       "price": 1.93,
       "book": "SportsBet",
-      "stake_pct": 0.016,
+      "stake_pct": 0.02,
       "reason": ""
      }
     }
