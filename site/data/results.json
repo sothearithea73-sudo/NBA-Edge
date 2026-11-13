@@ -1,7 +1,7 @@
 {
  "overall": {
   "bets": 53,
-  "pending": 7,
+  "pending": 8,
   "wins": 22,
   "losses": 31,
   "pushes": 0,
@@ -15,7 +15,7 @@
  "by_market": {
   "spreads": {
    "bets": 18,
-   "pending": 2,
+   "pending": 3,
    "wins": 10,
    "losses": 8,
    "pushes": 0,
@@ -76,7 +76,7 @@
    "close_line": 10.5,
    "close_fair_p": 0.5092,
    "close_price": 1.87,
-   "close_at": "2026-11-13T22:55:00.476506+00:00",
+   "close_at": "2026-11-13T23:50:23.706914+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -101,9 +101,9 @@
    "stake_pct": 0.0108,
    "flagged_at": "2026-11-13T22:55:00.476506+00:00",
    "close_line": null,
-   "close_fair_p": 0.2105,
+   "close_fair_p": 0.2119,
    "close_price": 4.9,
-   "close_at": "2026-11-13T22:55:00.476506+00:00",
+   "close_at": "2026-11-13T23:50:23.706914+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -128,9 +128,9 @@
    "stake_pct": 0.0191,
    "flagged_at": "2026-11-13T20:40:50.980451+00:00",
    "close_line": null,
-   "close_fair_p": 0.1742,
-   "close_price": 6.4,
-   "close_at": "2026-11-13T22:55:00.476506+00:00",
+   "close_fair_p": 0.1704,
+   "close_price": 6.6,
+   "close_at": "2026-11-13T23:50:23.706914+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -155,9 +155,9 @@
    "stake_pct": 0.0134,
    "flagged_at": "2026-11-13T20:40:50.980451+00:00",
    "close_line": -15.5,
-   "close_fair_p": 0.4934,
-   "close_price": 1.94,
-   "close_at": "2026-11-13T22:55:00.476506+00:00",
+   "close_fair_p": 0.4987,
+   "close_price": 1.93,
+   "close_at": "2026-11-13T23:50:23.706914+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -182,9 +182,9 @@
    "stake_pct": 0.0191,
    "flagged_at": "2026-11-13T20:40:50.980451+00:00",
    "close_line": null,
-   "close_fair_p": 0.4473,
-   "close_price": 2.24,
-   "close_at": "2026-11-13T22:55:00.476506+00:00",
+   "close_fair_p": 0.4416,
+   "close_price": 2.26,
+   "close_at": "2026-11-13T23:50:23.706914+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -210,8 +210,35 @@
    "flagged_at": "2026-11-13T20:40:50.980451+00:00",
    "close_line": 235.5,
    "close_fair_p": 0.5,
-   "close_price": 1.91,
-   "close_at": "2026-11-13T22:55:00.476506+00:00",
+   "close_price": 1.93,
+   "close_at": "2026-11-13T23:50:23.706914+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  {
+   "id": "401909299:spreads:home",
+   "game_id": "401909299",
+   "date": "2026-11-13",
+   "tip": "2026-11-14T01:00:00+00:00",
+   "matchup": "ATL @ CHI",
+   "market": "spreads",
+   "side": "home",
+   "label": "CHI +6.5",
+   "line": 6.5,
+   "price": 1.9,
+   "book": "PointsBet (AU)",
+   "model_p": 0.5614,
+   "blend_p": 0.5371,
+   "fair_p": 0.5007,
+   "edge": 0.0364,
+   "ev": 0.0204,
+   "stake_pct": 0.0046,
+   "flagged_at": "2026-11-13T23:50:23.706914+00:00",
+   "close_line": 6.5,
+   "close_fair_p": 0.5007,
+   "close_price": 1.9,
+   "close_at": "2026-11-13T23:50:23.706914+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -236,9 +263,9 @@
    "stake_pct": 0.0048,
    "flagged_at": "2026-11-13T20:40:50.980451+00:00",
    "close_line": 219.5,
-   "close_fair_p": 0.5,
-   "close_price": 1.92,
-   "close_at": "2026-11-13T22:55:00.476506+00:00",
+   "close_fair_p": 0.5079,
+   "close_price": 1.9,
+   "close_at": "2026-11-13T23:50:23.706914+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -1781,6 +1808,6 @@
    "flat_profit": -1.0
   }
  ],
- "generated_at": "2026-11-13T22:55:00.476506+00:00",
+ "generated_at": "2026-11-13T23:50:23.706914+00:00",
  "backtest": null
 }
