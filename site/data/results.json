@@ -1,7 +1,7 @@
 {
  "overall": {
   "bets": 53,
-  "pending": 6,
+  "pending": 7,
   "wins": 22,
   "losses": 31,
   "pushes": 0,
@@ -28,7 +28,7 @@
   },
   "h2h": {
    "bets": 24,
-   "pending": 2,
+   "pending": 3,
    "wins": 8,
    "losses": 16,
    "pushes": 0,
@@ -74,9 +74,36 @@
    "stake_pct": 0.0071,
    "flagged_at": "2026-11-13T20:40:50.980451+00:00",
    "close_line": 10.5,
-   "close_fair_p": 0.5105,
+   "close_fair_p": 0.5092,
    "close_price": 1.87,
-   "close_at": "2026-11-13T20:40:50.980451+00:00",
+   "close_at": "2026-11-13T22:55:00.476506+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  {
+   "id": "401909303:h2h:home",
+   "game_id": "401909303",
+   "date": "2026-11-13",
+   "tip": "2026-11-14T03:00:00+00:00",
+   "matchup": "POR @ SAC",
+   "market": "h2h",
+   "side": "home",
+   "label": "SAC",
+   "line": null,
+   "price": 4.9,
+   "book": "Betfair",
+   "model_p": 0.2661,
+   "blend_p": 0.2438,
+   "fair_p": 0.2105,
+   "edge": 0.0333,
+   "ev": 0.1948,
+   "stake_pct": 0.0108,
+   "flagged_at": "2026-11-13T22:55:00.476506+00:00",
+   "close_line": null,
+   "close_fair_p": 0.2105,
+   "close_price": 4.9,
+   "close_at": "2026-11-13T22:55:00.476506+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -101,9 +128,9 @@
    "stake_pct": 0.0191,
    "flagged_at": "2026-11-13T20:40:50.980451+00:00",
    "close_line": null,
-   "close_fair_p": 0.1704,
-   "close_price": 6.2,
-   "close_at": "2026-11-13T20:40:50.980451+00:00",
+   "close_fair_p": 0.1742,
+   "close_price": 6.4,
+   "close_at": "2026-11-13T22:55:00.476506+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -128,9 +155,9 @@
    "stake_pct": 0.0134,
    "flagged_at": "2026-11-13T20:40:50.980451+00:00",
    "close_line": -15.5,
-   "close_fair_p": 0.4967,
+   "close_fair_p": 0.4934,
    "close_price": 1.94,
-   "close_at": "2026-11-13T20:40:50.980451+00:00",
+   "close_at": "2026-11-13T22:55:00.476506+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -156,8 +183,8 @@
    "flagged_at": "2026-11-13T20:40:50.980451+00:00",
    "close_line": null,
    "close_fair_p": 0.4473,
-   "close_price": 2.26,
-   "close_at": "2026-11-13T20:40:50.980451+00:00",
+   "close_price": 2.24,
+   "close_at": "2026-11-13T22:55:00.476506+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -183,8 +210,8 @@
    "flagged_at": "2026-11-13T20:40:50.980451+00:00",
    "close_line": 235.5,
    "close_fair_p": 0.5,
-   "close_price": 1.9,
-   "close_at": "2026-11-13T20:40:50.980451+00:00",
+   "close_price": 1.91,
+   "close_at": "2026-11-13T22:55:00.476506+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -210,8 +237,8 @@
    "flagged_at": "2026-11-13T20:40:50.980451+00:00",
    "close_line": 219.5,
    "close_fair_p": 0.5,
-   "close_price": 1.9,
-   "close_at": "2026-11-13T20:40:50.980451+00:00",
+   "close_price": 1.92,
+   "close_at": "2026-11-13T22:55:00.476506+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -1754,6 +1781,6 @@
    "flat_profit": -1.0
   }
  ],
- "generated_at": "2026-11-13T20:40:50.980451+00:00",
+ "generated_at": "2026-11-13T22:55:00.476506+00:00",
  "backtest": null
 }
