@@ -1,7 +1,7 @@
 {
  "overall": {
   "bets": 61,
-  "pending": 5,
+  "pending": 6,
   "wins": 25,
   "losses": 36,
   "pushes": 0,
@@ -26,6 +26,19 @@
    "avg_clv": -0.0452,
    "beat_close_pct": 0.154
   },
+  "spreads": {
+   "bets": 21,
+   "pending": 1,
+   "wins": 11,
+   "losses": 10,
+   "pushes": 0,
+   "staked_units": 24.59,
+   "profit_units": 1.38,
+   "roi": 0.0561,
+   "flat_roi": 0.0095,
+   "avg_clv": -0.0401,
+   "beat_close_pct": 0.143
+  },
   "h2h": {
    "bets": 27,
    "pending": 1,
@@ -38,19 +51,6 @@
    "flat_roi": -0.4389,
    "avg_clv": 0.0026,
    "beat_close_pct": 0.519
-  },
-  "spreads": {
-   "bets": 21,
-   "pending": 0,
-   "wins": 11,
-   "losses": 10,
-   "pushes": 0,
-   "staked_units": 24.59,
-   "profit_units": 1.38,
-   "roi": 0.0561,
-   "flat_roi": 0.0095,
-   "avg_clv": -0.0401,
-   "beat_close_pct": 0.143
   }
  },
  "picks": [
@@ -73,10 +73,10 @@
    "ev": 0.0722,
    "stake_pct": 0.0181,
    "flagged_at": "2026-11-14T20:24:49.052125+00:00",
-   "close_line": 229.5,
-   "close_fair_p": 0.4901,
-   "close_price": 1.95,
-   "close_at": "2026-11-14T22:49:45.821712+00:00",
+   "close_line": 228.5,
+   "close_fair_p": 0.5,
+   "close_price": 1.9,
+   "close_at": "2026-11-14T23:46:43.245847+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -100,10 +100,10 @@
    "ev": 0.0618,
    "stake_pct": 0.0158,
    "flagged_at": "2026-11-14T20:24:49.052125+00:00",
-   "close_line": 226.5,
-   "close_fair_p": 0.5,
-   "close_price": 1.91,
-   "close_at": "2026-11-14T22:49:45.821712+00:00",
+   "close_line": 225.5,
+   "close_fair_p": 0.4895,
+   "close_price": 1.95,
+   "close_at": "2026-11-14T23:46:43.245847+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -127,10 +127,37 @@
    "ev": 0.0498,
    "stake_pct": 0.0131,
    "flagged_at": "2026-11-14T20:24:49.052125+00:00",
-   "close_line": 234.5,
-   "close_fair_p": 0.5,
-   "close_price": 1.91,
-   "close_at": "2026-11-14T22:49:45.821712+00:00",
+   "close_line": 236.5,
+   "close_fair_p": 0.5026,
+   "close_price": 1.9,
+   "close_at": "2026-11-14T23:46:43.245847+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  {
+   "id": "401909984:spreads:home",
+   "game_id": "401909984",
+   "date": "2026-11-14",
+   "tip": "2026-11-15T01:00:00+00:00",
+   "matchup": "CHI @ MIN",
+   "market": "spreads",
+   "side": "home",
+   "label": "MIN -16.5",
+   "line": -16.5,
+   "price": 1.95,
+   "book": "PointsBet (AU)",
+   "model_p": 0.5478,
+   "blend_p": 0.526,
+   "fair_p": 0.4934,
+   "edge": 0.0326,
+   "ev": 0.0258,
+   "stake_pct": 0.0067,
+   "flagged_at": "2026-11-14T23:46:43.245847+00:00",
+   "close_line": -16.5,
+   "close_fair_p": 0.4934,
+   "close_price": 1.95,
+   "close_at": "2026-11-14T23:46:43.245847+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -155,9 +182,9 @@
    "stake_pct": 0.0191,
    "flagged_at": "2026-11-14T20:24:49.052125+00:00",
    "close_line": null,
-   "close_fair_p": 0.3412,
-   "close_price": 3.95,
-   "close_at": "2026-11-14T22:49:45.821712+00:00",
+   "close_fair_p": 0.2625,
+   "close_price": 3.9,
+   "close_at": "2026-11-14T23:46:43.245847+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -182,9 +209,9 @@
    "stake_pct": 0.0139,
    "flagged_at": "2026-11-14T20:24:49.052125+00:00",
    "close_line": 235.5,
-   "close_fair_p": 0.5066,
-   "close_price": 1.89,
-   "close_at": "2026-11-14T22:49:45.821712+00:00",
+   "close_fair_p": 0.504,
+   "close_price": 1.9,
+   "close_at": "2026-11-14T23:46:43.245847+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -1959,6 +1986,6 @@
    "flat_profit": -1.0
   }
  ],
- "generated_at": "2026-11-14T22:49:45.821712+00:00",
+ "generated_at": "2026-11-14T23:46:43.245847+00:00",
  "backtest": null
 }
