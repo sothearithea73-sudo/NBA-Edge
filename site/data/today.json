@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-11-14T01:15:19.135292+00:00",
- "generated_local": "Sat 14 Nov, 11:15am",
+ "generated_at": "2026-11-14T02:15:30.805830+00:00",
+ "generated_local": "Sat 14 Nov, 12:15pm",
  "mode": "pretip",
  "timezone": "Australia/Brisbane",
  "slate_date": "2026-11-13",
  "sources": {
   "schedule": {
    "ok": true,
-   "updated": "2026-11-14T01:15:19.135292+00:00",
+   "updated": "2026-11-14T02:15:30.805830+00:00",
    "message": "1587 games loaded"
   },
   "box_scores": {
    "ok": true,
-   "updated": "2026-11-14T01:15:19.135292+00:00",
+   "updated": "2026-11-14T02:15:30.805830+00:00",
    "message": "174 games of player data"
   },
   "injuries": {
    "ok": true,
-   "updated": "2026-11-14T01:15:19.135292+00:00",
-   "message": "99 players listed"
+   "updated": "2026-11-14T02:15:30.805830+00:00",
+   "message": "96 players listed"
   },
   "odds": {
    "ok": true,
    "updated": "2026-11-14T01:15:19.135292+00:00",
    "remaining": "407",
-   "message": "9 events"
+   "message": "daily odds-call limit (4) reached, using last saved odds"
   }
  },
  "warnings": [],
@@ -35,8 +35,8 @@
    "tip_local": "Sat 14 Nov, 10:00am",
    "et_date": "2026-11-13",
    "state": "in",
-   "status_text": "19.5 - 2nd",
-   "score": "49-58",
+   "status_text": "7:42 - 4th",
+   "score": "89-99",
    "home": {
     "abbr": "IND",
     "name": "Indiana Pacers",
@@ -616,8 +616,8 @@
    "tip_local": "Sat 14 Nov, 10:00am",
    "et_date": "2026-11-13",
    "state": "in",
-   "status_text": "Halftime",
-   "score": "36-52",
+   "status_text": "5:27 - 4th",
+   "score": "82-94",
    "home": {
     "abbr": "ORL",
     "name": "Orlando Magic",
@@ -1229,8 +1229,8 @@
    "tip_local": "Sat 14 Nov, 11:00am",
    "et_date": "2026-11-13",
    "state": "in",
-   "status_text": "9:30 - 1st",
-   "score": "6-5",
+   "status_text": "Halftime",
+   "score": "57-54",
    "home": {
     "abbr": "MIA",
     "name": "Miami Heat",
@@ -1827,8 +1827,8 @@
    "tip_local": "Sat 14 Nov, 11:00am",
    "et_date": "2026-11-13",
    "state": "in",
-   "status_text": "8:15 - 1st",
-   "score": "7-9",
+   "status_text": "Halftime",
+   "score": "53-60",
    "home": {
     "abbr": "CHI",
     "name": "Chicago Bulls",
@@ -2425,8 +2425,8 @@
    "tip_local": "Sat 14 Nov, 11:00am",
    "et_date": "2026-11-13",
    "state": "in",
-   "status_text": "8:16 - 1st",
-   "score": "10-9",
+   "status_text": "Halftime",
+   "score": "70-58",
    "home": {
     "abbr": "NO",
     "name": "New Orleans Pelicans",
@@ -3042,9 +3042,9 @@
    "tip_utc": "2026-11-14T01:30:00+00:00",
    "tip_local": "Sat 14 Nov, 11:30am",
    "et_date": "2026-11-13",
-   "state": "pre",
-   "status_text": "11/13 - 8:30 PM EST",
-   "score": null,
+   "state": "in",
+   "status_text": "9:41 - 2nd",
+   "score": "34-32",
    "home": {
     "abbr": "HOU",
     "name": "Houston Rockets",
@@ -3539,13 +3539,13 @@
       "side": "home",
       "label": "HOU",
       "line": null,
-      "verdict": "Pass",
+      "verdict": "No pick",
       "edge": 0.0214,
       "ev": -0.0004,
       "price": 1.1,
       "book": "Betfair",
       "stake_pct": 0.0,
-      "reason": ""
+      "reason": "Game has started"
      }
     },
     {
@@ -3585,13 +3585,13 @@
       "side": "home",
       "label": "HOU -15.5",
       "line": -15.5,
-      "verdict": "Value bet",
+      "verdict": "No pick",
       "edge": 0.0446,
       "ev": 0.0497,
       "price": 1.93,
       "book": "PlayUp",
-      "stake_pct": 0.0134,
-      "reason": ""
+      "stake_pct": 0.0,
+      "reason": "Game has started"
      }
     },
     {
@@ -3631,13 +3631,13 @@
       "side": "over",
       "label": "Over 221.5",
       "line": 221.5,
-      "verdict": "Pass",
+      "verdict": "No pick",
       "edge": 0.012,
       "ev": -0.0273,
       "price": 1.9,
       "book": "PointsBet (AU)",
       "stake_pct": 0.0,
-      "reason": ""
+      "reason": "Game has started"
      }
     }
    ],
@@ -3686,22 +3686,6 @@
     },
     "injuries": [
      {
-      "name": "De'Aaron Fox",
-      "status": "questionable",
-      "detail": "Fox is questionable for Friday's game against the Warriors due to left hip soreness.",
-      "impact": -3.27,
-      "exp_min": 29.6,
-      "note": ""
-     },
-     {
-      "name": "Devin Vassell",
-      "status": "questionable",
-      "detail": "Vassell is questionable for Friday's game against the Warriors due to left adductor tightness.",
-      "impact": -0.75,
-      "exp_min": 30.2,
-      "note": ""
-     },
-     {
       "name": "Tobias Harris",
       "status": "out",
       "detail": "Harris (calf) is out for Wednesday's game against Chicago, Jared Weiss of The Athletic reports.",
@@ -3729,7 +3713,7 @@
      },
      {
       "name": "De'Aaron Fox",
-      "note": "questionable"
+      "note": ""
      },
      {
       "name": "Stephon Castle",
@@ -3758,8 +3742,8 @@
       "onoff": 10.68,
       "impact": 2.25,
       "played_share": 0.83,
-      "status": "questionable",
-      "detail": "Vassell is questionable for Friday's game against the Warriors due to left adductor tightness."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "Victor Wembanyama",
@@ -3778,8 +3762,8 @@
       "onoff": 28.58,
       "impact": 6.55,
       "played_share": 1.0,
-      "status": "questionable",
-      "detail": "Fox is questionable for Friday's game against the Warriors due to left hip soreness."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "Stephon Castle",
@@ -3872,7 +3856,7 @@
       "detail": ""
      }
     ],
-    "injury_adj": -4.71
+    "injury_adj": -0.31
    },
    "away": {
     "abbr": "GS",
@@ -3908,14 +3892,6 @@
       "detail": "Williams (hamstring) will miss at least one week, per Anthony Slater of ESPN.com.",
       "impact": -0.36,
       "exp_min": 16.2,
-      "note": ""
-     },
-     {
-      "name": "Charles Bassey",
-      "status": "questionable",
-      "detail": "Bassey is probable for Friday's game against the Spurs due to left toe soreness.",
-      "impact": -0.27,
-      "exp_min": 12.5,
       "note": ""
      },
      {
@@ -4083,8 +4059,8 @@
       "onoff": 18.0,
       "impact": 0.81,
       "played_share": 0.83,
-      "status": "questionable",
-      "detail": "Bassey is probable for Friday's game against the Spurs due to left toe soreness."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "Graham Ike",
@@ -4097,7 +4073,7 @@
       "detail": ""
      }
     ],
-    "injury_adj": -2.29
+    "injury_adj": -1.88
    },
    "projection": {
     "base_margin": 6.53,
@@ -4111,26 +4087,26 @@
      },
      {
       "label": "SA injuries / lineup",
-      "pts": -4.71,
+      "pts": -0.31,
       "favours": "GS",
-      "size": 4.71
+      "size": 0.31
      },
      {
       "label": "GS injuries / lineup",
-      "pts": 2.29,
+      "pts": 1.88,
       "favours": "SA",
-      "size": 2.29
+      "size": 1.88
      }
     ],
-    "margin": 3.59,
-    "total": 226.6,
-    "home_pts": 115.1,
-    "away_pts": 111.5,
-    "margin_lo": -12.4,
-    "margin_hi": 19.6,
-    "total_lo": 203.5,
-    "total_hi": 249.6,
-    "home_win_p": 0.6132,
+    "margin": 7.59,
+    "total": 227.5,
+    "home_pts": 117.6,
+    "away_pts": 110.0,
+    "margin_lo": -8.4,
+    "margin_hi": 23.6,
+    "total_lo": 204.5,
+    "total_hi": 250.6,
+    "home_win_p": 0.7281,
     "interval": 0.8
    },
    "markets": [
@@ -4142,13 +4118,13 @@
        "side": "home",
        "label": "SA",
        "line": null,
-       "model_p": 0.613,
+       "model_p": 0.7281,
        "market_p": 0.8258,
-       "blend_p": 0.6981,
-       "edge": -0.1277,
+       "blend_p": 0.7672,
+       "edge": -0.0586,
        "best_price": 1.18,
        "best_book": "Betfair",
-       "ev": -0.1762,
+       "ev": -0.0947,
        "kelly": 0.0,
        "n_books": 11
       },
@@ -4156,14 +4132,14 @@
        "side": "away",
        "label": "GS",
        "line": null,
-       "model_p": 0.387,
+       "model_p": 0.2719,
        "market_p": 0.1742,
-       "blend_p": 0.3019,
-       "edge": 0.1277,
+       "blend_p": 0.2328,
+       "edge": 0.0586,
        "best_price": 6.2,
        "best_book": "Betfair",
-       "ev": 0.8715,
-       "kelly": 0.1676,
+       "ev": 0.4433,
+       "kelly": 0.0852,
        "n_books": 11
       }
      ],
@@ -4172,8 +4148,8 @@
       "label": "GS",
       "line": null,
       "verdict": "Value bet",
-      "edge": 0.1277,
-      "ev": 0.8715,
+      "edge": 0.0586,
+      "ev": 0.4433,
       "price": 6.2,
       "book": "Betfair",
       "stake_pct": 0.02,
@@ -4188,13 +4164,13 @@
        "side": "home",
        "label": "SA -12.5",
        "line": -12.5,
-       "model_p": 0.238,
+       "model_p": 0.3472,
        "market_p": 0.4895,
-       "blend_p": 0.3386,
-       "edge": -0.1509,
+       "blend_p": 0.4042,
+       "edge": -0.0854,
        "best_price": 1.95,
        "best_book": "PointsBet (AU)",
-       "ev": -0.3397,
+       "ev": -0.2119,
        "kelly": 0.0,
        "n_books": 3
       },
@@ -4202,14 +4178,14 @@
        "side": "away",
        "label": "GS +12.5",
        "line": 12.5,
-       "model_p": 0.762,
+       "model_p": 0.6528,
        "market_p": 0.5105,
-       "blend_p": 0.6614,
-       "edge": 0.1509,
+       "blend_p": 0.5958,
+       "edge": 0.0854,
        "best_price": 1.9,
        "best_book": "SportsBet",
-       "ev": 0.2567,
-       "kelly": 0.2852,
+       "ev": 0.1321,
+       "kelly": 0.1468,
        "n_books": 3
       }
      ],
@@ -4218,8 +4194,8 @@
       "label": "GS +12.5",
       "line": 12.5,
       "verdict": "Lean",
-      "edge": 0.1509,
-      "ev": 0.2567,
+      "edge": 0.0854,
+      "ev": 0.1321,
       "price": 1.9,
       "book": "SportsBet",
       "stake_pct": 0.0,
@@ -4234,27 +4210,27 @@
        "side": "over",
        "label": "Over 216.5",
        "line": 216.5,
-       "model_p": 0.7126,
+       "model_p": 0.7294,
        "market_p": 0.5013,
-       "blend_p": 0.6281,
-       "edge": 0.1268,
+       "blend_p": 0.6382,
+       "edge": 0.1369,
        "best_price": 1.9,
        "best_book": "PointsBet (AU)",
-       "ev": 0.1934,
-       "kelly": 0.2149,
+       "ev": 0.2126,
+       "kelly": 0.2362,
        "n_books": 5
       },
       {
        "side": "under",
        "label": "Under 216.5",
        "line": 216.5,
-       "model_p": 0.2874,
+       "model_p": 0.2706,
        "market_p": 0.4987,
-       "blend_p": 0.3719,
-       "edge": -0.1268,
+       "blend_p": 0.3618,
+       "edge": -0.1369,
        "best_price": 1.92,
        "best_book": "TABtouch",
-       "ev": -0.286,
+       "ev": -0.3053,
        "kelly": 0.0,
        "n_books": 5
       }
@@ -4264,8 +4240,8 @@
       "label": "Over 216.5",
       "line": 216.5,
       "verdict": "Lean",
-      "edge": 0.1268,
-      "ev": 0.1934,
+      "edge": 0.1369,
+      "ev": 0.2126,
       "price": 1.9,
       "book": "PointsBet (AU)",
       "stake_pct": 0.0,
@@ -4273,9 +4249,7 @@
      }
     }
    ],
-   "warnings": [
-    "De'Aaron Fox (SA) is questionable: worth ~3.3 pts. Re-check before tip-off."
-   ],
+   "warnings": [],
    "movement": {
     "open": {
      "home_p": 0.8296,
