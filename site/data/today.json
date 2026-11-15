@@ -1,35 +1,33 @@
 {
- "generated_at": "2026-11-15T20:51:48.165472+00:00",
- "generated_local": "Mon 16 Nov, 6:51am",
+ "generated_at": "2026-11-15T21:51:14.577990+00:00",
+ "generated_local": "Mon 16 Nov, 7:51am",
  "mode": "pretip",
  "timezone": "Australia/Brisbane",
  "slate_date": "2026-11-15",
  "sources": {
   "schedule": {
    "ok": true,
-   "updated": "2026-11-15T20:51:48.165472+00:00",
+   "updated": "2026-11-15T21:51:14.577990+00:00",
    "message": "1596 games loaded"
   },
   "box_scores": {
    "ok": true,
-   "updated": "2026-11-15T20:51:48.165472+00:00",
+   "updated": "2026-11-15T21:51:14.577990+00:00",
    "message": "189 games of player data"
   },
   "injuries": {
    "ok": true,
-   "updated": "2026-11-15T20:51:48.165472+00:00",
-   "message": "107 players listed"
+   "updated": "2026-11-15T21:51:14.577990+00:00",
+   "message": "106 players listed"
   },
   "odds": {
    "ok": true,
    "updated": "2026-11-15T20:51:48.165472+00:00",
    "remaining": "386",
-   "message": "8 events"
+   "message": "daily odds-call limit (4) reached, using last saved odds"
   }
  },
- "warnings": [
-  "Stakes scaled to 92% to stay under the daily exposure limit."
- ],
+ "warnings": [],
  "games": [
   {
    "id": "401909985",
@@ -61,9 +59,9 @@
     "injuries": [
      {
       "name": "Joel Embiid",
-      "status": "out",
+      "status": "questionable",
       "detail": "Embiid (right foot injury management) has been ruled out for Sunday's game against the Pacers.",
-      "impact": -2.85,
+      "impact": -1.17,
       "exp_min": 31.5,
       "note": ""
      },
@@ -98,6 +96,10 @@
       "note": ""
      },
      {
+      "name": "Joel Embiid",
+      "note": "questionable"
+     },
+     {
       "name": "Jaylen Brown",
       "note": ""
      },
@@ -108,10 +110,6 @@
      {
       "name": "VJ Edgecombe",
       "note": ""
-     },
-     {
-      "name": "LeBron James",
-      "note": "in for Joel Embiid"
      }
     ],
     "roster": [
@@ -162,7 +160,7 @@
       "onoff": 14.07,
       "impact": 3.37,
       "played_share": 0.85,
-      "status": "out",
+      "status": "questionable",
       "detail": "Embiid (right foot injury management) has been ruled out for Sunday's game against the Pacers."
      },
      {
@@ -246,7 +244,7 @@
       "detail": ""
      }
     ],
-    "injury_adj": -2.51
+    "injury_adj": -0.83
    },
    "away": {
     "abbr": "IND",
@@ -269,19 +267,19 @@
     },
     "injuries": [
      {
-      "name": "Andrew Nembhard",
-      "status": "out",
-      "detail": "Nembhard (hip) has been ruled out for Sunday's game against the 76ers, Tony East of Forbes.com reports.",
-      "impact": -0.7,
-      "exp_min": 33.4,
-      "note": ""
-     },
-     {
       "name": "Tyrese Haliburton",
       "status": "out",
       "detail": "Head coach Rick Carlisle said Wednesday that Haliburton (hamstring) will miss at least 10 more days, Alex Golden of SI.com reports.",
       "impact": -0.43,
       "exp_min": 33,
+      "note": ""
+     },
+     {
+      "name": "Andrew Nembhard",
+      "status": "questionable",
+      "detail": "Nembhard (hip) has been ruled out for Sunday's game against the 76ers, Tony East of Forbes.com reports.",
+      "impact": -0.29,
+      "exp_min": 33.4,
       "note": ""
      },
      {
@@ -315,12 +313,12 @@
       "note": ""
      },
      {
-      "name": "Aaron Nesmith",
-      "note": ""
+      "name": "Andrew Nembhard",
+      "note": "questionable"
      },
      {
-      "name": "Quenton Jackson",
-      "note": "in for Andrew Nembhard"
+      "name": "Aaron Nesmith",
+      "note": ""
      }
     ],
     "roster": [
@@ -331,7 +329,7 @@
       "onoff": 3.12,
       "impact": 0.82,
       "played_share": 0.85,
-      "status": "out",
+      "status": "questionable",
       "detail": "Nembhard (hip) has been ruled out for Sunday's game against the 76ers, Tony East of Forbes.com reports."
      },
      {
@@ -455,7 +453,7 @@
       "detail": ""
      }
     ],
-    "injury_adj": -1.85
+    "injury_adj": -1.43
    },
    "projection": {
     "base_margin": 6.24,
@@ -475,30 +473,32 @@
      },
      {
       "label": "PHI injuries / lineup",
-      "pts": -2.51,
+      "pts": -0.83,
       "favours": "IND",
-      "size": 2.51
+      "size": 0.83
      },
      {
       "label": "IND injuries / lineup",
-      "pts": 1.85,
+      "pts": 1.43,
       "favours": "PHI",
-      "size": 1.85
+      "size": 1.43
      }
     ],
-    "margin": 6.25,
-    "total": 223.1,
-    "home_pts": 114.7,
-    "away_pts": 108.4,
-    "margin_lo": -9.8,
-    "margin_hi": 22.3,
-    "total_lo": 200.0,
-    "total_hi": 246.1,
-    "home_win_p": 0.6916,
+    "margin": 7.53,
+    "total": 223.5,
+    "home_pts": 115.5,
+    "away_pts": 108.0,
+    "margin_lo": -8.5,
+    "margin_hi": 23.5,
+    "total_lo": 200.4,
+    "total_hi": 246.6,
+    "home_win_p": 0.7265,
     "interval": 0.8
    },
    "markets": [],
-   "warnings": [],
+   "warnings": [
+    "Joel Embiid (PHI) is questionable: worth ~1.2 pts. Re-check before tip-off."
+   ],
    "movement": {
     "open": {
      "home_p": 0.7261,
@@ -515,9 +515,9 @@
    "tip_utc": "2026-11-15T21:00:00+00:00",
    "tip_local": "Mon 16 Nov, 7:00am",
    "et_date": "2026-11-15",
-   "state": "pre",
-   "status_text": "11/15 - 4:00 PM EST",
-   "score": null,
+   "state": "in",
+   "status_text": "9:16 - 2nd",
+   "score": "41-31",
    "home": {
     "abbr": "PHX",
     "name": "Phoenix Suns",
@@ -962,13 +962,13 @@
       "side": "home",
       "label": "PHX",
       "line": null,
-      "verdict": "Value bet",
+      "verdict": "No pick",
       "edge": 0.1211,
       "ev": 0.3419,
       "price": 2.54,
       "book": "Betfair",
-      "stake_pct": 0.0183,
-      "reason": ""
+      "stake_pct": 0.0,
+      "reason": "Game has started"
      }
     },
     {
@@ -1008,13 +1008,13 @@
       "side": "home",
       "label": "PHX +3.5",
       "line": 3.5,
-      "verdict": "Lean",
+      "verdict": "No pick",
       "edge": 0.1255,
       "ev": 0.1922,
       "price": 1.9,
       "book": "SportsBet",
       "stake_pct": 0.0,
-      "reason": "another bet on this game was stronger"
+      "reason": "Game has started"
      }
     },
     {
@@ -1054,13 +1054,13 @@
       "side": "over",
       "label": "Over 226.5",
       "line": 226.5,
-      "verdict": "Lean",
+      "verdict": "No pick",
       "edge": 0.0448,
       "ev": 0.0458,
       "price": 1.95,
       "book": "SportsBet",
       "stake_pct": 0.0,
-      "reason": "another bet on this game was stronger"
+      "reason": "Game has started"
      }
     }
    ],
@@ -1085,9 +1085,9 @@
    "tip_utc": "2026-11-15T21:30:00+00:00",
    "tip_local": "Mon 16 Nov, 7:30am",
    "et_date": "2026-11-15",
-   "state": "pre",
-   "status_text": "11/15 - 4:30 PM EST",
-   "score": null,
+   "state": "in",
+   "status_text": "6:08 - 1st",
+   "score": "7-12",
    "home": {
     "abbr": "LAC",
     "name": "Los Angeles Clippers",
@@ -1562,13 +1562,13 @@
       "side": "home",
       "label": "LAC",
       "line": null,
-      "verdict": "Value bet",
+      "verdict": "No pick",
       "edge": 0.1199,
       "ev": 0.215,
       "price": 1.96,
       "book": "Betfair",
-      "stake_pct": 0.0183,
-      "reason": ""
+      "stake_pct": 0.0,
+      "reason": "Game has started"
      }
     },
     {
@@ -1608,13 +1608,13 @@
       "side": "home",
       "label": "LAC +1.5",
       "line": 1.5,
-      "verdict": "Lean",
+      "verdict": "No pick",
       "edge": 0.1346,
       "ev": 0.2034,
       "price": 1.85,
       "book": "TAB",
       "stake_pct": 0.0,
-      "reason": "another bet on this game was stronger"
+      "reason": "Game has started"
      }
     },
     {
@@ -1654,13 +1654,13 @@
       "side": "over",
       "label": "Over 213.5",
       "line": 213.5,
-      "verdict": "Lean",
+      "verdict": "No pick",
       "edge": 0.0436,
       "ev": 0.0601,
       "price": 1.95,
       "book": "TAB",
       "stake_pct": 0.0,
-      "reason": "another bet on this game was stronger"
+      "reason": "Game has started"
      }
     }
    ],
@@ -2207,7 +2207,7 @@
       "ev": 1.1394,
       "price": 8.6,
       "book": "Betfair",
-      "stake_pct": 0.0183,
+      "stake_pct": 0.02,
       "reason": ""
      }
     },
@@ -2526,9 +2526,9 @@
     "injuries": [
      {
       "name": "Kyrie Irving",
-      "status": "questionable",
-      "detail": "Irving (knee) is questionable to play in Sunday's game against the Celtics.",
-      "impact": -0.52,
+      "status": "out",
+      "detail": "Irving (knee) has been ruled out for Sunday's game against the Celtics.",
+      "impact": -1.27,
       "exp_min": 30.8,
       "note": ""
      },
@@ -2565,19 +2565,19 @@
       "note": ""
      },
      {
-      "name": "Max Christie",
-      "status": "questionable",
-      "detail": "Christie (ankle) is doubtful to play Sunday's game against the Celtics.",
-      "impact": 0.09,
-      "exp_min": 18.6,
-      "note": ""
-     },
-     {
       "name": "Sergio de Larrea",
       "status": "out",
       "detail": "De Larrea (knee) has been ruled out for Thursday's game at Minnesota.",
       "impact": 0.17,
       "exp_min": 11.8,
+      "note": ""
+     },
+     {
+      "name": "Max Christie",
+      "status": "out",
+      "detail": "Christie (ankle) has been ruled out for Sunday's game against the Celtics.",
+      "impact": 0.22,
+      "exp_min": 18.6,
       "note": ""
      }
     ],
@@ -2599,8 +2599,8 @@
       "note": ""
      },
      {
-      "name": "Kyrie Irving",
-      "note": "questionable"
+      "name": "Naji Marshall",
+      "note": "in for Kyrie Irving"
      }
     ],
     "roster": [
@@ -2631,8 +2631,8 @@
       "onoff": 6.45,
       "impact": 1.5,
       "played_share": 0.85,
-      "status": "questionable",
-      "detail": "Irving (knee) is questionable to play in Sunday's game against the Celtics."
+      "status": "out",
+      "detail": "Irving (knee) has been ruled out for Sunday's game against the Celtics."
      },
      {
       "name": "Naji Marshall",
@@ -2681,8 +2681,8 @@
       "onoff": -2.66,
       "impact": -0.26,
       "played_share": 0.85,
-      "status": "questionable",
-      "detail": "Christie (ankle) is doubtful to play Sunday's game against the Celtics."
+      "status": "out",
+      "detail": "Christie (ankle) has been ruled out for Sunday's game against the Celtics."
      },
      {
       "name": "Walter Clayton Jr.",
@@ -2735,7 +2735,7 @@
       "detail": "De Larrea (knee) has been ruled out for Thursday's game at Minnesota."
      }
     ],
-    "injury_adj": -0.52
+    "injury_adj": -1.14
    },
    "projection": {
     "base_margin": 9.92,
@@ -2773,20 +2773,20 @@
      },
      {
       "label": "DAL injuries / lineup",
-      "pts": 0.52,
+      "pts": 1.14,
       "favours": "BOS",
-      "size": 0.52
+      "size": 1.14
      }
     ],
-    "margin": 13.84,
-    "total": 222.0,
-    "home_pts": 117.9,
-    "away_pts": 104.1,
-    "margin_lo": -2.2,
-    "margin_hi": 29.9,
-    "total_lo": 199.0,
-    "total_hi": 245.1,
-    "home_win_p": 0.8659,
+    "margin": 14.46,
+    "total": 221.9,
+    "home_pts": 118.2,
+    "away_pts": 103.7,
+    "margin_lo": -1.6,
+    "margin_hi": 30.5,
+    "total_lo": 198.9,
+    "total_hi": 245.0,
+    "home_win_p": 0.8763,
     "interval": 0.8
    },
    "markets": [
@@ -2798,13 +2798,13 @@
        "side": "home",
        "label": "BOS",
        "line": null,
-       "model_p": 0.8659,
+       "model_p": 0.8763,
        "market_p": 0.8587,
-       "blend_p": 0.863,
-       "edge": 0.0043,
+       "blend_p": 0.8693,
+       "edge": 0.0106,
        "best_price": 1.14,
        "best_book": "Betfair",
-       "ev": -0.0162,
+       "ev": -0.009,
        "kelly": 0.0,
        "n_books": 12
       },
@@ -2812,14 +2812,14 @@
        "side": "away",
        "label": "DAL",
        "line": null,
-       "model_p": 0.1341,
+       "model_p": 0.1237,
        "market_p": 0.1413,
-       "blend_p": 0.137,
-       "edge": -0.0043,
+       "blend_p": 0.1307,
+       "edge": -0.0106,
        "best_price": 7.5,
        "best_book": "SportsBet",
-       "ev": 0.0274,
-       "kelly": 0.0042,
+       "ev": -0.0195,
+       "kelly": 0.0,
        "n_books": 12
       }
      ],
@@ -2828,8 +2828,8 @@
       "label": "BOS",
       "line": null,
       "verdict": "Pass",
-      "edge": 0.0043,
-      "ev": -0.0162,
+      "edge": 0.0106,
+      "ev": -0.009,
       "price": 1.14,
       "book": "Betfair",
       "stake_pct": 0.0,
@@ -2844,13 +2844,13 @@
        "side": "home",
        "label": "BOS -14.5",
        "line": -14.5,
-       "model_p": 0.4789,
+       "model_p": 0.4987,
        "market_p": 0.5,
-       "blend_p": 0.4874,
-       "edge": -0.0126,
+       "blend_p": 0.4992,
+       "edge": -0.0008,
        "best_price": 1.94,
        "best_book": "PlayUp",
-       "ev": -0.0545,
+       "ev": -0.0315,
        "kelly": 0.0,
        "n_books": 6
       },
@@ -2858,13 +2858,13 @@
        "side": "away",
        "label": "DAL +14.5",
        "line": 14.5,
-       "model_p": 0.5211,
+       "model_p": 0.5013,
        "market_p": 0.5,
-       "blend_p": 0.5126,
-       "edge": 0.0126,
+       "blend_p": 0.5008,
+       "edge": 0.0008,
        "best_price": 1.92,
        "best_book": "TABtouch",
-       "ev": -0.0157,
+       "ev": -0.0385,
        "kelly": 0.0,
        "n_books": 6
       }
@@ -2874,8 +2874,8 @@
       "label": "DAL +14.5",
       "line": 14.5,
       "verdict": "Pass",
-      "edge": 0.0126,
-      "ev": -0.0157,
+      "edge": 0.0008,
+      "ev": -0.0385,
       "price": 1.92,
       "book": "TABtouch",
       "stake_pct": 0.0,
@@ -2890,27 +2890,27 @@
        "side": "over",
        "label": "Over 218.5",
        "line": 218.5,
-       "model_p": 0.5771,
+       "model_p": 0.5749,
        "market_p": 0.5,
-       "blend_p": 0.5463,
-       "edge": 0.0463,
+       "blend_p": 0.5449,
+       "edge": 0.0449,
        "best_price": 1.9,
        "best_book": "PointsBet (AU)",
-       "ev": 0.0379,
-       "kelly": 0.0421,
+       "ev": 0.0354,
+       "kelly": 0.0393,
        "n_books": 3
       },
       {
        "side": "under",
        "label": "Under 218.5",
        "line": 218.5,
-       "model_p": 0.4229,
+       "model_p": 0.4251,
        "market_p": 0.5,
-       "blend_p": 0.4537,
-       "edge": -0.0463,
+       "blend_p": 0.4551,
+       "edge": -0.0449,
        "best_price": 1.95,
        "best_book": "PlayUp",
-       "ev": -0.1152,
+       "ev": -0.1126,
        "kelly": 0.0,
        "n_books": 3
       }
@@ -2920,11 +2920,11 @@
       "label": "Over 218.5",
       "line": 218.5,
       "verdict": "Value bet",
-      "edge": 0.0463,
-      "ev": 0.0379,
+      "edge": 0.0449,
+      "ev": 0.0354,
       "price": 1.9,
       "book": "PointsBet (AU)",
-      "stake_pct": 0.0096,
+      "stake_pct": 0.0098,
       "reason": ""
      }
     }
@@ -3415,7 +3415,7 @@
       "ev": 0.1255,
       "price": 2.88,
       "book": "Betfair",
-      "stake_pct": 0.0153,
+      "stake_pct": 0.0167,
       "reason": ""
      }
     },
