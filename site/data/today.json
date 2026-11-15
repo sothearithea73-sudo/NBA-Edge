@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-11-15T21:51:14.577990+00:00",
- "generated_local": "Mon 16 Nov, 7:51am",
+ "generated_at": "2026-11-15T22:51:03.945042+00:00",
+ "generated_local": "Mon 16 Nov, 8:51am",
  "mode": "pretip",
  "timezone": "Australia/Brisbane",
  "slate_date": "2026-11-15",
  "sources": {
   "schedule": {
    "ok": true,
-   "updated": "2026-11-15T21:51:14.577990+00:00",
+   "updated": "2026-11-15T22:51:03.945042+00:00",
    "message": "1596 games loaded"
   },
   "box_scores": {
    "ok": true,
-   "updated": "2026-11-15T21:51:14.577990+00:00",
+   "updated": "2026-11-15T22:51:03.945042+00:00",
    "message": "189 games of player data"
   },
   "injuries": {
    "ok": true,
-   "updated": "2026-11-15T21:51:14.577990+00:00",
-   "message": "106 players listed"
+   "updated": "2026-11-15T22:51:03.945042+00:00",
+   "message": "101 players listed"
   },
   "odds": {
    "ok": true,
@@ -516,8 +516,8 @@
    "tip_local": "Mon 16 Nov, 7:00am",
    "et_date": "2026-11-15",
    "state": "in",
-   "status_text": "9:16 - 2nd",
-   "score": "41-31",
+   "status_text": "4:15 - 3rd",
+   "score": "88-67",
    "home": {
     "abbr": "PHX",
     "name": "Phoenix Suns",
@@ -1086,8 +1086,8 @@
    "tip_local": "Mon 16 Nov, 7:30am",
    "et_date": "2026-11-15",
    "state": "in",
-   "status_text": "6:08 - 1st",
-   "score": "7-12",
+   "status_text": "Halftime",
+   "score": "52-51",
    "home": {
     "abbr": "LAC",
     "name": "Los Angeles Clippers",
@@ -1685,9 +1685,9 @@
    "tip_utc": "2026-11-15T22:00:00+00:00",
    "tip_local": "Mon 16 Nov, 8:00am",
    "et_date": "2026-11-15",
-   "state": "pre",
-   "status_text": "11/15 - 5:00 PM EST",
-   "score": null,
+   "state": "in",
+   "status_text": "5:10 - 2nd",
+   "score": "47-49",
    "home": {
     "abbr": "UTAH",
     "name": "Utah Jazz",
@@ -2202,13 +2202,13 @@
       "side": "home",
       "label": "UTAH",
       "line": null,
-      "verdict": "Value bet",
+      "verdict": "No pick",
       "edge": 0.1214,
       "ev": 1.1394,
       "price": 8.6,
       "book": "Betfair",
-      "stake_pct": 0.02,
-      "reason": ""
+      "stake_pct": 0.0,
+      "reason": "Game has started"
      }
     },
     {
@@ -2248,13 +2248,13 @@
       "side": "home",
       "label": "UTAH +14.5",
       "line": 14.5,
-      "verdict": "Lean",
+      "verdict": "No pick",
       "edge": 0.16,
       "ev": 0.2752,
       "price": 1.94,
       "book": "PlayUp",
       "stake_pct": 0.0,
-      "reason": "another bet on this game was stronger"
+      "reason": "Game has started"
      }
     },
     {
@@ -2294,13 +2294,13 @@
       "side": "over",
       "label": "Over 223.5",
       "line": 223.5,
-      "verdict": "Lean",
+      "verdict": "No pick",
       "edge": 0.0413,
       "ev": 0.0376,
       "price": 1.95,
       "book": "SportsBet",
       "stake_pct": 0.0,
-      "reason": "another bet on this game was stronger"
+      "reason": "Game has started"
      }
     }
    ],
@@ -2533,11 +2533,11 @@
       "note": ""
      },
      {
-      "name": "Daniel Gafford",
-      "status": "questionable",
-      "detail": "Gafford (shoulder) is probable to play in Sunday's game against the Celtics.",
+      "name": "Santi Aldama",
+      "status": "out",
+      "detail": "Aldama (ankle) is out for Sunday's game against the Celtics.",
       "impact": -0.18,
-      "exp_min": 21.2,
+      "exp_min": 14.6,
       "note": ""
      },
      {
@@ -2555,14 +2555,6 @@
       "impact": 0.0,
       "exp_min": 0,
       "note": "No minutes this season"
-     },
-     {
-      "name": "Santi Aldama",
-      "status": "questionable",
-      "detail": "Aldama (ankle) is listed as questionable for Sunday's game in Boston.",
-      "impact": 0.05,
-      "exp_min": 14.6,
-      "note": ""
      },
      {
       "name": "Sergio de Larrea",
@@ -2588,7 +2580,7 @@
      },
      {
       "name": "Daniel Gafford",
-      "note": "questionable"
+      "note": ""
      },
      {
       "name": "P.J. Washington",
@@ -2661,8 +2653,8 @@
       "onoff": 2.52,
       "impact": 0.35,
       "played_share": 1.0,
-      "status": "questionable",
-      "detail": "Gafford (shoulder) is probable to play in Sunday's game against the Celtics."
+      "status": "available",
+      "detail": ""
      },
      {
       "name": "Caleb Martin",
@@ -2721,8 +2713,8 @@
       "onoff": 13.97,
       "impact": 0.46,
       "played_share": 0.38,
-      "status": "questionable",
-      "detail": "Aldama (ankle) is listed as questionable for Sunday's game in Boston."
+      "status": "out",
+      "detail": "Aldama (ankle) is out for Sunday's game against the Celtics."
      },
      {
       "name": "Sergio de Larrea",
@@ -2735,7 +2727,7 @@
       "detail": "De Larrea (knee) has been ruled out for Thursday's game at Minnesota."
      }
     ],
-    "injury_adj": -1.14
+    "injury_adj": -1.19
    },
    "projection": {
     "base_margin": 9.92,
@@ -2773,20 +2765,20 @@
      },
      {
       "label": "DAL injuries / lineup",
-      "pts": 1.14,
+      "pts": 1.19,
       "favours": "BOS",
-      "size": 1.14
+      "size": 1.19
      }
     ],
-    "margin": 14.46,
+    "margin": 14.51,
     "total": 221.9,
     "home_pts": 118.2,
     "away_pts": 103.7,
-    "margin_lo": -1.6,
+    "margin_lo": -1.5,
     "margin_hi": 30.5,
-    "total_lo": 198.9,
+    "total_lo": 198.8,
     "total_hi": 245.0,
-    "home_win_p": 0.8763,
+    "home_win_p": 0.8772,
     "interval": 0.8
    },
    "markets": [
@@ -2798,13 +2790,13 @@
        "side": "home",
        "label": "BOS",
        "line": null,
-       "model_p": 0.8763,
+       "model_p": 0.8771,
        "market_p": 0.8587,
-       "blend_p": 0.8693,
-       "edge": 0.0106,
+       "blend_p": 0.8698,
+       "edge": 0.0111,
        "best_price": 1.14,
        "best_book": "Betfair",
-       "ev": -0.009,
+       "ev": -0.0085,
        "kelly": 0.0,
        "n_books": 12
       },
@@ -2812,13 +2804,13 @@
        "side": "away",
        "label": "DAL",
        "line": null,
-       "model_p": 0.1237,
+       "model_p": 0.1229,
        "market_p": 0.1413,
-       "blend_p": 0.1307,
-       "edge": -0.0106,
+       "blend_p": 0.1302,
+       "edge": -0.0111,
        "best_price": 7.5,
        "best_book": "SportsBet",
-       "ev": -0.0195,
+       "ev": -0.0232,
        "kelly": 0.0,
        "n_books": 12
       }
@@ -2828,8 +2820,8 @@
       "label": "BOS",
       "line": null,
       "verdict": "Pass",
-      "edge": 0.0106,
-      "ev": -0.009,
+      "edge": 0.0111,
+      "ev": -0.0085,
       "price": 1.14,
       "book": "Betfair",
       "stake_pct": 0.0,
@@ -2844,13 +2836,13 @@
        "side": "home",
        "label": "BOS -14.5",
        "line": -14.5,
-       "model_p": 0.4987,
+       "model_p": 0.5003,
        "market_p": 0.5,
-       "blend_p": 0.4992,
-       "edge": -0.0008,
+       "blend_p": 0.5002,
+       "edge": 0.0002,
        "best_price": 1.94,
        "best_book": "PlayUp",
-       "ev": -0.0315,
+       "ev": -0.0296,
        "kelly": 0.0,
        "n_books": 6
       },
@@ -2858,26 +2850,26 @@
        "side": "away",
        "label": "DAL +14.5",
        "line": 14.5,
-       "model_p": 0.5013,
+       "model_p": 0.4997,
        "market_p": 0.5,
-       "blend_p": 0.5008,
-       "edge": 0.0008,
+       "blend_p": 0.4998,
+       "edge": -0.0002,
        "best_price": 1.92,
        "best_book": "TABtouch",
-       "ev": -0.0385,
+       "ev": -0.0404,
        "kelly": 0.0,
        "n_books": 6
       }
      ],
      "pick": {
-      "side": "away",
-      "label": "DAL +14.5",
-      "line": 14.5,
+      "side": "home",
+      "label": "BOS -14.5",
+      "line": -14.5,
       "verdict": "Pass",
-      "edge": 0.0008,
-      "ev": -0.0385,
-      "price": 1.92,
-      "book": "TABtouch",
+      "edge": 0.0002,
+      "ev": -0.0296,
+      "price": 1.94,
+      "book": "PlayUp",
       "stake_pct": 0.0,
       "reason": ""
      }
@@ -2996,14 +2988,6 @@
       "impact": 0.0,
       "exp_min": 0,
       "note": "No minutes this season"
-     },
-     {
-      "name": "Scottie Barnes",
-      "status": "questionable",
-      "detail": "Barnes (groin) is listed as questionable for Sunday's game against the Knicks, Michael Grange of Sportsnet.ca reports.",
-      "impact": 0.05,
-      "exp_min": 33.4,
-      "note": ""
      }
     ],
     "lineup": [
@@ -3038,16 +3022,6 @@
       "played_share": 1.0,
       "status": "available",
       "detail": ""
-     },
-     {
-      "name": "Scottie Barnes",
-      "jersey": "4",
-      "mpg": 33.4,
-      "onoff": -1.3,
-      "impact": -0.28,
-      "played_share": 0.67,
-      "status": "questionable",
-      "detail": "Barnes (groin) is listed as questionable for Sunday's game against the Knicks, Michael Grange of Sportsnet.ca reports."
      },
      {
       "name": "Immanuel Quickley",
@@ -3158,9 +3132,19 @@
       "played_share": 0.75,
       "status": "available",
       "detail": ""
+     },
+     {
+      "name": "Jaden Bradley",
+      "jersey": "8",
+      "mpg": 4.8,
+      "onoff": 32.25,
+      "impact": 0.21,
+      "played_share": 0.75,
+      "status": "available",
+      "detail": ""
      }
     ],
-    "injury_adj": -0.04
+    "injury_adj": -0.09
    },
    "away": {
     "abbr": "NY",
@@ -3355,21 +3339,27 @@
       "size": 0.4
      },
      {
+      "label": "TOR injuries / lineup",
+      "pts": -0.09,
+      "favours": "NY",
+      "size": 0.09
+     },
+     {
       "label": "NY injuries / lineup",
       "pts": 0.34,
       "favours": "TOR",
       "size": 0.34
      }
     ],
-    "margin": -2.52,
-    "total": 216.1,
-    "home_pts": 106.8,
+    "margin": -2.56,
+    "total": 216.0,
+    "home_pts": 106.7,
     "away_pts": 109.3,
-    "margin_lo": -18.5,
+    "margin_lo": -18.6,
     "margin_hi": 13.5,
     "total_lo": 193.0,
     "total_hi": 239.1,
-    "home_win_p": 0.4202,
+    "home_win_p": 0.4188,
     "interval": 0.8
    },
    "markets": [
@@ -3381,27 +3371,27 @@
        "side": "home",
        "label": "TOR",
        "line": null,
-       "model_p": 0.4201,
+       "model_p": 0.4189,
        "market_p": 0.3468,
-       "blend_p": 0.3908,
-       "edge": 0.044,
+       "blend_p": 0.39,
+       "edge": 0.0432,
        "best_price": 2.88,
        "best_book": "Betfair",
-       "ev": 0.1255,
-       "kelly": 0.0667,
+       "ev": 0.1233,
+       "kelly": 0.0656,
        "n_books": 12
       },
       {
        "side": "away",
        "label": "NY",
        "line": null,
-       "model_p": 0.5799,
+       "model_p": 0.5811,
        "market_p": 0.6532,
-       "blend_p": 0.6092,
-       "edge": -0.044,
+       "blend_p": 0.61,
+       "edge": -0.0432,
        "best_price": 1.51,
        "best_book": "Betfair",
-       "ev": -0.0801,
+       "ev": -0.079,
        "kelly": 0.0,
        "n_books": 12
       }
@@ -3411,11 +3401,11 @@
       "label": "TOR",
       "line": null,
       "verdict": "Value bet",
-      "edge": 0.044,
-      "ev": 0.1255,
+      "edge": 0.0432,
+      "ev": 0.1233,
       "price": 2.88,
       "book": "Betfair",
-      "stake_pct": 0.0167,
+      "stake_pct": 0.0164,
       "reason": ""
      }
     },
@@ -3427,27 +3417,27 @@
        "side": "home",
        "label": "TOR +5.5",
        "line": 5.5,
-       "model_p": 0.5942,
+       "model_p": 0.593,
        "market_p": 0.5039,
-       "blend_p": 0.5581,
-       "edge": 0.0542,
+       "blend_p": 0.5574,
+       "edge": 0.0534,
        "best_price": 1.9,
        "best_book": "SportsBet",
-       "ev": 0.0604,
-       "kelly": 0.0671,
+       "ev": 0.059,
+       "kelly": 0.0655,
        "n_books": 6
       },
       {
        "side": "away",
        "label": "NY -5.5",
        "line": -5.5,
-       "model_p": 0.4058,
+       "model_p": 0.407,
        "market_p": 0.4961,
-       "blend_p": 0.4419,
-       "edge": -0.0542,
+       "blend_p": 0.4426,
+       "edge": -0.0534,
        "best_price": 1.94,
        "best_book": "Unibet",
-       "ev": -0.1427,
+       "ev": -0.1413,
        "kelly": 0.0,
        "n_books": 6
       }
@@ -3457,8 +3447,8 @@
       "label": "TOR +5.5",
       "line": 5.5,
       "verdict": "Lean",
-      "edge": 0.0542,
-      "ev": 0.0604,
+      "edge": 0.0534,
+      "ev": 0.059,
       "price": 1.9,
       "book": "SportsBet",
       "stake_pct": 0.0,
@@ -3473,13 +3463,13 @@
        "side": "over",
        "label": "Over 217.5",
        "line": 217.5,
-       "model_p": 0.469,
+       "model_p": 0.4668,
        "market_p": 0.5013,
-       "blend_p": 0.4819,
-       "edge": -0.0194,
+       "blend_p": 0.4806,
+       "edge": -0.0207,
        "best_price": 1.9,
        "best_book": "SportsBet",
-       "ev": -0.0843,
+       "ev": -0.0869,
        "kelly": 0.0,
        "n_books": 4
       },
@@ -3487,14 +3477,14 @@
        "side": "under",
        "label": "Under 217.5",
        "line": 217.5,
-       "model_p": 0.531,
+       "model_p": 0.5332,
        "market_p": 0.4987,
-       "blend_p": 0.5181,
-       "edge": 0.0194,
+       "blend_p": 0.5194,
+       "edge": 0.0207,
        "best_price": 1.93,
        "best_book": "TABtouch",
-       "ev": -0.0001,
-       "kelly": 0.0,
+       "ev": 0.0024,
+       "kelly": 0.0026,
        "n_books": 4
       }
      ],
@@ -3502,9 +3492,9 @@
       "side": "under",
       "label": "Under 217.5",
       "line": 217.5,
-      "verdict": "Pass",
-      "edge": 0.0194,
-      "ev": -0.0001,
+      "verdict": "Lean",
+      "edge": 0.0207,
+      "ev": 0.0024,
       "price": 1.93,
       "book": "TABtouch",
       "stake_pct": 0.0,
@@ -3566,9 +3556,9 @@
      },
      {
       "name": "Tre Johnson",
-      "status": "questionable",
-      "detail": "Johnson is listed as questionable for Sunday's game against the Rockets due to lower-back soreness.",
-      "impact": -0.03,
+      "status": "out",
+      "detail": "Johnson (back) won't play in Sunday's game against Houston, Josh Robbins of The Athletic reports.",
+      "impact": -0.06,
       "exp_min": 23.6,
       "note": ""
      },
@@ -3687,8 +3677,8 @@
       "onoff": 0.44,
       "impact": 0.07,
       "played_share": 0.92,
-      "status": "questionable",
-      "detail": "Johnson is listed as questionable for Sunday's game against the Rockets due to lower-back soreness."
+      "status": "out",
+      "detail": "Johnson (back) won't play in Sunday's game against Houston, Josh Robbins of The Athletic reports."
      },
      {
       "name": "Justin Champagnie",
@@ -3751,7 +3741,7 @@
       "detail": ""
      }
     ],
-    "injury_adj": -0.16
+    "injury_adj": -0.2
    },
    "away": {
     "abbr": "HOU",
@@ -3978,9 +3968,9 @@
      },
      {
       "label": "WSH injuries / lineup",
-      "pts": -0.16,
+      "pts": -0.2,
       "favours": "HOU",
-      "size": 0.16
+      "size": 0.2
      },
      {
       "label": "HOU injuries / lineup",
@@ -3989,15 +3979,15 @@
       "size": 2.49
      }
     ],
-    "margin": -6.96,
+    "margin": -7.0,
     "total": 225.0,
     "home_pts": 109.0,
     "away_pts": 116.0,
     "margin_lo": -23.0,
-    "margin_hi": 9.1,
+    "margin_hi": 9.0,
     "total_lo": 201.9,
     "total_hi": 248.1,
-    "home_win_p": 0.2887,
+    "home_win_p": 0.2878,
     "interval": 0.8
    },
    "markets": [
@@ -4009,27 +3999,27 @@
        "side": "home",
        "label": "WSH",
        "line": null,
-       "model_p": 0.2888,
+       "model_p": 0.2877,
        "market_p": 0.2638,
-       "blend_p": 0.2788,
-       "edge": 0.015,
+       "blend_p": 0.2782,
+       "edge": 0.0144,
        "best_price": 3.9,
        "best_book": "Betfair",
-       "ev": 0.0874,
-       "kelly": 0.0301,
+       "ev": 0.0848,
+       "kelly": 0.0293,
        "n_books": 12
       },
       {
        "side": "away",
        "label": "HOU",
        "line": null,
-       "model_p": 0.7112,
+       "model_p": 0.7123,
        "market_p": 0.7362,
-       "blend_p": 0.7212,
-       "edge": -0.015,
+       "blend_p": 0.7218,
+       "edge": -0.0144,
        "best_price": 1.33,
        "best_book": "Betfair",
-       "ev": -0.0408,
+       "ev": -0.04,
        "kelly": 0.0,
        "n_books": 12
       }
@@ -4038,9 +4028,9 @@
       "side": "home",
       "label": "WSH",
       "line": null,
-      "verdict": "Lean",
-      "edge": 0.015,
-      "ev": 0.0874,
+      "verdict": "Pass",
+      "edge": 0.0144,
+      "ev": 0.0848,
       "price": 3.9,
       "book": "Betfair",
       "stake_pct": 0.0,
@@ -4055,27 +4045,27 @@
        "side": "home",
        "label": "WSH +8.5",
        "line": 8.5,
-       "model_p": 0.549,
+       "model_p": 0.5478,
        "market_p": 0.5132,
-       "blend_p": 0.5347,
-       "edge": 0.0215,
+       "blend_p": 0.5339,
+       "edge": 0.0208,
        "best_price": 1.9,
        "best_book": "SportsBet",
-       "ev": 0.0159,
-       "kelly": 0.0177,
+       "ev": 0.0144,
+       "kelly": 0.016,
        "n_books": 3
       },
       {
        "side": "away",
        "label": "HOU -8.5",
        "line": -8.5,
-       "model_p": 0.451,
+       "model_p": 0.4522,
        "market_p": 0.4868,
-       "blend_p": 0.4653,
-       "edge": -0.0215,
+       "blend_p": 0.4661,
+       "edge": -0.0208,
        "best_price": 2.0,
        "best_book": "PointsBet (AU)",
-       "ev": -0.0694,
+       "ev": -0.0678,
        "kelly": 0.0,
        "n_books": 3
       }
@@ -4085,8 +4075,8 @@
       "label": "WSH +8.5",
       "line": 8.5,
       "verdict": "Lean",
-      "edge": 0.0215,
-      "ev": 0.0159,
+      "edge": 0.0208,
+      "ev": 0.0144,
       "price": 1.9,
       "book": "SportsBet",
       "stake_pct": 0.0,
