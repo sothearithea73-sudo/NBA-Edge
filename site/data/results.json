@@ -1,16 +1,16 @@
 {
  "overall": {
-  "bets": 68,
-  "pending": 8,
-  "wins": 28,
-  "losses": 40,
+  "bets": 70,
+  "pending": 7,
+  "wins": 29,
+  "losses": 41,
   "pushes": 0,
-  "staked_units": 85.1,
+  "staked_units": 88.0,
   "profit_units": -17.95,
-  "roi": -0.2109,
-  "flat_roi": -0.1978,
-  "avg_clv": -0.0262,
-  "beat_close_pct": 0.309
+  "roi": -0.204,
+  "flat_roi": -0.1921,
+  "avg_clv": -0.0257,
+  "beat_close_pct": 0.3
  },
  "by_market": {
   "totals": {
@@ -28,7 +28,7 @@
   },
   "spreads": {
    "bets": 22,
-   "pending": 2,
+   "pending": 3,
    "wins": 11,
    "losses": 11,
    "pushes": 0,
@@ -40,17 +40,17 @@
    "beat_close_pct": 0.136
   },
   "h2h": {
-   "bets": 29,
-   "pending": 4,
-   "wins": 9,
-   "losses": 20,
+   "bets": 31,
+   "pending": 2,
+   "wins": 10,
+   "losses": 21,
    "pushes": 0,
-   "staked_units": 39.79,
+   "staked_units": 42.69,
    "profit_units": -15.09,
-   "roi": -0.3793,
-   "flat_roi": -0.3797,
-   "avg_clv": -0.0054,
-   "beat_close_pct": 0.517
+   "roi": -0.3535,
+   "flat_roi": -0.3552,
+   "avg_clv": -0.0055,
+   "beat_close_pct": 0.484
   }
  },
  "picks": [
@@ -76,7 +76,34 @@
    "close_line": 233.5,
    "close_fair_p": 0.5,
    "close_price": 1.9,
-   "close_at": "2026-11-15T22:51:03.945042+00:00",
+   "close_at": "2026-11-15T23:55:58.167492+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  {
+   "id": "401909992:spreads:away",
+   "game_id": "401909992",
+   "date": "2026-11-15",
+   "tip": "2026-11-16T01:00:00+00:00",
+   "matchup": "ATL @ MIL",
+   "market": "spreads",
+   "side": "away",
+   "label": "ATL -7.5",
+   "line": -7.5,
+   "price": 1.87,
+   "book": "TABtouch",
+   "model_p": 0.6072,
+   "blend_p": 0.5675,
+   "fair_p": 0.5079,
+   "edge": 0.0596,
+   "ev": 0.0612,
+   "stake_pct": 0.0176,
+   "flagged_at": "2026-11-15T23:55:58.167492+00:00",
+   "close_line": -7.5,
+   "close_fair_p": 0.5079,
+   "close_price": 1.87,
+   "close_at": "2026-11-15T23:55:58.167492+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -103,7 +130,7 @@
    "close_line": 8.5,
    "close_fair_p": 0.5132,
    "close_price": 1.9,
-   "close_at": "2026-11-15T22:51:03.945042+00:00",
+   "close_at": "2026-11-15T23:55:58.167492+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -239,9 +266,11 @@
    "close_fair_p": 0.5,
    "close_price": 1.96,
    "close_at": "2026-11-15T20:51:48.165472+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 1.45,
+   "clv": 0.0,
+   "final": "CHA 105 - LAC 113",
+   "flat_profit": 1.0
   },
   {
    "id": "401909986:h2h:home",
@@ -266,9 +295,11 @@
    "close_fair_p": 0.4072,
    "close_price": 2.54,
    "close_at": "2026-11-15T20:51:48.165472+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -1.45,
+   "clv": -0.0146,
+   "final": "LAL 131 - PHX 123",
+   "flat_profit": -1.0
   },
   {
    "id": "401909985:h2h:away",
@@ -2243,6 +2274,6 @@
    "flat_profit": -1.0
   }
  ],
- "generated_at": "2026-11-15T22:51:03.945042+00:00",
+ "generated_at": "2026-11-15T23:55:58.167492+00:00",
  "backtest": null
 }

@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-11-15T22:51:03.945042+00:00",
- "generated_local": "Mon 16 Nov, 8:51am",
+ "generated_at": "2026-11-15T23:55:58.167492+00:00",
+ "generated_local": "Mon 16 Nov, 9:55am",
  "mode": "pretip",
  "timezone": "Australia/Brisbane",
  "slate_date": "2026-11-15",
  "sources": {
   "schedule": {
    "ok": true,
-   "updated": "2026-11-15T22:51:03.945042+00:00",
+   "updated": "2026-11-15T23:55:58.167492+00:00",
    "message": "1596 games loaded"
   },
   "box_scores": {
    "ok": true,
-   "updated": "2026-11-15T22:51:03.945042+00:00",
-   "message": "189 games of player data"
+   "updated": "2026-11-15T23:55:58.167492+00:00",
+   "message": "191 games of player data"
   },
   "injuries": {
    "ok": true,
-   "updated": "2026-11-15T22:51:03.945042+00:00",
-   "message": "101 players listed"
+   "updated": "2026-11-15T23:55:58.167492+00:00",
+   "message": "102 players listed"
   },
   "odds": {
    "ok": true,
@@ -515,9 +515,9 @@
    "tip_utc": "2026-11-15T21:00:00+00:00",
    "tip_local": "Mon 16 Nov, 7:00am",
    "et_date": "2026-11-15",
-   "state": "in",
-   "status_text": "4:15 - 3rd",
-   "score": "88-67",
+   "state": "post",
+   "status_text": "Final",
+   "score": "131-123",
    "home": {
     "abbr": "PHX",
     "name": "Phoenix Suns",
@@ -968,7 +968,7 @@
       "price": 2.54,
       "book": "Betfair",
       "stake_pct": 0.0,
-      "reason": "Game has started"
+      "reason": "Game finished"
      }
     },
     {
@@ -1014,7 +1014,7 @@
       "price": 1.9,
       "book": "SportsBet",
       "stake_pct": 0.0,
-      "reason": "Game has started"
+      "reason": "Game finished"
      }
     },
     {
@@ -1060,7 +1060,7 @@
       "price": 1.95,
       "book": "SportsBet",
       "stake_pct": 0.0,
-      "reason": "Game has started"
+      "reason": "Game finished"
      }
     }
    ],
@@ -1085,9 +1085,9 @@
    "tip_utc": "2026-11-15T21:30:00+00:00",
    "tip_local": "Mon 16 Nov, 7:30am",
    "et_date": "2026-11-15",
-   "state": "in",
-   "status_text": "Halftime",
-   "score": "52-51",
+   "state": "post",
+   "status_text": "Final",
+   "score": "105-113",
    "home": {
     "abbr": "LAC",
     "name": "Los Angeles Clippers",
@@ -1568,7 +1568,7 @@
       "price": 1.96,
       "book": "Betfair",
       "stake_pct": 0.0,
-      "reason": "Game has started"
+      "reason": "Game finished"
      }
     },
     {
@@ -1614,7 +1614,7 @@
       "price": 1.85,
       "book": "TAB",
       "stake_pct": 0.0,
-      "reason": "Game has started"
+      "reason": "Game finished"
      }
     },
     {
@@ -1660,7 +1660,7 @@
       "price": 1.95,
       "book": "TAB",
       "stake_pct": 0.0,
-      "reason": "Game has started"
+      "reason": "Game finished"
      }
     }
    ],
@@ -1686,8 +1686,8 @@
    "tip_local": "Mon 16 Nov, 8:00am",
    "et_date": "2026-11-15",
    "state": "in",
-   "status_text": "5:10 - 2nd",
-   "score": "47-49",
+   "status_text": "8:26 - 4th",
+   "score": "85-89",
    "home": {
     "abbr": "UTAH",
     "name": "Utah Jazz",
@@ -2325,9 +2325,9 @@
    "tip_utc": "2026-11-15T23:00:00+00:00",
    "tip_local": "Mon 16 Nov, 9:00am",
    "et_date": "2026-11-15",
-   "state": "pre",
-   "status_text": "11/15 - 6:00 PM EST",
-   "score": null,
+   "state": "in",
+   "status_text": "2:08 - 2nd",
+   "score": "35-62",
    "home": {
     "abbr": "BOS",
     "name": "Boston Celtics",
@@ -2819,13 +2819,13 @@
       "side": "home",
       "label": "BOS",
       "line": null,
-      "verdict": "Pass",
+      "verdict": "No pick",
       "edge": 0.0111,
       "ev": -0.0085,
       "price": 1.14,
       "book": "Betfair",
       "stake_pct": 0.0,
-      "reason": ""
+      "reason": "Game has started"
      }
     },
     {
@@ -2865,13 +2865,13 @@
       "side": "home",
       "label": "BOS -14.5",
       "line": -14.5,
-      "verdict": "Pass",
+      "verdict": "No pick",
       "edge": 0.0002,
       "ev": -0.0296,
       "price": 1.94,
       "book": "PlayUp",
       "stake_pct": 0.0,
-      "reason": ""
+      "reason": "Game has started"
      }
     },
     {
@@ -2911,13 +2911,13 @@
       "side": "over",
       "label": "Over 218.5",
       "line": 218.5,
-      "verdict": "Value bet",
+      "verdict": "No pick",
       "edge": 0.0449,
       "ev": 0.0354,
       "price": 1.9,
       "book": "PointsBet (AU)",
-      "stake_pct": 0.0098,
-      "reason": ""
+      "stake_pct": 0.0,
+      "reason": "Game has started"
      }
     }
    ],
@@ -2942,9 +2942,9 @@
    "tip_utc": "2026-11-15T23:00:00+00:00",
    "tip_local": "Mon 16 Nov, 9:00am",
    "et_date": "2026-11-15",
-   "state": "pre",
-   "status_text": "11/15 - 6:00 PM EST",
-   "score": null,
+   "state": "in",
+   "status_text": "6:33 - 2nd",
+   "score": "36-28",
    "home": {
     "abbr": "TOR",
     "name": "Toronto Raptors",
@@ -3400,13 +3400,13 @@
       "side": "home",
       "label": "TOR",
       "line": null,
-      "verdict": "Value bet",
+      "verdict": "No pick",
       "edge": 0.0432,
       "ev": 0.1233,
       "price": 2.88,
       "book": "Betfair",
-      "stake_pct": 0.0164,
-      "reason": ""
+      "stake_pct": 0.0,
+      "reason": "Game has started"
      }
     },
     {
@@ -3446,13 +3446,13 @@
       "side": "home",
       "label": "TOR +5.5",
       "line": 5.5,
-      "verdict": "Lean",
+      "verdict": "No pick",
       "edge": 0.0534,
       "ev": 0.059,
       "price": 1.9,
       "book": "SportsBet",
       "stake_pct": 0.0,
-      "reason": "another bet on this game was stronger"
+      "reason": "Game has started"
      }
     },
     {
@@ -3492,13 +3492,13 @@
       "side": "under",
       "label": "Under 217.5",
       "line": 217.5,
-      "verdict": "Lean",
+      "verdict": "No pick",
       "edge": 0.0207,
       "ev": 0.0024,
       "price": 1.93,
       "book": "TABtouch",
       "stake_pct": 0.0,
-      "reason": ""
+      "reason": "Game has started"
      }
     }
    ],
@@ -4176,9 +4176,9 @@
     "injuries": [
      {
       "name": "Ryan Rollins",
-      "status": "questionable",
-      "detail": "Rollins (illness) is questionable to play in Sunday's game against the Hawks.",
-      "impact": -1.24,
+      "status": "out",
+      "detail": "Rollins (illness) is out for Sunday's game against the Hawks.",
+      "impact": -2.49,
       "exp_min": 23.8,
       "note": ""
      },
@@ -4261,8 +4261,8 @@
       "onoff": 14.7,
       "impact": 2.49,
       "played_share": 1.0,
-      "status": "questionable",
-      "detail": "Rollins (illness) is questionable to play in Sunday's game against the Hawks."
+      "status": "out",
+      "detail": "Rollins (illness) is out for Sunday's game against the Hawks."
      },
      {
       "name": "Brayden Burries",
@@ -4345,7 +4345,7 @@
       "detail": ""
      }
     ],
-    "injury_adj": -1.0
+    "injury_adj": -2.25
    },
    "away": {
     "abbr": "ATL",
@@ -4401,9 +4401,9 @@
      },
      {
       "name": "Jock Landale",
-      "status": "questionable",
-      "detail": "Landale (hip) is listed as questionable for Sunday's game against Milwakee.",
-      "impact": 0.22,
+      "status": "out",
+      "detail": "Landale (hip) is out for Sunday's game against Bucks, Brad Rowland of the Locked On Podcast Network reports.",
+      "impact": 0.79,
       "exp_min": 15.4,
       "note": ""
      },
@@ -4526,8 +4526,8 @@
       "onoff": -18.95,
       "impact": -1.15,
       "played_share": 0.69,
-      "status": "questionable",
-      "detail": "Landale (hip) is listed as questionable for Sunday's game against Milwakee."
+      "status": "out",
+      "detail": "Landale (hip) is out for Sunday's game against Bucks, Brad Rowland of the Locked On Podcast Network reports."
      },
      {
       "name": "Zuby Ejiofor",
@@ -4550,7 +4550,7 @@
       "detail": "Newell (toe) has been ruled out for Friday's game against Chicago."
      }
     ],
-    "injury_adj": 0.64
+    "injury_adj": 1.21
    },
    "projection": {
     "base_margin": -6.68,
@@ -4570,26 +4570,26 @@
      },
      {
       "label": "MIL injuries / lineup",
-      "pts": -1.0,
+      "pts": -2.25,
       "favours": "ATL",
-      "size": 1.0
+      "size": 2.25
      },
      {
       "label": "ATL injuries / lineup",
-      "pts": -0.64,
+      "pts": -1.21,
       "favours": "ATL",
-      "size": 0.64
+      "size": 1.21
      }
     ],
-    "margin": -9.09,
-    "total": 231.7,
-    "home_pts": 111.3,
-    "away_pts": 120.4,
-    "margin_lo": -25.1,
-    "margin_hi": 6.9,
-    "total_lo": 208.7,
-    "total_hi": 254.8,
-    "home_win_p": 0.2336,
+    "margin": -10.9,
+    "total": 231.6,
+    "home_pts": 110.3,
+    "away_pts": 121.3,
+    "margin_lo": -26.9,
+    "margin_hi": 5.1,
+    "total_lo": 208.5,
+    "total_hi": 254.7,
+    "home_win_p": 0.1915,
     "interval": 0.8
    },
    "markets": [
@@ -4601,13 +4601,13 @@
        "side": "home",
        "label": "MIL",
        "line": null,
-       "model_p": 0.2336,
+       "model_p": 0.1916,
        "market_p": 0.2745,
-       "blend_p": 0.2499,
-       "edge": -0.0246,
+       "blend_p": 0.2248,
+       "edge": -0.0498,
        "best_price": 3.7,
        "best_book": "Betfair",
-       "ev": -0.0752,
+       "ev": -0.1683,
        "kelly": 0.0,
        "n_books": 12
       },
@@ -4615,14 +4615,14 @@
        "side": "away",
        "label": "ATL",
        "line": null,
-       "model_p": 0.7664,
+       "model_p": 0.8084,
        "market_p": 0.7255,
-       "blend_p": 0.7501,
-       "edge": 0.0246,
+       "blend_p": 0.7752,
+       "edge": 0.0498,
        "best_price": 1.36,
        "best_book": "Betfair",
-       "ev": 0.0201,
-       "kelly": 0.0558,
+       "ev": 0.0543,
+       "kelly": 0.1508,
        "n_books": 12
       }
      ],
@@ -4631,12 +4631,12 @@
       "label": "ATL",
       "line": null,
       "verdict": "Lean",
-      "edge": 0.0246,
-      "ev": 0.0201,
+      "edge": 0.0498,
+      "ev": 0.0543,
       "price": 1.36,
       "book": "Betfair",
       "stake_pct": 0.0,
-      "reason": ""
+      "reason": "another bet on this game was stronger"
      }
     },
     {
@@ -4647,13 +4647,13 @@
        "side": "home",
        "label": "MIL +7.5",
        "line": 7.5,
-       "model_p": 0.4494,
+       "model_p": 0.3928,
        "market_p": 0.4921,
-       "blend_p": 0.4665,
-       "edge": -0.0256,
+       "blend_p": 0.4325,
+       "edge": -0.0596,
        "best_price": 1.94,
        "best_book": "SportsBet",
-       "ev": -0.095,
+       "ev": -0.1609,
        "kelly": 0.0,
        "n_books": 3
       },
@@ -4661,14 +4661,14 @@
        "side": "away",
        "label": "ATL -7.5",
        "line": -7.5,
-       "model_p": 0.5506,
+       "model_p": 0.6072,
        "market_p": 0.5079,
-       "blend_p": 0.5335,
-       "edge": 0.0256,
+       "blend_p": 0.5675,
+       "edge": 0.0596,
        "best_price": 1.87,
        "best_book": "TABtouch",
-       "ev": -0.0023,
-       "kelly": 0.0,
+       "ev": 0.0612,
+       "kelly": 0.0703,
        "n_books": 3
       }
      ],
@@ -4676,12 +4676,12 @@
       "side": "away",
       "label": "ATL -7.5",
       "line": -7.5,
-      "verdict": "Pass",
-      "edge": 0.0256,
-      "ev": -0.0023,
+      "verdict": "Value bet",
+      "edge": 0.0596,
+      "ev": 0.0612,
       "price": 1.87,
       "book": "TABtouch",
-      "stake_pct": 0.0,
+      "stake_pct": 0.0176,
       "reason": ""
      }
     },
@@ -4693,13 +4693,13 @@
        "side": "over",
        "label": "Over 233.5",
        "line": 233.5,
-       "model_p": 0.4602,
+       "model_p": 0.458,
        "market_p": 0.5,
-       "blend_p": 0.4761,
-       "edge": -0.0239,
+       "blend_p": 0.4748,
+       "edge": -0.0252,
        "best_price": 1.93,
        "best_book": "TABtouch",
-       "ev": -0.0811,
+       "ev": -0.0837,
        "kelly": 0.0,
        "n_books": 5
       },
@@ -4707,13 +4707,13 @@
        "side": "under",
        "label": "Under 233.5",
        "line": 233.5,
-       "model_p": 0.5398,
+       "model_p": 0.542,
        "market_p": 0.5,
-       "blend_p": 0.5239,
-       "edge": 0.0239,
+       "blend_p": 0.5252,
+       "edge": 0.0252,
        "best_price": 1.9,
        "best_book": "PlayUp",
-       "ev": -0.0046,
+       "ev": -0.0021,
        "kelly": 0.0,
        "n_books": 5
       }
@@ -4723,8 +4723,8 @@
       "label": "Under 233.5",
       "line": 233.5,
       "verdict": "Pass",
-      "edge": 0.0239,
-      "ev": -0.0046,
+      "edge": 0.0252,
+      "ev": -0.0021,
       "price": 1.9,
       "book": "PlayUp",
       "stake_pct": 0.0,
@@ -4732,9 +4732,7 @@
      }
     }
    ],
-   "warnings": [
-    "Ryan Rollins (MIL) is questionable: worth ~1.2 pts. Re-check before tip-off."
-   ],
+   "warnings": [],
    "movement": {
     "open": {
      "home_p": 0.2767,
