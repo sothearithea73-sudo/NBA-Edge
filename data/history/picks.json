@@ -2448,6 +2448,33 @@
    "result": null,
    "profit_units": null,
    "clv": null
+  },
+  "401910001:h2h:away": {
+   "id": "401910001:h2h:away",
+   "game_id": "401910001",
+   "date": "2026-11-16",
+   "tip": "2026-11-17T02:00:00+00:00",
+   "matchup": "PHX @ DEN",
+   "market": "h2h",
+   "side": "away",
+   "label": "PHX",
+   "line": null,
+   "price": 4.8,
+   "book": "Unibet",
+   "model_p": 0.2801,
+   "blend_p": 0.256,
+   "fair_p": 0.2197,
+   "edge": 0.0362,
+   "ev": 0.2287,
+   "stake_pct": 0.015,
+   "flagged_at": "2026-11-17T01:25:18.092770+00:00",
+   "close_line": null,
+   "close_fair_p": 0.2197,
+   "close_price": 4.8,
+   "close_at": "2026-11-17T01:25:18.092770+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
   }
  }
 }
