@@ -1,7 +1,7 @@
 {
  "overall": {
   "bets": 105,
-  "pending": 6,
+  "pending": 7,
   "wins": 45,
   "losses": 60,
   "pushes": 0,
@@ -15,7 +15,7 @@
  "by_market": {
   "h2h": {
    "bets": 45,
-   "pending": 5,
+   "pending": 6,
    "wins": 15,
    "losses": 30,
    "pushes": 0,
@@ -75,8 +75,8 @@
    "flagged_at": "2026-11-20T20:38:37.096265+00:00",
    "close_line": null,
    "close_fair_p": 0.1369,
-   "close_price": 7.8,
-   "close_at": "2026-11-20T22:28:57.256031+00:00",
+   "close_price": 7.6,
+   "close_at": "2026-11-20T23:29:00.054400+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -101,9 +101,9 @@
    "stake_pct": 0.011,
    "flagged_at": "2026-11-20T20:38:37.096265+00:00",
    "close_line": null,
-   "close_fair_p": 0.3765,
-   "close_price": 2.66,
-   "close_at": "2026-11-20T22:28:57.256031+00:00",
+   "close_fair_p": 0.375,
+   "close_price": 2.68,
+   "close_at": "2026-11-20T23:29:00.054400+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -128,9 +128,36 @@
    "stake_pct": 0.0151,
    "flagged_at": "2026-11-20T20:38:37.096265+00:00",
    "close_line": null,
-   "close_fair_p": 0.5497,
+   "close_fair_p": 0.5426,
    "close_price": 1.82,
-   "close_at": "2026-11-20T22:28:57.256031+00:00",
+   "close_at": "2026-11-20T23:29:00.054400+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  {
+   "id": "401909310:h2h:away",
+   "game_id": "401909310",
+   "date": "2026-11-20",
+   "tip": "2026-11-21T01:00:00+00:00",
+   "matchup": "NO @ OKC",
+   "market": "h2h",
+   "side": "away",
+   "label": "NO",
+   "line": null,
+   "price": 5.7,
+   "book": "Betfair",
+   "model_p": 0.2372,
+   "blend_p": 0.2158,
+   "fair_p": 0.1837,
+   "edge": 0.0321,
+   "ev": 0.2301,
+   "stake_pct": 0.0082,
+   "flagged_at": "2026-11-20T23:29:00.054400+00:00",
+   "close_line": null,
+   "close_fair_p": 0.1837,
+   "close_price": 5.7,
+   "close_at": "2026-11-20T23:29:00.054400+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -155,9 +182,9 @@
    "stake_pct": 0.01,
    "flagged_at": "2026-11-20T20:38:37.096265+00:00",
    "close_line": null,
-   "close_fair_p": 0.3111,
+   "close_fair_p": 0.3096,
    "close_price": 3.25,
-   "close_at": "2026-11-20T22:28:57.256031+00:00",
+   "close_at": "2026-11-20T23:29:00.054400+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -182,9 +209,9 @@
    "stake_pct": 0.0151,
    "flagged_at": "2026-11-20T20:38:37.096265+00:00",
    "close_line": -5.5,
-   "close_fair_p": 0.5132,
-   "close_price": 1.87,
-   "close_at": "2026-11-20T22:28:57.256031+00:00",
+   "close_fair_p": 0.5079,
+   "close_price": 1.9,
+   "close_at": "2026-11-20T23:29:00.054400+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -210,8 +237,8 @@
    "flagged_at": "2026-11-20T20:38:37.096265+00:00",
    "close_line": null,
    "close_fair_p": 0.308,
-   "close_price": 3.45,
-   "close_at": "2026-11-20T22:28:57.256031+00:00",
+   "close_price": 3.35,
+   "close_at": "2026-11-20T23:29:00.054400+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -3262,6 +3289,6 @@
    "flat_profit": -1.0
   }
  ],
- "generated_at": "2026-11-20T22:28:57.256031+00:00",
+ "generated_at": "2026-11-20T23:29:00.054400+00:00",
  "backtest": null
 }
