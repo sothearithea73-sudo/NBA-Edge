@@ -1,43 +1,43 @@
 {
  "overall": {
-  "bets": 105,
-  "pending": 7,
-  "wins": 45,
-  "losses": 60,
+  "bets": 112,
+  "pending": 3,
+  "wins": 47,
+  "losses": 65,
   "pushes": 0,
-  "staked_units": 128.61,
-  "profit_units": -18.1,
-  "roi": -0.1407,
-  "flat_roi": -0.1099,
-  "avg_clv": -0.0184,
-  "beat_close_pct": 0.324
+  "staked_units": 137.43,
+  "profit_units": -18.96,
+  "roi": -0.138,
+  "flat_roi": -0.1185,
+  "avg_clv": -0.0168,
+  "beat_close_pct": 0.339
  },
  "by_market": {
-  "h2h": {
-   "bets": 45,
-   "pending": 6,
-   "wins": 15,
-   "losses": 30,
-   "pushes": 0,
-   "staked_units": 63.14,
-   "profit_units": -15.61,
-   "roi": -0.2472,
-   "flat_roi": -0.2036,
-   "avg_clv": 0.0065,
-   "beat_close_pct": 0.533
-  },
   "spreads": {
-   "bets": 32,
+   "bets": 33,
    "pending": 1,
-   "wins": 14,
+   "wins": 15,
    "losses": 18,
    "pushes": 0,
-   "staked_units": 34.12,
-   "profit_units": -3.82,
-   "roi": -0.1119,
-   "flat_roi": -0.1594,
-   "avg_clv": -0.0309,
-   "beat_close_pct": 0.156
+   "staked_units": 35.63,
+   "profit_units": -2.5,
+   "roi": -0.0703,
+   "flat_roi": -0.1282,
+   "avg_clv": -0.0315,
+   "beat_close_pct": 0.152
+  },
+  "h2h": {
+   "bets": 51,
+   "pending": 2,
+   "wins": 16,
+   "losses": 35,
+   "pushes": 0,
+   "staked_units": 70.45,
+   "profit_units": -17.79,
+   "roi": -0.2525,
+   "flat_roi": -0.2306,
+   "avg_clv": 0.0077,
+   "beat_close_pct": 0.549
   },
   "totals": {
    "bets": 28,
@@ -54,6 +54,87 @@
   }
  },
  "picks": [
+  {
+   "id": "401910028:spreads:away",
+   "game_id": "401910028",
+   "date": "2026-11-21",
+   "tip": "2026-11-22T03:00:00+00:00",
+   "matchup": "BOS @ SAC",
+   "market": "spreads",
+   "side": "away",
+   "label": "BOS -13.5",
+   "line": -13.5,
+   "price": 1.95,
+   "book": "PointsBet (AU)",
+   "model_p": 0.6118,
+   "blend_p": 0.5642,
+   "fair_p": 0.4928,
+   "edge": 0.0714,
+   "ev": 0.1002,
+   "stake_pct": 0.02,
+   "flagged_at": "2026-11-21T16:58:18.983898+00:00",
+   "close_line": -13.5,
+   "close_fair_p": 0.4928,
+   "close_price": 1.95,
+   "close_at": "2026-11-21T16:58:18.983898+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  {
+   "id": "401910026:h2h:away",
+   "game_id": "401910026",
+   "date": "2026-11-21",
+   "tip": "2026-11-22T01:00:00+00:00",
+   "matchup": "MEM @ MIN",
+   "market": "h2h",
+   "side": "away",
+   "label": "MEM",
+   "line": null,
+   "price": 3.05,
+   "book": "Betfair",
+   "model_p": 0.5354,
+   "blend_p": 0.4547,
+   "fair_p": 0.3337,
+   "edge": 0.121,
+   "ev": 0.3869,
+   "stake_pct": 0.02,
+   "flagged_at": "2026-11-21T16:58:18.983898+00:00",
+   "close_line": null,
+   "close_fair_p": 0.3337,
+   "close_price": 3.05,
+   "close_at": "2026-11-21T16:58:18.983898+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  {
+   "id": "401910027:h2h:away",
+   "game_id": "401910027",
+   "date": "2026-11-21",
+   "tip": "2026-11-22T01:00:00+00:00",
+   "matchup": "NO @ SA",
+   "market": "h2h",
+   "side": "away",
+   "label": "NO",
+   "line": null,
+   "price": 11.5,
+   "book": "Betfair",
+   "model_p": 0.1805,
+   "blend_p": 0.1484,
+   "fair_p": 0.1004,
+   "edge": 0.0481,
+   "ev": 0.7069,
+   "stake_pct": 0.0168,
+   "flagged_at": "2026-11-21T16:58:18.983898+00:00",
+   "close_line": null,
+   "close_fair_p": 0.1004,
+   "close_price": 11.5,
+   "close_at": "2026-11-21T16:58:18.983898+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
   {
    "id": "401909313:h2h:away",
    "game_id": "401909313",
@@ -77,9 +158,11 @@
    "close_fair_p": 0.1369,
    "close_price": 7.6,
    "close_at": "2026-11-21T01:25:14.406745+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -1.37,
+   "clv": 0.0404,
+   "final": "SAC 104 - LAL 106",
+   "flat_profit": -1.0
   },
   {
    "id": "401909311:h2h:home",
@@ -104,9 +187,11 @@
    "close_fair_p": 0.3719,
    "close_price": 2.68,
    "close_at": "2026-11-21T01:25:14.406745+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -1.1,
+   "clv": -0.0182,
+   "final": "PHX 111 - UTAH 101",
+   "flat_profit": -1.0
   },
   {
    "id": "401909309:h2h:home",
@@ -131,9 +216,11 @@
    "close_fair_p": 0.5426,
    "close_price": 1.82,
    "close_at": "2026-11-20T23:29:00.054400+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -1.51,
+   "clv": -0.0233,
+   "final": "WSH 98 - CHI 94",
+   "flat_profit": -1.0
   },
   {
    "id": "401909310:h2h:away",
@@ -158,9 +245,11 @@
    "close_fair_p": 0.1837,
    "close_price": 5.7,
    "close_at": "2026-11-20T23:29:00.054400+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -0.82,
+   "clv": 0.0471,
+   "final": "NO 120 - OKC 126",
+   "flat_profit": -1.0
   },
   {
    "id": "401909306:h2h:home",
@@ -185,9 +274,11 @@
    "close_fair_p": 0.3096,
    "close_price": 3.25,
    "close_at": "2026-11-20T23:29:00.054400+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -1.0,
+   "clv": 0.0062,
+   "final": "ORL 113 - BKN 111",
+   "flat_profit": -1.0
   },
   {
    "id": "401909307:spreads:home",
@@ -212,9 +303,11 @@
    "close_fair_p": 0.5079,
    "close_price": 1.9,
    "close_at": "2026-11-20T23:29:00.054400+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 1.314,
+   "clv": -0.0502,
+   "final": "IND 119 - CLE 128",
+   "flat_profit": 0.87
   },
   {
    "id": "401909308:h2h:away",
@@ -239,9 +332,11 @@
    "close_fair_p": 0.308,
    "close_price": 3.35,
    "close_at": "2026-11-20T23:29:00.054400+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 3.624,
+   "clv": 0.0472,
+   "final": "TOR 105 - DET 102",
+   "flat_profit": 2.4
   },
   {
    "id": "401910019:h2h:away",
@@ -3289,6 +3384,6 @@
    "flat_profit": -1.0
   }
  ],
- "generated_at": "2026-11-21T01:25:14.406745+00:00",
+ "generated_at": "2026-11-21T16:58:18.983898+00:00",
  "backtest": null
 }
