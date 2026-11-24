@@ -75,8 +75,8 @@
    "flagged_at": "2026-11-23T20:40:21.729051+00:00",
    "close_line": null,
    "close_fair_p": 0.1475,
-   "close_price": 7.2,
-   "close_at": "2026-11-24T00:00:19.737930+00:00",
+   "close_price": 7.0,
+   "close_at": "2026-11-24T01:26:35.823737+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -101,9 +101,9 @@
    "stake_pct": 0.0091,
    "flagged_at": "2026-11-23T20:40:21.729051+00:00",
    "close_line": null,
-   "close_fair_p": 0.1742,
-   "close_price": 6.0,
-   "close_at": "2026-11-24T00:00:19.737930+00:00",
+   "close_fair_p": 0.2538,
+   "close_price": 5.25,
+   "close_at": "2026-11-24T01:26:35.823737+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -130,7 +130,7 @@
    "close_line": 223.5,
    "close_fair_p": 0.5,
    "close_price": 1.9,
-   "close_at": "2026-11-24T00:00:19.737930+00:00",
+   "close_at": "2026-11-24T01:26:35.823737+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -4008,6 +4008,6 @@
    "flat_profit": -1.0
   }
  ],
- "generated_at": "2026-11-24T00:00:19.737930+00:00",
+ "generated_at": "2026-11-24T01:26:35.823737+00:00",
  "backtest": null
 }
