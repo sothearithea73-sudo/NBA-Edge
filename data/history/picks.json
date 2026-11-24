@@ -3706,9 +3706,11 @@
    "close_fair_p": 0.5714,
    "close_price": 1.75,
    "close_at": "2026-11-24T00:00:19.737930+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 0.655,
+   "clv": -0.0172,
+   "final": "MEM 117 - CHA 111",
+   "flat_profit": 0.72
   },
   "401910037:h2h:away": {
    "id": "401910037:h2h:away",
@@ -3733,9 +3735,11 @@
    "close_fair_p": 0.4974,
    "close_price": 1.98,
    "close_at": "2026-11-24T00:00:19.737930+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 1.11,
+   "clv": 0.1042,
+   "final": "POR 128 - PHI 111",
+   "flat_profit": 1.22
   },
   "401910038:h2h:home": {
    "id": "401910038:h2h:home",
@@ -3760,9 +3764,11 @@
    "close_fair_p": 0.3758,
    "close_price": 2.66,
    "close_at": "2026-11-24T00:00:19.737930+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 1.66,
+   "clv": 0.1274,
+   "final": "OKC 120 - IND 125",
+   "flat_profit": 2.0
   },
   "401910039:totals:over": {
    "id": "401910039:totals:over",
@@ -3787,9 +3793,11 @@
    "close_fair_p": 0.5,
    "close_price": 1.9,
    "close_at": "2026-11-24T00:00:19.737930+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 0.819,
+   "clv": -0.05,
+   "final": "MIL 116 - TOR 111",
+   "flat_profit": 0.9
   },
   "401910041:totals:over": {
    "id": "401910041:totals:over",
@@ -3814,9 +3822,11 @@
    "close_fair_p": 0.5,
    "close_price": 1.91,
    "close_at": "2026-11-24T00:00:19.737930+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -0.81,
+   "clv": -0.073,
+   "final": "CLE 108 - CHI 122",
+   "flat_profit": -1.0
   },
   "401910042:h2h:away": {
    "id": "401910042:h2h:away",
@@ -3841,9 +3851,11 @@
    "close_fair_p": 0.5823,
    "close_price": 1.7,
    "close_at": "2026-11-24T00:00:19.737930+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 0.637,
+   "clv": -0.0101,
+   "final": "PHX 123 - NO 119",
+   "flat_profit": 0.7
   },
   "401910043:totals:over": {
    "id": "401910043:totals:over",
@@ -3868,9 +3880,11 @@
    "close_fair_p": 0.5,
    "close_price": 1.9,
    "close_at": "2026-11-24T01:26:35.823737+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -0.91,
+   "clv": -0.05,
+   "final": "LAC 104 - HOU 116",
+   "flat_profit": -1.0
   },
   "401910044:h2h:away": {
    "id": "401910044:h2h:away",
@@ -3895,9 +3909,11 @@
    "close_fair_p": 0.1475,
    "close_price": 7.0,
    "close_at": "2026-11-24T01:26:35.823737+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -0.91,
+   "clv": 0.0325,
+   "final": "UTAH 94 - LAL 109",
+   "flat_profit": -1.0
   },
   "401910045:h2h:home": {
    "id": "401910045:h2h:home",
@@ -3922,9 +3938,11 @@
    "close_fair_p": 0.2538,
    "close_price": 5.25,
    "close_at": "2026-11-24T01:26:35.823737+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -0.91,
+   "clv": 0.6243,
+   "final": "SA 123 - SAC 107",
+   "flat_profit": -1.0
   },
   "401910040:spreads:home": {
    "id": "401910040:spreads:home",
@@ -3949,6 +3967,62 @@
    "close_fair_p": 0.5032,
    "close_price": 1.9,
    "close_at": "2026-11-24T00:00:19.737930+00:00",
+   "result": "win",
+   "profit_units": 0.234,
+   "clv": -0.0439,
+   "final": "BKN 116 - MIN 142",
+   "flat_profit": 0.9
+  },
+  "401909314:totals:over": {
+   "id": "401909314:totals:over",
+   "game_id": "401909314",
+   "date": "2026-11-24",
+   "tip": "2026-11-25T00:00:00+00:00",
+   "matchup": "DET @ ORL",
+   "market": "totals",
+   "side": "over",
+   "label": "Over 212.5",
+   "line": 212.5,
+   "price": 1.9,
+   "book": "PlayUp",
+   "model_p": 0.6451,
+   "blend_p": 0.5876,
+   "fair_p": 0.5013,
+   "edge": 0.0863,
+   "ev": 0.1165,
+   "stake_pct": 0.02,
+   "flagged_at": "2026-11-24T20:41:24.417973+00:00",
+   "close_line": 212.5,
+   "close_fair_p": 0.5013,
+   "close_price": 1.9,
+   "close_at": "2026-11-24T20:41:24.417973+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  "401909316:h2h:away": {
+   "id": "401909316:h2h:away",
+   "game_id": "401909316",
+   "date": "2026-11-24",
+   "tip": "2026-11-25T03:00:00+00:00",
+   "matchup": "DAL @ DEN",
+   "market": "h2h",
+   "side": "away",
+   "label": "DAL",
+   "line": null,
+   "price": 3.55,
+   "book": "Unibet",
+   "model_p": 0.3552,
+   "blend_p": 0.3251,
+   "fair_p": 0.2798,
+   "edge": 0.0453,
+   "ev": 0.154,
+   "stake_pct": 0.0151,
+   "flagged_at": "2026-11-24T20:41:24.417973+00:00",
+   "close_line": null,
+   "close_fair_p": 0.2798,
+   "close_price": 3.55,
+   "close_at": "2026-11-24T20:41:24.417973+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
