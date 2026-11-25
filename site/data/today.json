@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-11-25T20:38:22.441179+00:00",
- "generated_local": "Thu 26 Nov, 6:38am",
- "mode": "pretip",
+ "generated_at": "2026-11-25T20:43:03.703098+00:00",
+ "generated_local": "Thu 26 Nov, 6:43am",
+ "mode": "morning",
  "timezone": "Australia/Brisbane",
  "slate_date": "2026-11-25",
  "sources": {
   "schedule": {
    "ok": true,
-   "updated": "2026-11-25T20:38:22.441179+00:00",
+   "updated": "2026-11-25T20:43:03.703098+00:00",
    "message": "1651 games loaded"
   },
   "box_scores": {
    "ok": true,
-   "updated": "2026-11-25T20:38:22.441179+00:00",
+   "updated": "2026-11-25T20:43:03.703098+00:00",
    "message": "261 games of player data"
   },
   "injuries": {
    "ok": true,
-   "updated": "2026-11-25T20:38:22.441179+00:00",
+   "updated": "2026-11-25T20:43:03.703098+00:00",
    "message": "95 players listed"
   },
   "odds": {
    "ok": true,
-   "updated": "2026-11-25T20:38:22.441179+00:00",
-   "remaining": "284",
+   "updated": "2026-11-25T20:43:03.703098+00:00",
+   "remaining": "281",
    "message": "9 events"
   }
  },
@@ -461,12 +461,12 @@
        "label": "PHI",
        "line": null,
        "model_p": 0.4469,
-       "market_p": 0.4698,
-       "blend_p": 0.456,
-       "edge": -0.0138,
+       "market_p": 0.4803,
+       "blend_p": 0.4602,
+       "edge": -0.0201,
        "best_price": 2.05,
-       "best_book": "SportsBet",
-       "ev": -0.0651,
+       "best_book": "Picklebet (AU)",
+       "ev": -0.0565,
        "kelly": 0.0,
        "n_books": 13
       },
@@ -475,13 +475,13 @@
        "label": "MIA",
        "line": null,
        "model_p": 0.5531,
-       "market_p": 0.5302,
-       "blend_p": 0.544,
-       "edge": 0.0138,
+       "market_p": 0.5197,
+       "blend_p": 0.5398,
+       "edge": 0.0201,
        "best_price": 1.94,
        "best_book": "Betfair",
-       "ev": 0.0553,
-       "kelly": 0.0588,
+       "ev": 0.0471,
+       "kelly": 0.0501,
        "n_books": 13
       }
      ],
@@ -489,9 +489,9 @@
       "side": "away",
       "label": "MIA",
       "line": null,
-      "verdict": "Pass",
-      "edge": 0.0138,
-      "ev": 0.0553,
+      "verdict": "Lean",
+      "edge": 0.0201,
+      "ev": 0.0471,
       "price": 1.94,
       "book": "Betfair",
       "stake_pct": 0.0,
@@ -511,10 +511,10 @@
        "blend_p": 0.4967,
        "edge": -0.0033,
        "best_price": 1.92,
-       "best_book": "SportsBet",
+       "best_book": "PlayUp",
        "ev": -0.0463,
        "kelly": 0.0,
-       "n_books": 5
+       "n_books": 6
       },
       {
        "side": "away",
@@ -525,10 +525,10 @@
        "blend_p": 0.5033,
        "edge": 0.0033,
        "best_price": 1.9,
-       "best_book": "Unibet",
+       "best_book": "SportsBet",
        "ev": -0.0438,
        "kelly": 0.0,
-       "n_books": 5
+       "n_books": 6
       }
      ],
      "pick": {
@@ -539,7 +539,7 @@
       "edge": 0.0033,
       "ev": -0.0438,
       "price": 1.9,
-      "book": "Unibet",
+      "book": "SportsBet",
       "stake_pct": 0.0,
       "reason": ""
      }
@@ -600,12 +600,12 @@
      "at": "2026-11-25T20:38:22.441179+00:00"
     },
     "now": {
-     "home_p": 0.4698,
+     "home_p": 0.4803,
      "spread": 1.5,
      "total": 238.5
     }
    },
-   "odds_updated": "2026-11-25T20:39:11Z"
+   "odds_updated": "2026-11-25T20:43:43Z"
   },
   {
    "id": "401909318",
@@ -1233,7 +1233,7 @@
      "total": 219.5
     }
    },
-   "odds_updated": "2026-11-25T20:39:11Z"
+   "odds_updated": "2026-11-25T20:43:43Z"
   },
   {
    "id": "401909319",
@@ -1734,9 +1734,9 @@
        "market_p": 0.4574,
        "blend_p": 0.404,
        "edge": -0.0534,
-       "best_price": 2.2,
+       "best_price": 2.18,
        "best_book": "Betfair",
-       "ev": -0.1112,
+       "ev": -0.1193,
        "kelly": 0.0,
        "n_books": 13
       }
@@ -1863,7 +1863,7 @@
      "total": 216.5
     }
    },
-   "odds_updated": "2026-11-25T20:39:11Z"
+   "odds_updated": "2026-11-25T20:43:43Z"
   },
   {
    "id": "401909320",
@@ -2372,9 +2372,9 @@
        "market_p": 0.5325,
        "blend_p": 0.5157,
        "edge": -0.0168,
-       "best_price": 1.83,
-       "best_book": "Unibet",
-       "ev": -0.0563,
+       "best_price": 1.82,
+       "best_book": "Betfair",
+       "ev": -0.0615,
        "kelly": 0.0,
        "n_books": 13
       },
@@ -2386,10 +2386,10 @@
        "market_p": 0.4675,
        "blend_p": 0.4843,
        "edge": 0.0168,
-       "best_price": 2.2,
+       "best_price": 2.18,
        "best_book": "Betfair",
-       "ev": 0.0655,
-       "kelly": 0.0546,
+       "ev": 0.0558,
+       "kelly": 0.0473,
        "n_books": 13
       }
      ],
@@ -2399,8 +2399,8 @@
       "line": null,
       "verdict": "Lean",
       "edge": 0.0168,
-      "ev": 0.0655,
-      "price": 2.2,
+      "ev": 0.0558,
+      "price": 2.18,
       "book": "Betfair",
       "stake_pct": 0.0,
       "reason": ""
@@ -2418,9 +2418,9 @@
        "market_p": 0.5092,
        "blend_p": 0.4777,
        "edge": -0.0315,
-       "best_price": 1.9,
+       "best_price": 1.91,
        "best_book": "Unibet",
-       "ev": -0.0924,
+       "ev": -0.0876,
        "kelly": 0.0,
        "n_books": 5
       },
@@ -2513,7 +2513,7 @@
      "total": 221.5
     }
    },
-   "odds_updated": "2026-11-25T20:39:11Z"
+   "odds_updated": "2026-11-25T20:43:43Z"
   },
   {
    "id": "401909321",
@@ -3133,7 +3133,7 @@
      "total": 227.5
     }
    },
-   "odds_updated": "2026-11-25T20:39:11Z"
+   "odds_updated": "2026-11-25T20:43:43Z"
   },
   {
    "id": "401909322",
@@ -3698,7 +3698,7 @@
      "total": 234.5
     }
    },
-   "odds_updated": "2026-11-25T20:39:11Z"
+   "odds_updated": "2026-11-25T20:43:43Z"
   },
   {
    "id": "401909323",
@@ -4257,7 +4257,7 @@
      "total": 222.5
     }
    },
-   "odds_updated": "2026-11-25T20:39:11Z"
+   "odds_updated": "2026-11-25T20:43:43Z"
   },
   {
    "id": "401909324",
@@ -4875,7 +4875,7 @@
      "total": 216.5
     }
    },
-   "odds_updated": "2026-11-25T20:39:11Z"
+   "odds_updated": "2026-11-25T20:43:43Z"
   },
   {
    "id": "401909325",
@@ -5370,10 +5370,10 @@
        "market_p": 0.4081,
        "blend_p": 0.5909,
        "edge": 0.1828,
-       "best_price": 2.42,
+       "best_price": 2.5,
        "best_book": "Betfair",
-       "ev": 0.43,
-       "kelly": 0.3028,
+       "ev": 0.4773,
+       "kelly": 0.3182,
        "n_books": 13
       },
       {
@@ -5384,9 +5384,9 @@
        "market_p": 0.5919,
        "blend_p": 0.4091,
        "edge": -0.1828,
-       "best_price": 1.7,
-       "best_book": "Betfair",
-       "ev": -0.3045,
+       "best_price": 1.65,
+       "best_book": "TAB",
+       "ev": -0.325,
        "kelly": 0.0,
        "n_books": 13
       }
@@ -5397,8 +5397,8 @@
       "line": null,
       "verdict": "Value bet",
       "edge": 0.1828,
-      "ev": 0.43,
-      "price": 2.42,
+      "ev": 0.4773,
+      "price": 2.5,
       "book": "Betfair",
       "stake_pct": 0.0119,
       "reason": ""
@@ -5514,7 +5514,7 @@
      "total": 225.5
     }
    },
-   "odds_updated": "2026-11-25T20:39:11Z"
+   "odds_updated": "2026-11-25T20:43:43Z"
   }
  ],
  "settings": {
