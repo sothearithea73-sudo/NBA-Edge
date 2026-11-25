@@ -1,720 +1,76 @@
 {
- "generated_at": "2026-11-25T01:30:47.891817+00:00",
- "generated_local": "Wed 25 Nov, 11:30am",
+ "generated_at": "2026-11-25T20:38:22.441179+00:00",
+ "generated_local": "Thu 26 Nov, 6:38am",
  "mode": "pretip",
  "timezone": "Australia/Brisbane",
- "slate_date": "2026-11-24",
+ "slate_date": "2026-11-25",
  "sources": {
   "schedule": {
    "ok": true,
-   "updated": "2026-11-25T01:30:47.891817+00:00",
+   "updated": "2026-11-25T20:38:22.441179+00:00",
    "message": "1651 games loaded"
   },
   "box_scores": {
    "ok": true,
-   "updated": "2026-11-25T01:30:47.891817+00:00",
-   "message": "258 games of player data"
+   "updated": "2026-11-25T20:38:22.441179+00:00",
+   "message": "261 games of player data"
   },
   "injuries": {
    "ok": true,
-   "updated": "2026-11-25T01:30:47.891817+00:00",
-   "message": "94 players listed"
+   "updated": "2026-11-25T20:38:22.441179+00:00",
+   "message": "95 players listed"
   },
   "odds": {
    "ok": true,
-   "updated": "2026-11-25T01:30:47.891817+00:00",
-   "remaining": "287",
-   "message": "7 events"
+   "updated": "2026-11-25T20:38:22.441179+00:00",
+   "remaining": "284",
+   "message": "9 events"
   }
  },
- "warnings": [],
+ "warnings": [
+  "Stakes scaled to 59% to stay under the daily exposure limit."
+ ],
  "games": [
   {
-   "id": "401909314",
-   "tip_utc": "2026-11-25T00:00:00+00:00",
-   "tip_local": "Wed 25 Nov, 10:00am",
-   "et_date": "2026-11-24",
-   "state": "in",
-   "status_text": "8:04 - 3rd",
-   "score": "55-42",
+   "id": "401909317",
+   "tip_utc": "2026-11-25T22:00:00+00:00",
+   "tip_local": "Thu 26 Nov, 8:00am",
+   "et_date": "2026-11-25",
+   "state": "pre",
+   "status_text": "11/25 - 5:00 PM EST",
+   "score": null,
    "home": {
-    "abbr": "ORL",
-    "name": "Orlando Magic",
+    "abbr": "PHI",
+    "name": "Philadelphia 76ers",
     "colors": [
-     "#0077C0",
-     "#C4CED4"
+     "#006BB6",
+     "#ED174C"
     ],
     "stats": {
-     "record": "7-9",
-     "last10": "5-5",
-     "last10_margin": -1.2,
-     "pace": 99.6,
-     "ortg": 109.2,
-     "drtg": 113.4,
-     "adj_off": -2.7,
-     "adj_def": 0.2,
-     "adj_net": -2.5,
-     "games": 16
-    },
-    "injuries": [
-     {
-      "name": "Jonathan Isaac",
-      "status": "out",
-      "detail": "Isaac (knee) is out for Sunday's game against the Wizards.",
-      "impact": 0.0,
-      "exp_min": 0,
-      "note": "No minutes this season"
-     },
-     {
-      "name": "Izaiyah Nelson",
-      "status": "out",
-      "detail": "Head coach Sean Sweeney said Wednesday that Nelson (ankle) has been doing \"some on-court stuff,\" though Sweeney added that the work has been \"minimal,\" Jason Beede of the Orlando Sentinel reports.",
-      "impact": 0.0,
-      "exp_min": 0,
-      "note": "No minutes this season"
-     },
-     {
-      "name": "Noah Penda",
-      "status": "out",
-      "detail": "Penda (hamstring) is making progress but remains without a timetable to return to game action, Jason Beede of the Orlando Sentinel reports.",
-      "impact": 0.0,
-      "exp_min": 0,
-      "note": "No minutes this season"
-     },
-     {
-      "name": "Paolo Banchero",
-      "status": "out",
-      "detail": "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high-ankle sprain, Shams Charania of ESPN reports.",
-      "impact": 0.04,
-      "exp_min": 26,
-      "note": ""
-     }
-    ],
-    "lineup": [
-     {
-      "name": "Franz Wagner",
-      "note": ""
-     },
-     {
-      "name": "Wendell Carter Jr.",
-      "note": ""
-     },
-     {
-      "name": "Desmond Bane",
-      "note": ""
-     },
-     {
-      "name": "Jalen Suggs",
-      "note": ""
-     },
-     {
-      "name": "Anthony Black",
-      "note": ""
-     }
-    ],
-    "roster": [
-     {
-      "name": "Franz Wagner",
-      "jersey": "22",
-      "mpg": 36.9,
-      "onoff": 17.62,
-      "impact": 6.68,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Desmond Bane",
-      "jersey": "3",
-      "mpg": 34.9,
-      "onoff": 11.74,
-      "impact": 3.98,
-      "played_share": 0.93,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Anthony Black",
-      "jersey": "0",
-      "mpg": 33.2,
-      "onoff": 4.49,
-      "impact": 1.3,
-      "played_share": 0.87,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Wendell Carter Jr.",
-      "jersey": "34",
-      "mpg": 32.1,
-      "onoff": 2.44,
-      "impact": 0.75,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Tristan da Silva",
-      "jersey": "23",
-      "mpg": 29.7,
-      "onoff": -1.17,
-      "impact": -0.29,
-      "played_share": 0.87,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Jalen Suggs",
-      "jersey": "4",
-      "mpg": 28.1,
-      "onoff": -4.01,
-      "impact": -0.65,
-      "played_share": 0.47,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Paolo Banchero",
-      "jersey": "5",
-      "mpg": 26,
-      "onoff": -11.2,
-      "impact": -0.61,
-      "played_share": 0.07,
-      "status": "out",
-      "detail": "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high-ankle sprain, Shams Charania of ESPN reports."
-     },
-     {
-      "name": "Jase Richardson",
-      "jersey": "11",
-      "mpg": 20.9,
-      "onoff": -1.78,
-      "impact": -0.22,
-      "played_share": 0.73,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Jamal Cain",
-      "jersey": "8",
-      "mpg": 16.4,
-      "onoff": -16.65,
-      "impact": -1.56,
-      "played_share": 0.87,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Jevon Carter",
-      "jersey": "2",
-      "mpg": 14.3,
-      "onoff": -8.37,
-      "impact": -0.56,
-      "played_share": 0.8,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Goga Bitadze",
-      "jersey": "35",
-      "mpg": 13.2,
-      "onoff": 16.33,
-      "impact": 1.06,
-      "played_share": 0.87,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Nikola Vucevic",
-      "jersey": "9",
-      "mpg": 11.9,
-      "onoff": -21.69,
-      "impact": -1.13,
-      "played_share": 0.87,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Alex Morales",
-      "jersey": "30",
-      "mpg": 11.9,
-      "onoff": 2.15,
-      "impact": 0.08,
-      "played_share": 0.6,
-      "status": "available",
-      "detail": ""
-     }
-    ],
-    "injury_adj": -0.26
-   },
-   "away": {
-    "abbr": "DET",
-    "name": "Detroit Pistons",
-    "colors": [
-     "#C8102E",
-     "#1D42BA"
-    ],
-    "stats": {
-     "record": "10-6",
-     "last10": "5-5",
-     "last10_margin": 2.9,
-     "pace": 99.9,
-     "ortg": 113.4,
-     "drtg": 108.6,
-     "adj_off": -0.6,
-     "adj_def": 4.3,
-     "adj_net": 3.7,
-     "games": 16
-    },
-    "injuries": [
-     {
-      "name": "Duncan Robinson",
-      "status": "out",
-      "detail": "Robinson (quadriceps) is considered day-to-day as he progresses in his rehab, Eric Vincent of ClutchPoints.com reports.",
-      "impact": -2.42,
-      "exp_min": 30.8,
-      "note": ""
-     },
-     {
-      "name": "Ebuka Okorie",
-      "status": "out",
-      "detail": "The Pistons announced Tuesday that Okorie (oblique) will miss at least two weeks, per Eric Vincent of ClutchPoints.com.",
-      "impact": -0.01,
-      "exp_min": 4.2,
-      "note": ""
-     },
-     {
-      "name": "Jalen Duren",
-      "status": "out",
-      "detail": "Duren (hamstring) is being assigned to the Motor City Cruise on Wednesday for practice as he ramps up for a return, Eric Vincent of ClutchPoints.com reports.",
-      "impact": -0.01,
-      "exp_min": 10,
-      "note": ""
-     },
-     {
-      "name": "Taurean Prince",
-      "status": "out",
-      "detail": "Prince underwent arthroscopic right knee surgery Nov. 18 and will be re-evaluated in four weeks, Eric Vincent of ClutchPoints.com reports.",
-      "impact": 0.02,
-      "exp_min": 7,
-      "note": ""
-     },
-     {
-      "name": "Cade Cunningham",
-      "status": "out",
-      "detail": "Cunningham (knee) is listed as out for Tuesday's game against Orlando.",
-      "impact": 2.02,
-      "exp_min": 34.9,
-      "note": ""
-     }
-    ],
-    "lineup": [
-     {
-      "name": "John Collins",
-      "note": ""
-     },
-     {
-      "name": "Kevin Huerter",
-      "note": ""
-     },
-     {
-      "name": "Ausar Thompson",
-      "note": ""
-     },
-     {
-      "name": "Daniss Jenkins",
-      "note": ""
-     },
-     {
-      "name": "Paul Reed",
-      "note": "in for Cade Cunningham"
-     }
-    ],
-    "roster": [
-     {
-      "name": "Cade Cunningham",
-      "jersey": "2",
-      "mpg": 34.9,
-      "onoff": -6.39,
-      "impact": -2.17,
-      "played_share": 0.93,
-      "status": "out",
-      "detail": "Cunningham (knee) is listed as out for Tuesday's game against Orlando."
-     },
-     {
-      "name": "Daniss Jenkins",
-      "jersey": "24",
-      "mpg": 31.5,
-      "onoff": 9.17,
-      "impact": 2.69,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Duncan Robinson",
-      "jersey": "55",
-      "mpg": 30.8,
-      "onoff": 13.53,
-      "impact": 3.3,
-      "played_share": 0.73,
-      "status": "out",
-      "detail": "Robinson (quadriceps) is considered day-to-day as he progresses in his rehab, Eric Vincent of ClutchPoints.com reports."
-     },
-     {
-      "name": "Ausar Thompson",
-      "jersey": "9",
-      "mpg": 29,
-      "onoff": -1.6,
-      "impact": -0.41,
-      "played_share": 0.93,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Kevin Huerter",
-      "jersey": "27",
-      "mpg": 27.5,
-      "onoff": -1.65,
-      "impact": -0.4,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Paul Reed",
-      "jersey": "7",
-      "mpg": 26.9,
-      "onoff": 15.5,
-      "impact": 3.57,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "John Collins",
-      "jersey": "20",
-      "mpg": 25.7,
-      "onoff": -16.2,
-      "impact": -3.52,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Javonte Green",
-      "jersey": "31",
-      "mpg": 18.9,
-      "onoff": 9.9,
-      "impact": 1.31,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Ronald Holland II",
-      "jersey": "5",
-      "mpg": 16.5,
-      "onoff": -19.59,
-      "impact": -1.69,
-      "played_share": 0.8,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Isaiah Joe",
-      "jersey": "17",
-      "mpg": 16.4,
-      "onoff": -3.81,
-      "impact": -0.19,
-      "played_share": 0.33,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Jalen Duren",
-      "jersey": "0",
-      "mpg": 10,
-      "onoff": 9.62,
-      "impact": 0.12,
-      "played_share": 0.07,
-      "status": "out",
-      "detail": "Duren (hamstring) is being assigned to the Motor City Cruise on Wednesday for practice as he ramps up for a return, Eric Vincent of ClutchPoints.com reports."
-     },
-     {
-      "name": "Chaz Lanier",
-      "jersey": "8",
-      "mpg": 8.7,
-      "onoff": 11.93,
-      "impact": 0.2,
-      "played_share": 0.47,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Taurean Prince",
-      "jersey": "12",
-      "mpg": 7,
-      "onoff": -21.32,
-      "impact": -0.11,
-      "played_share": 0.2,
-      "status": "out",
-      "detail": "Prince underwent arthroscopic right knee surgery Nov. 18 and will be re-evaluated in four weeks, Eric Vincent of ClutchPoints.com reports."
-     }
-    ],
-    "injury_adj": -0.82
-   },
-   "projection": {
-    "base_margin": -4.43,
-    "home_court": 1.82,
-    "adjustments": [
-     {
-      "label": "ORL travelled 1,220 km on short rest",
-      "pts": -0.37,
-      "favours": "DET",
-      "size": 0.37
-     },
-     {
-      "label": "DET travelled 647 km on short rest",
-      "pts": 0.19,
-      "favours": "ORL",
-      "size": 0.19
-     },
-     {
-      "label": "ORL injuries / lineup",
-      "pts": -0.26,
-      "favours": "DET",
-      "size": 0.26
-     },
-     {
-      "label": "DET injuries / lineup",
-      "pts": 0.82,
-      "favours": "ORL",
-      "size": 0.82
-     }
-    ],
-    "margin": -4.05,
-    "total": 219.4,
-    "home_pts": 107.7,
-    "away_pts": 111.7,
-    "margin_lo": -20.1,
-    "margin_hi": 12.0,
-    "total_lo": 196.4,
-    "total_hi": 242.5,
-    "home_win_p": 0.373,
-    "interval": 0.8
-   },
-   "markets": [
-    {
-     "market": "h2h",
-     "title": "Moneyline",
-     "sides": [
-      {
-       "side": "home",
-       "label": "ORL",
-       "line": null,
-       "model_p": 0.373,
-       "market_p": 0.2595,
-       "blend_p": 0.3276,
-       "edge": 0.0681,
-       "best_price": 4.1,
-       "best_book": "Unibet",
-       "ev": 0.343,
-       "kelly": 0.1106,
-       "n_books": 6
-      },
-      {
-       "side": "away",
-       "label": "DET",
-       "line": null,
-       "model_p": 0.627,
-       "market_p": 0.7405,
-       "blend_p": 0.6724,
-       "edge": -0.0681,
-       "best_price": 1.36,
-       "best_book": "Betfair",
-       "ev": -0.0855,
-       "kelly": 0.0,
-       "n_books": 6
-      }
-     ],
-     "pick": {
-      "side": "home",
-      "label": "ORL",
-      "line": null,
-      "verdict": "No pick",
-      "edge": 0.0681,
-      "ev": 0.343,
-      "price": 4.1,
-      "book": "Unibet",
-      "stake_pct": 0.0,
-      "reason": "Game has started"
-     }
-    },
-    {
-     "market": "spreads",
-     "title": "Spread",
-     "sides": [
-      {
-       "side": "home",
-       "label": "ORL +7.5",
-       "line": 7.5,
-       "model_p": 0.6087,
-       "market_p": 0.4939,
-       "blend_p": 0.5628,
-       "edge": 0.0689,
-       "best_price": 1.95,
-       "best_book": "SportsBet",
-       "ev": 0.0975,
-       "kelly": 0.1026,
-       "n_books": 4
-      },
-      {
-       "side": "away",
-       "label": "DET -7.5",
-       "line": -7.5,
-       "model_p": 0.3913,
-       "market_p": 0.5061,
-       "blend_p": 0.4372,
-       "edge": -0.0689,
-       "best_price": 1.91,
-       "best_book": "TABtouch",
-       "ev": -0.1649,
-       "kelly": 0.0,
-       "n_books": 4
-      }
-     ],
-     "pick": {
-      "side": "home",
-      "label": "ORL +7.5",
-      "line": 7.5,
-      "verdict": "No pick",
-      "edge": 0.0689,
-      "ev": 0.0975,
-      "price": 1.95,
-      "book": "SportsBet",
-      "stake_pct": 0.0,
-      "reason": "Game has started"
-     }
-    },
-    {
-     "market": "totals",
-     "title": "Total",
-     "sides": [
-      {
-       "side": "over",
-       "label": "Over 183.5",
-       "line": 183.5,
-       "model_p": 0.9769,
-       "market_p": 0.4919,
-       "blend_p": 0.7829,
-       "edge": 0.291,
-       "best_price": 1.91,
-       "best_book": "TABtouch",
-       "ev": 0.4954,
-       "kelly": 0.5444,
-       "n_books": 2
-      },
-      {
-       "side": "under",
-       "label": "Under 183.5",
-       "line": 183.5,
-       "model_p": 0.0231,
-       "market_p": 0.5081,
-       "blend_p": 0.2171,
-       "edge": -0.291,
-       "best_price": 1.87,
-       "best_book": "PointsBet (AU)",
-       "ev": -0.5941,
-       "kelly": 0.0,
-       "n_books": 2
-      }
-     ],
-     "pick": {
-      "side": "over",
-      "label": "Over 183.5",
-      "line": 183.5,
-      "verdict": "No pick",
-      "edge": 0.291,
-      "ev": 0.4954,
-      "price": 1.91,
-      "book": "TABtouch",
-      "stake_pct": 0.0,
-      "reason": "Game has started"
-     }
-    }
-   ],
-   "warnings": [],
-   "movement": {
-    "open": {
-     "home_p": 0.4525,
-     "spread": 2.5,
-     "total": 212.5,
-     "at": "2026-11-24T20:41:24.417973+00:00"
-    },
-    "now": {
-     "home_p": 0.2595,
-     "spread": 7.5,
-     "total": 183.5
-    }
-   },
-   "odds_updated": "2026-11-25T01:31:21Z"
-  },
-  {
-   "id": "401909315",
-   "tip_utc": "2026-11-25T01:00:00+00:00",
-   "tip_local": "Wed 25 Nov, 11:00am",
-   "et_date": "2026-11-24",
-   "state": "in",
-   "status_text": "5:10 - 1st",
-   "score": "21-14",
-   "home": {
-    "abbr": "WSH",
-    "name": "Washington Wizards",
-    "colors": [
-     "#002B5C",
-     "#E31837"
-    ],
-    "stats": {
-     "record": "7-11",
-     "last10": "3-7",
-     "last10_margin": -9.0,
-     "pace": 101.0,
-     "ortg": 109.3,
-     "drtg": 114.3,
-     "adj_off": -2.3,
-     "adj_def": -3.3,
-     "adj_net": -5.6,
+     "record": "14-4",
+     "last10": "7-3",
+     "last10_margin": -1.3,
+     "pace": 100.9,
+     "ortg": 114.2,
+     "drtg": 112.4,
+     "adj_off": 1.6,
+     "adj_def": -1.6,
+     "adj_net": 0.0,
      "games": 18
     },
     "injuries": [
      {
-      "name": "Justin Champagnie",
+      "name": "Joel Embiid",
       "status": "out",
-      "detail": "Champagnie (foot) is expected to miss several months, per Josh Robbins of The Athletic.",
-      "impact": -0.02,
-      "exp_min": 4,
+      "detail": "Embiid (illness) is out for Wednesday's game against Miami, Ira Winderman of the South Florida Sun Sentinel reports.",
+      "impact": -1.86,
+      "exp_min": 31.4,
       "note": ""
      },
      {
-      "name": "Tristan Vukcevic",
+      "name": "Ariel Hukporti",
       "status": "out",
-      "detail": "Vukcevic (hip) has been ruled out for Tuesday's game against Boston.",
-      "impact": 0.0,
-      "exp_min": 0,
-      "note": "No minutes this season"
-     },
-     {
-      "name": "Reece Beekman",
-      "status": "out",
-      "detail": "The Wizards announced Monday that Beekman sustained a right acromioclavicular joint injury and will be re-evaluated in approximately three weeks.",
-      "impact": 0.0,
-      "exp_min": 1.0,
-      "note": "Out for a while - already reflected in team ratings"
-     },
-     {
-      "name": "Jamir Watkins",
-      "status": "out",
-      "detail": "The Wizards announced Thursday that Watkins has undergone surgery for a torn ACL.",
+      "detail": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.",
       "impact": 0.0,
       "exp_min": 0,
       "note": "No minutes this season"
@@ -722,383 +78,377 @@
     ],
     "lineup": [
      {
-      "name": "Anthony Davis",
+      "name": "LeBron James",
       "note": ""
      },
      {
-      "name": "AJ Dybantsa",
+      "name": "Jabari Walker",
       "note": ""
      },
      {
-      "name": "Kyshawn George",
+      "name": "Jaylen Brown",
       "note": ""
      },
      {
-      "name": "Alex Sarr",
+      "name": "Tyrese Maxey",
       "note": ""
      },
      {
-      "name": "Trae Young",
+      "name": "VJ Edgecombe",
       "note": ""
      }
     ],
     "roster": [
      {
-      "name": "Kyshawn George",
-      "jersey": "18",
-      "mpg": 34.6,
-      "onoff": 12.87,
-      "impact": 4.68,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Anthony Davis",
-      "jersey": "23",
-      "mpg": 34.4,
-      "onoff": 9.71,
-      "impact": 3.31,
-      "played_share": 0.87,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Trae Young",
-      "jersey": "3",
-      "mpg": 34.3,
-      "onoff": -0.58,
-      "impact": -0.21,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "AJ Dybantsa",
-      "jersey": "4",
-      "mpg": 33.9,
-      "onoff": 2.72,
-      "impact": 0.85,
-      "played_share": 0.93,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Alex Sarr",
-      "jersey": "20",
-      "mpg": 27.3,
-      "onoff": -2.59,
-      "impact": -0.63,
-      "played_share": 0.93,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Bilal Coulibaly",
+      "name": "Tyrese Maxey",
       "jersey": "0",
-      "mpg": 24.6,
-      "onoff": -7.88,
-      "impact": -1.67,
+      "mpg": 35.4,
+      "onoff": -3.07,
+      "impact": -1.14,
       "played_share": 0.93,
       "status": "available",
       "detail": ""
      },
      {
-      "name": "Tre Johnson",
-      "jersey": "12",
-      "mpg": 20.2,
-      "onoff": -2.0,
-      "impact": -0.3,
+      "name": "VJ Edgecombe",
+      "jersey": "77",
+      "mpg": 34.6,
+      "onoff": 13.59,
+      "impact": 4.83,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jaylen Brown",
+      "jersey": "7",
+      "mpg": 33.9,
+      "onoff": 1.23,
+      "impact": 0.4,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "LeBron James",
+      "jersey": "23",
+      "mpg": 32.2,
+      "onoff": -6.53,
+      "impact": -1.89,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Joel Embiid",
+      "jersey": "21",
+      "mpg": 31.4,
+      "onoff": 9.1,
+      "impact": 2.54,
+      "played_share": 0.73,
+      "status": "out",
+      "detail": "Embiid (illness) is out for Wednesday's game against Miami, Ira Winderman of the South Florida Sun Sentinel reports."
+     },
+     {
+      "name": "Dean Wade",
+      "jersey": "45",
+      "mpg": 26.7,
+      "onoff": -2.11,
+      "impact": -0.45,
       "played_share": 0.87,
       "status": "available",
       "detail": ""
      },
      {
-      "name": "Khris Middleton",
-      "jersey": "22",
-      "mpg": 17,
-      "onoff": -5.38,
-      "impact": -0.41,
-      "played_share": 0.53,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Bub Carrington",
-      "jersey": "7",
-      "mpg": 15.8,
-      "onoff": -7.35,
-      "impact": -0.75,
-      "played_share": 0.93,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Deandre Ayton",
-      "jersey": "8",
-      "mpg": 12,
-      "onoff": -7.92,
-      "impact": -0.54,
+      "name": "Kentavious Caldwell-Pope",
+      "jersey": "1",
+      "mpg": 22.9,
+      "onoff": 2.64,
+      "impact": 0.52,
       "played_share": 1.0,
       "status": "available",
       "detail": ""
      },
      {
-      "name": "Will Riley",
-      "jersey": "27",
-      "mpg": 7.8,
-      "onoff": -14.24,
-      "impact": -0.35,
-      "played_share": 0.87,
+      "name": "Anfernee Simons",
+      "jersey": "5",
+      "mpg": 22.9,
+      "onoff": -5.68,
+      "impact": -1.09,
+      "played_share": 1.0,
       "status": "available",
       "detail": ""
      },
      {
-      "name": "Tre Mann",
-      "jersey": "1",
-      "mpg": 5.7,
-      "onoff": -10.73,
-      "impact": -0.08,
+      "name": "Jabari Walker",
+      "jersey": "33",
+      "mpg": 16.5,
+      "onoff": 0.72,
+      "impact": 0.06,
+      "played_share": 0.73,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Adem Bona",
+      "jersey": "30",
+      "mpg": 14.1,
+      "onoff": -9.42,
+      "impact": -0.5,
       "played_share": 0.47,
       "status": "available",
       "detail": ""
      },
      {
-      "name": "Anthony Gill",
-      "jersey": "16",
-      "mpg": 4.4,
-      "onoff": 11.56,
-      "impact": 0.04,
-      "played_share": 0.33,
+      "name": "Dominick Barlow",
+      "jersey": "25",
+      "mpg": 13.5,
+      "onoff": -18.41,
+      "impact": -0.22,
+      "played_share": 0.13,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Labaron Philon Jr.",
+      "jersey": "00",
+      "mpg": 6.8,
+      "onoff": 1.33,
+      "impact": 0.02,
+      "played_share": 0.73,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Tacko Fall",
+      "jersey": "99",
+      "mpg": 4.8,
+      "onoff": 11.04,
+      "impact": 0.03,
+      "played_share": 0.27,
       "status": "available",
       "detail": ""
      }
     ],
-    "injury_adj": -0.02
+    "injury_adj": -2.44
    },
    "away": {
-    "abbr": "BOS",
-    "name": "Boston Celtics",
+    "abbr": "MIA",
+    "name": "Miami Heat",
     "colors": [
-     "#007A33",
-     "#BA9653"
+     "#98002E",
+     "#F9A01B"
     ],
     "stats": {
-     "record": "11-6",
-     "last10": "6-4",
-     "last10_margin": 11.4,
-     "pace": 97.7,
-     "ortg": 113.9,
-     "drtg": 104.5,
-     "adj_off": -2.8,
-     "adj_def": 8.6,
-     "adj_net": 5.9,
-     "games": 17
+     "record": "10-6",
+     "last10": "8-2",
+     "last10_margin": 3.9,
+     "pace": 104.2,
+     "ortg": 115.8,
+     "drtg": 114.6,
+     "adj_off": 6.6,
+     "adj_def": -5.2,
+     "adj_net": 1.4,
+     "games": 16
     },
     "injuries": [
      {
-      "name": "Mitchell Robinson",
-      "status": "out",
-      "detail": "Robinson (illness) is out for Tuesday's game against Washington, Taylor Snow of the Celtics' official site reports.",
-      "impact": 1.92,
-      "exp_min": 17.1,
+      "name": "Giannis Antetokounmpo",
+      "status": "questionable",
+      "detail": "Antetokounmpo (groin) has been upgraded to probable for Wednesday's game against the 76ers.",
+      "impact": -0.74,
+      "exp_min": 32.4,
       "note": ""
      }
     ],
     "lineup": [
      {
-      "name": "Jayson Tatum",
+      "name": "Bobby Portis",
       "note": ""
      },
      {
-      "name": "Sam Hauser",
+      "name": "Bam Adebayo",
       "note": ""
      },
      {
-      "name": "Neemias Queta",
+      "name": "Klay Thompson",
       "note": ""
      },
      {
-      "name": "Derrick White",
+      "name": "Davion Mitchell",
       "note": ""
      },
      {
-      "name": "Hugo Gonzalez",
+      "name": "Pelle Larsson",
       "note": ""
      }
     ],
     "roster": [
      {
-      "name": "Jayson Tatum",
-      "jersey": "0",
-      "mpg": 33.8,
-      "onoff": 3.43,
-      "impact": 1.12,
+      "name": "Davion Mitchell",
+      "jersey": "2",
+      "mpg": 35.6,
+      "onoff": 6.78,
+      "impact": 2.44,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Bam Adebayo",
+      "jersey": "13",
+      "mpg": 32.7,
+      "onoff": 7.22,
+      "impact": 2.29,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Giannis Antetokounmpo",
+      "jersey": "7",
+      "mpg": 32.4,
+      "onoff": 5.7,
+      "impact": 1.71,
+      "played_share": 0.93,
+      "status": "questionable",
+      "detail": "Antetokounmpo (groin) has been upgraded to probable for Wednesday's game against the 76ers."
+     },
+     {
+      "name": "Pelle Larsson",
+      "jersey": "9",
+      "mpg": 28.8,
+      "onoff": -5.37,
+      "impact": -1.23,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Andrew Wiggins",
+      "jersey": "22",
+      "mpg": 26.2,
+      "onoff": -13.23,
+      "impact": -2.97,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Klay Thompson",
+      "jersey": "11",
+      "mpg": 24.6,
+      "onoff": 5.66,
+      "impact": 1.09,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Bobby Portis",
+      "jersey": "95",
+      "mpg": 19.5,
+      "onoff": 6.87,
+      "impact": 0.97,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Ryan Conwell",
+      "jersey": "4",
+      "mpg": 19.5,
+      "onoff": 4.59,
+      "impact": 0.56,
       "played_share": 0.87,
       "status": "available",
       "detail": ""
      },
      {
-      "name": "Paul George",
-      "jersey": "13",
-      "mpg": 29.8,
-      "onoff": 13.18,
-      "impact": 3.37,
-      "played_share": 0.8,
+      "name": "Nikola Jovic",
+      "jersey": "5",
+      "mpg": 11.7,
+      "onoff": -1.94,
+      "impact": -0.08,
+      "played_share": 0.6,
       "status": "available",
       "detail": ""
      },
      {
-      "name": "Derrick White",
-      "jersey": "9",
-      "mpg": 29.4,
-      "onoff": 6.1,
-      "impact": 1.66,
-      "played_share": 0.93,
+      "name": "Myron Gardner",
+      "jersey": "15",
+      "mpg": 10.8,
+      "onoff": 5.19,
+      "impact": 0.17,
+      "played_share": 0.6,
       "status": "available",
       "detail": ""
      },
      {
-      "name": "Payton Pritchard",
-      "jersey": "11",
-      "mpg": 27.5,
-      "onoff": -5.93,
-      "impact": -1.49,
-      "played_share": 1.0,
+      "name": "Simone Fontecchio",
+      "jersey": "0",
+      "mpg": 10,
+      "onoff": -7.28,
+      "impact": -0.2,
+      "played_share": 0.6,
       "status": "available",
       "detail": ""
      },
      {
-      "name": "Neemias Queta",
-      "jersey": "88",
-      "mpg": 23.4,
-      "onoff": 18.82,
-      "impact": 3.52,
-      "played_share": 0.93,
+      "name": "Keshad Johnson",
+      "jersey": "16",
+      "mpg": 2,
+      "onoff": -25.37,
+      "impact": -0.01,
+      "played_share": 0.13,
       "status": "available",
       "detail": ""
      },
      {
-      "name": "Sam Hauser",
-      "jersey": "30",
-      "mpg": 21.1,
-      "onoff": 16.98,
-      "impact": 2.79,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Baylor Scheierman",
-      "jersey": "55",
-      "mpg": 19.6,
-      "onoff": -2.21,
-      "impact": -0.32,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Mitchell Robinson",
-      "jersey": "4",
-      "mpg": 17.1,
-      "onoff": -23.27,
-      "impact": -2.4,
-      "played_share": 0.8,
-      "status": "out",
-      "detail": "Robinson (illness) is out for Tuesday's game against Washington, Taylor Snow of the Celtics' official site reports."
-     },
-     {
-      "name": "Jordan Walsh",
-      "jersey": "27",
-      "mpg": 14.6,
-      "onoff": -17.49,
-      "impact": -1.57,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Hugo Gonzalez",
-      "jersey": "28",
-      "mpg": 14.5,
-      "onoff": -5.72,
-      "impact": -0.48,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Luka Garza",
-      "jersey": "52",
-      "mpg": 13.9,
-      "onoff": 5.13,
-      "impact": 0.4,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Mike Conley",
-      "jersey": "45",
-      "mpg": 11,
-      "onoff": 5.96,
-      "impact": 0.14,
+      "name": "Nick Richards",
+      "jersey": "8",
+      "mpg": 1.8,
+      "onoff": -29.2,
+      "impact": -0.03,
       "played_share": 0.4,
       "status": "available",
       "detail": ""
-     },
-     {
-      "name": "Devin Carter",
-      "jersey": "99",
-      "mpg": 8,
-      "onoff": 15.23,
-      "impact": 0.07,
-      "played_share": 0.13,
-      "status": "available",
-      "detail": ""
      }
     ],
-    "injury_adj": 2.81
+    "injury_adj": -0.93
    },
    "projection": {
-    "base_margin": -9.6,
-    "home_court": 1.82,
+    "base_margin": 0.24,
+    "home_court": 1.66,
     "adjustments": [
      {
-      "label": "BOS playing 3rd game in 4 nights",
-      "pts": 0.8,
-      "favours": "WSH",
-      "size": 0.8
+      "label": "MIA has 1 more day(s) of rest",
+      "pts": -0.4,
+      "favours": "MIA",
+      "size": 0.4
      },
      {
-      "label": "BOS travelled 3,918 km on short rest",
-      "pts": 1.18,
-      "favours": "WSH",
-      "size": 1.18
+      "label": "PHI injuries / lineup",
+      "pts": -2.44,
+      "favours": "MIA",
+      "size": 2.44
      },
      {
-      "label": "BOS crossed 3 time zone(s) on short rest",
-      "pts": 0.75,
-      "favours": "WSH",
-      "size": 0.75
-     },
-     {
-      "label": "BOS injuries / lineup",
-      "pts": -2.81,
-      "favours": "BOS",
-      "size": 2.81
+      "label": "MIA injuries / lineup",
+      "pts": 0.93,
+      "favours": "PHI",
+      "size": 0.93
      }
     ],
-    "margin": -9.71,
-    "total": 217.6,
-    "home_pts": 103.9,
-    "away_pts": 113.6,
-    "margin_lo": -25.7,
-    "margin_hi": 6.3,
-    "total_lo": 194.5,
-    "total_hi": 240.6,
-    "home_win_p": 0.2187,
+    "margin": -1.67,
+    "total": 241.6,
+    "home_pts": 120.0,
+    "away_pts": 121.7,
+    "margin_lo": -17.7,
+    "margin_hi": 14.3,
+    "total_lo": 218.6,
+    "total_hi": 264.7,
+    "home_win_p": 0.4468,
     "interval": 0.8
    },
    "markets": [
@@ -1108,628 +458,43 @@
      "sides": [
       {
        "side": "home",
-       "label": "WSH",
+       "label": "PHI",
        "line": null,
-       "model_p": 0.2186,
-       "market_p": 0.1319,
-       "blend_p": 0.1839,
-       "edge": 0.052,
-       "best_price": 8.2,
-       "best_book": "Betfair",
-       "ev": 0.5083,
-       "kelly": 0.0706,
-       "n_books": 6
-      },
-      {
-       "side": "away",
-       "label": "BOS",
-       "line": null,
-       "model_p": 0.7814,
-       "market_p": 0.8681,
-       "blend_p": 0.8161,
-       "edge": -0.052,
-       "best_price": 1.13,
-       "best_book": "Betfair",
-       "ev": -0.0779,
-       "kelly": 0.0,
-       "n_books": 6
-      }
-     ],
-     "pick": {
-      "side": "home",
-      "label": "WSH",
-      "line": null,
-      "verdict": "No pick",
-      "edge": 0.052,
-      "ev": 0.5083,
-      "price": 8.2,
-      "book": "Betfair",
-      "stake_pct": 0.0,
-      "reason": "Game has started"
-     }
-    },
-    {
-     "market": "spreads",
-     "title": "Spread",
-     "sides": [
-      {
-       "side": "home",
-       "label": "WSH +13.5",
-       "line": 13.5,
-       "model_p": 0.6191,
-       "market_p": 0.4871,
-       "blend_p": 0.5663,
-       "edge": 0.0792,
-       "best_price": 1.9,
-       "best_book": "Unibet",
-       "ev": 0.076,
-       "kelly": 0.0844,
-       "n_books": 2
-      },
-      {
-       "side": "away",
-       "label": "BOS -13.5",
-       "line": -13.5,
-       "model_p": 0.3809,
-       "market_p": 0.5129,
-       "blend_p": 0.4337,
-       "edge": -0.0792,
-       "best_price": 1.79,
-       "best_book": "TABtouch",
-       "ev": -0.2237,
-       "kelly": 0.0,
-       "n_books": 2
-      }
-     ],
-     "pick": {
-      "side": "home",
-      "label": "WSH +13.5",
-      "line": 13.5,
-      "verdict": "No pick",
-      "edge": 0.0792,
-      "ev": 0.076,
-      "price": 1.9,
-      "book": "Unibet",
-      "stake_pct": 0.0,
-      "reason": "Game has started"
-     }
-    },
-    {
-     "market": "totals",
-     "title": "Total",
-     "sides": [
-      {
-       "side": "over",
-       "label": "Over 221.5",
-       "line": 221.5,
-       "model_p": 0.4142,
-       "market_p": 0.5054,
-       "blend_p": 0.4507,
-       "edge": -0.0547,
-       "best_price": 1.95,
-       "best_book": "PointsBet (AU)",
-       "ev": -0.1211,
-       "kelly": 0.0,
-       "n_books": 3
-      },
-      {
-       "side": "under",
-       "label": "Under 221.5",
-       "line": 221.5,
-       "model_p": 0.5858,
-       "market_p": 0.4946,
-       "blend_p": 0.5493,
-       "edge": 0.0547,
-       "best_price": 2.0,
+       "model_p": 0.4469,
+       "market_p": 0.4698,
+       "blend_p": 0.456,
+       "edge": -0.0138,
+       "best_price": 2.05,
        "best_book": "SportsBet",
-       "ev": 0.0986,
-       "kelly": 0.0986,
-       "n_books": 3
-      }
-     ],
-     "pick": {
-      "side": "under",
-      "label": "Under 221.5",
-      "line": 221.5,
-      "verdict": "No pick",
-      "edge": 0.0547,
-      "ev": 0.0986,
-      "price": 2.0,
-      "book": "SportsBet",
-      "stake_pct": 0.0,
-      "reason": "Game has started"
-     }
-    }
-   ],
-   "warnings": [],
-   "movement": {
-    "open": {
-     "home_p": 0.2138,
-     "spread": 10.5,
-     "total": 218.5,
-     "at": "2026-11-24T20:41:24.417973+00:00"
-    },
-    "now": {
-     "home_p": 0.1319,
-     "spread": 13.5,
-     "total": 221.5
-    }
-   },
-   "odds_updated": "2026-11-25T01:31:21Z"
-  },
-  {
-   "id": "401909316",
-   "tip_utc": "2026-11-25T03:00:00+00:00",
-   "tip_local": "Wed 25 Nov, 1:00pm",
-   "et_date": "2026-11-24",
-   "state": "pre",
-   "status_text": "11/24 - 10:00 PM EST",
-   "score": null,
-   "home": {
-    "abbr": "DEN",
-    "name": "Denver Nuggets",
-    "colors": [
-     "#0E2240",
-     "#FEC524"
-    ],
-    "stats": {
-     "record": "10-5",
-     "last10": "7-3",
-     "last10_margin": 3.3,
-     "pace": 100.6,
-     "ortg": 116.3,
-     "drtg": 114.5,
-     "adj_off": 4.0,
-     "adj_def": -1.2,
-     "adj_net": 2.8,
-     "games": 15
-    },
-    "injuries": [],
-    "lineup": [
-     {
-      "name": "Aaron Gordon",
-      "note": ""
-     },
-     {
-      "name": "Cameron Johnson",
-      "note": ""
-     },
-     {
-      "name": "Nikola Jokic",
-      "note": ""
-     },
-     {
-      "name": "Jamal Murray",
-      "note": ""
-     },
-     {
-      "name": "Christian Braun",
-      "note": ""
-     }
-    ],
-    "roster": [
-     {
-      "name": "Nikola Jokic",
-      "jersey": "15",
-      "mpg": 37.1,
-      "onoff": 16.42,
-      "impact": 6.12,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Jamal Murray",
-      "jersey": "27",
-      "mpg": 37,
-      "onoff": 27.08,
-      "impact": 7.0,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Christian Braun",
-      "jersey": "0",
-      "mpg": 33.9,
-      "onoff": 22.35,
-      "impact": 7.0,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Aaron Gordon",
-      "jersey": "32",
-      "mpg": 29.5,
-      "onoff": 10.07,
-      "impact": 2.62,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Cameron Johnson",
-      "jersey": "23",
-      "mpg": 29,
-      "onoff": 10.83,
-      "impact": 2.4,
-      "played_share": 0.8,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "DeMar DeRozan",
-      "jersey": "10",
-      "mpg": 22.5,
-      "onoff": -17.57,
-      "impact": -2.83,
-      "played_share": 0.93,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Trevon Brazile",
-      "jersey": "7",
-      "mpg": 18.1,
-      "onoff": -5.07,
-      "impact": -0.6,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Spencer Jones",
-      "jersey": "21",
-      "mpg": 18.1,
-      "onoff": -12.95,
-      "impact": -0.95,
-      "played_share": 0.53,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Marvin Bagley III",
-      "jersey": "3",
-      "mpg": 11.7,
-      "onoff": -14.54,
-      "impact": -0.81,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Tyus Jones",
-      "jersey": "5",
-      "mpg": 10.5,
-      "onoff": -25.51,
-      "impact": -1.17,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     }
-    ],
-    "injury_adj": -0.15
-   },
-   "away": {
-    "abbr": "DAL",
-    "name": "Dallas Mavericks",
-    "colors": [
-     "#00538C",
-     "#B8C4CA"
-    ],
-    "stats": {
-     "record": "10-7",
-     "last10": "6-4",
-     "last10_margin": -0.1,
-     "pace": 100.8,
-     "ortg": 111.5,
-     "drtg": 111.6,
-     "adj_off": -0.3,
-     "adj_def": -0.7,
-     "adj_net": -0.9,
-     "games": 17
-    },
-    "injuries": [
-     {
-      "name": "Tobi Lawal",
-      "status": "out",
-      "detail": "Lawal (groin) is out for Tuesday's game against Denver.",
-      "impact": -0.06,
-      "exp_min": 5.1,
-      "note": ""
-     },
-     {
-      "name": "Dereck Lively II",
-      "status": "out",
-      "detail": "Head coach Dusty May said Friday that Lively (foot) is moving well and progressing in his recovery, and the big man told May he's \"close\" to returning, Mike Curtis of The Dallas Morning News reports.",
-      "impact": 0.0,
-      "exp_min": 0,
-      "note": "No minutes this season"
-     },
-     {
-      "name": "Tarik Biberovic",
-      "status": "out",
-      "detail": "Biberovic (heel) is out for Wednesday's game against the Warriors.",
-      "impact": 0.0,
-      "exp_min": 0,
-      "note": "No minutes this season"
-     },
-     {
-      "name": "Sergio de Larrea",
-      "status": "out",
-      "detail": "De Larrea (knee) is listed as out for Wednesday's game against the Warriors.",
-      "impact": 0.12,
-      "exp_min": 19.5,
-      "note": ""
-     },
-     {
-      "name": "P.J. Washington",
-      "status": "questionable",
-      "detail": "Washington (illness) is questionable for Tuesday's game against the Nuggets.",
-      "impact": 1.23,
-      "exp_min": 30.8,
-      "note": ""
-     }
-    ],
-    "lineup": [
-     {
-      "name": "Caleb Martin",
-      "note": ""
-     },
-     {
-      "name": "Daniel Gafford",
-      "note": ""
-     },
-     {
-      "name": "Cooper Flagg",
-      "note": ""
-     },
-     {
-      "name": "Zaccharie Risacher",
-      "note": ""
-     },
-     {
-      "name": "Kyrie Irving",
-      "note": ""
-     }
-    ],
-    "roster": [
-     {
-      "name": "Cooper Flagg",
-      "jersey": "32",
-      "mpg": 34.6,
-      "onoff": 18.51,
-      "impact": 6.3,
-      "played_share": 0.93,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Kyrie Irving",
-      "jersey": "11",
-      "mpg": 31.8,
-      "onoff": 15.39,
-      "impact": 4.25,
-      "played_share": 0.8,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "P.J. Washington",
-      "jersey": "25",
-      "mpg": 30.8,
-      "onoff": -12.03,
-      "impact": -3.36,
-      "played_share": 0.87,
-      "status": "questionable",
-      "detail": "Washington (illness) is questionable for Tuesday's game against the Nuggets."
-     },
-     {
-      "name": "Zaccharie Risacher",
-      "jersey": "10",
-      "mpg": 23.3,
-      "onoff": -5.74,
-      "impact": -1.13,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Naji Marshall",
-      "jersey": "3",
-      "mpg": 23.2,
-      "onoff": -12.93,
-      "impact": -2.26,
-      "played_share": 0.8,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Daniel Gafford",
-      "jersey": "21",
-      "mpg": 22.7,
-      "onoff": 10.48,
-      "impact": 1.92,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Caleb Martin",
-      "jersey": "16",
-      "mpg": 22,
-      "onoff": -5.84,
-      "impact": -0.86,
-      "played_share": 0.87,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Walter Clayton Jr.",
-      "jersey": "1",
-      "mpg": 19.7,
-      "onoff": 0.85,
-      "impact": 0.12,
-      "played_share": 1.0,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Sergio de Larrea",
-      "jersey": "55",
-      "mpg": 19.5,
-      "onoff": -30.27,
-      "impact": -0.89,
-      "played_share": 0.13,
-      "status": "out",
-      "detail": "De Larrea (knee) is listed as out for Wednesday's game against the Warriors."
-     },
-     {
-      "name": "Morez Johnson Jr.",
-      "jersey": "14",
-      "mpg": 17.6,
-      "onoff": -6.98,
-      "impact": -0.81,
-      "played_share": 0.93,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Max Christie",
-      "jersey": "0",
-      "mpg": 15.5,
-      "onoff": -3.21,
-      "impact": -0.31,
-      "played_share": 0.8,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Santi Aldama",
-      "jersey": "34",
-      "mpg": 13,
-      "onoff": 4.82,
-      "impact": 0.19,
-      "played_share": 0.53,
-      "status": "available",
-      "detail": ""
-     },
-     {
-      "name": "Marcus Sasser",
-      "jersey": "8",
-      "mpg": 12.8,
-      "onoff": -10.56,
-      "impact": -0.65,
-      "played_share": 0.67,
-      "status": "available",
-      "detail": ""
-     }
-    ],
-    "injury_adj": 1.81
-   },
-   "projection": {
-    "base_margin": 5.51,
-    "home_court": 1.82,
-    "adjustments": [
-     {
-      "label": "DEN travelled 1,475 km on short rest",
-      "pts": -0.44,
-      "favours": "DAL",
-      "size": 0.44
-     },
-     {
-      "label": "DEN crossed 1 time zone(s) on short rest",
-      "pts": -0.25,
-      "favours": "DAL",
-      "size": 0.25
-     },
-     {
-      "label": "DAL playing 3rd game in 4 nights",
-      "pts": 0.8,
-      "favours": "DEN",
-      "size": 0.8
-     },
-     {
-      "label": "DAL travelled 596 km on short rest",
-      "pts": 0.18,
-      "favours": "DEN",
-      "size": 0.18
-     },
-     {
-      "label": "Altitude: Denver Nuggets at home",
-      "pts": 0.8,
-      "favours": "DEN",
-      "size": 0.8
-     },
-     {
-      "label": "DEN injuries / lineup",
-      "pts": -0.15,
-      "favours": "DAL",
-      "size": 0.15
-     },
-     {
-      "label": "DAL injuries / lineup",
-      "pts": -1.81,
-      "favours": "DAL",
-      "size": 1.81
-     }
-    ],
-    "margin": 4.64,
-    "total": 233.3,
-    "home_pts": 119.0,
-    "away_pts": 114.3,
-    "margin_lo": -11.4,
-    "margin_hi": 20.7,
-    "total_lo": 210.3,
-    "total_hi": 256.4,
-    "home_win_p": 0.6447,
-    "interval": 0.8
-   },
-   "markets": [
-    {
-     "market": "h2h",
-     "title": "Moneyline",
-     "sides": [
-      {
-       "side": "home",
-       "label": "DEN",
-       "line": null,
-       "model_p": 0.6448,
-       "market_p": 0.7202,
-       "blend_p": 0.6749,
-       "edge": -0.0453,
-       "best_price": 1.38,
-       "best_book": "Betfair",
-       "ev": -0.0686,
+       "ev": -0.0651,
        "kelly": 0.0,
-       "n_books": 12
+       "n_books": 13
       },
       {
        "side": "away",
-       "label": "DAL",
+       "label": "MIA",
        "line": null,
-       "model_p": 0.3552,
-       "market_p": 0.2798,
-       "blend_p": 0.3251,
-       "edge": 0.0453,
-       "best_price": 3.55,
-       "best_book": "Unibet",
-       "ev": 0.154,
-       "kelly": 0.0604,
-       "n_books": 12
+       "model_p": 0.5531,
+       "market_p": 0.5302,
+       "blend_p": 0.544,
+       "edge": 0.0138,
+       "best_price": 1.94,
+       "best_book": "Betfair",
+       "ev": 0.0553,
+       "kelly": 0.0588,
+       "n_books": 13
       }
      ],
      "pick": {
       "side": "away",
-      "label": "DAL",
+      "label": "MIA",
       "line": null,
-      "verdict": "Value bet",
-      "edge": 0.0453,
-      "ev": 0.154,
-      "price": 3.55,
-      "book": "Unibet",
-      "stake_pct": 0.0151,
+      "verdict": "Pass",
+      "edge": 0.0138,
+      "ev": 0.0553,
+      "price": 1.94,
+      "book": "Betfair",
+      "stake_pct": 0.0,
       "reason": ""
      }
     },
@@ -1739,42 +504,670 @@
      "sides": [
       {
        "side": "home",
-       "label": "DEN -8.5",
-       "line": -8.5,
-       "model_p": 0.3787,
-       "market_p": 0.4889,
-       "blend_p": 0.4228,
-       "edge": -0.0661,
-       "best_price": 1.96,
-       "best_book": "Unibet",
-       "ev": -0.1713,
+       "label": "PHI +1.5",
+       "line": 1.5,
+       "model_p": 0.4946,
+       "market_p": 0.5,
+       "blend_p": 0.4967,
+       "edge": -0.0033,
+       "best_price": 1.92,
+       "best_book": "SportsBet",
+       "ev": -0.0463,
        "kelly": 0.0,
-       "n_books": 6
+       "n_books": 5
       },
       {
        "side": "away",
-       "label": "DAL +8.5",
-       "line": 8.5,
-       "model_p": 0.6213,
-       "market_p": 0.5111,
-       "blend_p": 0.5772,
-       "edge": 0.0661,
+       "label": "MIA -1.5",
+       "line": -1.5,
+       "model_p": 0.5054,
+       "market_p": 0.5,
+       "blend_p": 0.5033,
+       "edge": 0.0033,
        "best_price": 1.9,
-       "best_book": "TAB",
-       "ev": 0.0967,
-       "kelly": 0.1075,
-       "n_books": 6
+       "best_book": "Unibet",
+       "ev": -0.0438,
+       "kelly": 0.0,
+       "n_books": 5
       }
      ],
      "pick": {
       "side": "away",
-      "label": "DAL +8.5",
-      "line": 8.5,
-      "verdict": "Lean",
-      "edge": 0.0661,
-      "ev": 0.0967,
+      "label": "MIA -1.5",
+      "line": -1.5,
+      "verdict": "Pass",
+      "edge": 0.0033,
+      "ev": -0.0438,
       "price": 1.9,
-      "book": "TAB",
+      "book": "Unibet",
+      "stake_pct": 0.0,
+      "reason": ""
+     }
+    },
+    {
+     "market": "totals",
+     "title": "Total",
+     "sides": [
+      {
+       "side": "over",
+       "label": "Over 238.5",
+       "line": 238.5,
+       "model_p": 0.5684,
+       "market_p": 0.5,
+       "blend_p": 0.541,
+       "edge": 0.041,
+       "best_price": 1.92,
+       "best_book": "PlayUp",
+       "ev": 0.0388,
+       "kelly": 0.0421,
+       "n_books": 5
+      },
+      {
+       "side": "under",
+       "label": "Under 238.5",
+       "line": 238.5,
+       "model_p": 0.4316,
+       "market_p": 0.5,
+       "blend_p": 0.459,
+       "edge": -0.041,
+       "best_price": 1.9,
+       "best_book": "SportsBet",
+       "ev": -0.1279,
+       "kelly": 0.0,
+       "n_books": 5
+      }
+     ],
+     "pick": {
+      "side": "over",
+      "label": "Over 238.5",
+      "line": 238.5,
+      "verdict": "Value bet",
+      "edge": 0.041,
+      "ev": 0.0388,
+      "price": 1.92,
+      "book": "PlayUp",
+      "stake_pct": 0.0062,
+      "reason": ""
+     }
+    }
+   ],
+   "warnings": [],
+   "movement": {
+    "open": {
+     "home_p": 0.4698,
+     "spread": 1.5,
+     "total": 238.5,
+     "at": "2026-11-25T20:38:22.441179+00:00"
+    },
+    "now": {
+     "home_p": 0.4698,
+     "spread": 1.5,
+     "total": 238.5
+    }
+   },
+   "odds_updated": "2026-11-25T20:39:11Z"
+  },
+  {
+   "id": "401909318",
+   "tip_utc": "2026-11-26T00:00:00+00:00",
+   "tip_local": "Thu 26 Nov, 10:00am",
+   "et_date": "2026-11-25",
+   "state": "pre",
+   "status_text": "11/25 - 7:00 PM EST",
+   "score": null,
+   "home": {
+    "abbr": "CHA",
+    "name": "Charlotte Hornets",
+    "colors": [
+     "#1D1160",
+     "#00788C"
+    ],
+    "stats": {
+     "record": "4-12",
+     "last10": "1-9",
+     "last10_margin": -11.2,
+     "pace": 97.9,
+     "ortg": 102.8,
+     "drtg": 113.3,
+     "adj_off": -7.8,
+     "adj_def": 2.8,
+     "adj_net": -5.0,
+     "games": 16
+    },
+    "injuries": [
+     {
+      "name": "Ryan Kalkbrenner",
+      "status": "out",
+      "detail": "Kalkbrenner (hip) has been ruled out for Wednesday's matchup with Chicago.",
+      "impact": -1.76,
+      "exp_min": 17.8,
+      "note": ""
+     },
+     {
+      "name": "Dennis Schroder",
+      "status": "out",
+      "detail": "Schroder (hamstring) is out for Wednesday's game the Bulls.",
+      "impact": -0.36,
+      "exp_min": 29.4,
+      "note": ""
+     },
+     {
+      "name": "Grayson Allen",
+      "status": "out",
+      "detail": "Allen (concussion) has been ruled out for Wednesday's game against Chicago.",
+      "impact": -0.03,
+      "exp_min": 27,
+      "note": ""
+     },
+     {
+      "name": "Kon Knueppel",
+      "status": "out",
+      "detail": "Knueppel (hamstring) was diagnosed with a left hamstring strain Sunday and will be re-evaluated in four weeks.",
+      "impact": 0.0,
+      "exp_min": 6,
+      "note": ""
+     },
+     {
+      "name": "Sion James",
+      "status": "questionable",
+      "detail": "James is probable for Wednesday's game against the Bulls due to general soreness.",
+      "impact": 0.21,
+      "exp_min": 27.5,
+      "note": ""
+     }
+    ],
+    "lineup": [
+     {
+      "name": "Moussa Diabate",
+      "note": ""
+     },
+     {
+      "name": "Brandon Miller",
+      "note": ""
+     },
+     {
+      "name": "Naz Reid",
+      "note": ""
+     },
+     {
+      "name": "Coby White",
+      "note": ""
+     },
+     {
+      "name": "Sion James",
+      "note": "questionable"
+     }
+    ],
+    "roster": [
+     {
+      "name": "Naz Reid",
+      "jersey": "0",
+      "mpg": 31.5,
+      "onoff": -3.83,
+      "impact": -1.15,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Brandon Miller",
+      "jersey": "24",
+      "mpg": 30.6,
+      "onoff": 8.54,
+      "impact": 2.29,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Moussa Diabate",
+      "jersey": "14",
+      "mpg": 29.7,
+      "onoff": -8.25,
+      "impact": -2.1,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Dennis Schroder",
+      "jersey": "17",
+      "mpg": 29.4,
+      "onoff": 3.6,
+      "impact": 0.68,
+      "played_share": 0.53,
+      "status": "out",
+      "detail": "Schroder (hamstring) is out for Wednesday's game the Bulls."
+     },
+     {
+      "name": "Sion James",
+      "jersey": "4",
+      "mpg": 27.5,
+      "onoff": -1.77,
+      "impact": -0.43,
+      "played_share": 1.0,
+      "status": "questionable",
+      "detail": "James is probable for Wednesday's game against the Bulls due to general soreness."
+     },
+     {
+      "name": "Grayson Allen",
+      "jersey": "8",
+      "mpg": 27,
+      "onoff": 0.19,
+      "impact": 0.04,
+      "played_share": 0.8,
+      "status": "out",
+      "detail": "Allen (concussion) has been ruled out for Wednesday's game against Chicago."
+     },
+     {
+      "name": "Grant Williams",
+      "jersey": "2",
+      "mpg": 22,
+      "onoff": -2.4,
+      "impact": -0.11,
+      "played_share": 0.2,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Coby White",
+      "jersey": "3",
+      "mpg": 21.1,
+      "onoff": -5.61,
+      "impact": -0.59,
+      "played_share": 0.6,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Royce O'Neale",
+      "jersey": "00",
+      "mpg": 20.2,
+      "onoff": 1.74,
+      "impact": 0.25,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Ryan Kalkbrenner",
+      "jersey": "11",
+      "mpg": 17.8,
+      "onoff": 14.89,
+      "impact": 1.76,
+      "played_share": 1.0,
+      "status": "out",
+      "detail": "Kalkbrenner (hip) has been ruled out for Wednesday's matchup with Chicago."
+     },
+     {
+      "name": "Christian Anderson",
+      "jersey": "5",
+      "mpg": 14.8,
+      "onoff": 9.63,
+      "impact": 0.8,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Tidjane Salaun",
+      "jersey": "31",
+      "mpg": 13.9,
+      "onoff": -4.71,
+      "impact": -0.35,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Hannes Steinbach",
+      "jersey": "22",
+      "mpg": 11.2,
+      "onoff": -24.95,
+      "impact": -0.58,
+      "played_share": 0.4,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": -2.62
+   },
+   "away": {
+    "abbr": "CHI",
+    "name": "Chicago Bulls",
+    "colors": [
+     "#CE1141",
+     "#000000"
+    ],
+    "stats": {
+     "record": "5-12",
+     "last10": "4-6",
+     "last10_margin": 0.1,
+     "pace": 106.1,
+     "ortg": 110.2,
+     "drtg": 116.5,
+     "adj_off": 3.6,
+     "adj_def": -7.2,
+     "adj_net": -3.7,
+     "games": 17
+    },
+    "injuries": [
+     {
+      "name": "Norman Powell",
+      "status": "out",
+      "detail": "Powell has been diagnosed with a mild right hamstring strain and will be re-evaluated later this week.",
+      "impact": -0.23,
+      "exp_min": 29.9,
+      "note": ""
+     },
+     {
+      "name": "Jalen Smith",
+      "status": "questionable",
+      "detail": "Smith (illness) is listed as questionable for Wednesday's game against the Hornets.",
+      "impact": 0.06,
+      "exp_min": 25.8,
+      "note": ""
+     },
+     {
+      "name": "Caleb Wilson",
+      "status": "out",
+      "detail": "Wilson (hand) is expected to miss four to six weeks, Shams Charania of ESPN reports.",
+      "impact": 1.53,
+      "exp_min": 30.2,
+      "note": ""
+     }
+    ],
+    "lineup": [
+     {
+      "name": "Jalen Smith",
+      "note": "questionable"
+     },
+     {
+      "name": "Isaac Okoro",
+      "note": ""
+     },
+     {
+      "name": "Matas Buzelis",
+      "note": ""
+     },
+     {
+      "name": "Buddy Hield",
+      "note": ""
+     },
+     {
+      "name": "Josh Giddey",
+      "note": ""
+     }
+    ],
+    "roster": [
+     {
+      "name": "Caleb Wilson",
+      "jersey": "8",
+      "mpg": 30.2,
+      "onoff": -13.44,
+      "impact": -2.87,
+      "played_share": 0.53,
+      "status": "out",
+      "detail": "Wilson (hand) is expected to miss four to six weeks, Shams Charania of ESPN reports."
+     },
+     {
+      "name": "Norman Powell",
+      "jersey": "24",
+      "mpg": 29.9,
+      "onoff": 1.3,
+      "impact": 0.32,
+      "played_share": 0.73,
+      "status": "out",
+      "detail": "Powell has been diagnosed with a mild right hamstring strain and will be re-evaluated later this week."
+     },
+     {
+      "name": "Matas Buzelis",
+      "jersey": "14",
+      "mpg": 28.7,
+      "onoff": -7.9,
+      "impact": -2.09,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Josh Giddey",
+      "jersey": "3",
+      "mpg": 28.7,
+      "onoff": -3.65,
+      "impact": -0.97,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jalen Smith",
+      "jersey": "25",
+      "mpg": 25.8,
+      "onoff": -0.73,
+      "impact": -0.15,
+      "played_share": 0.87,
+      "status": "questionable",
+      "detail": "Smith (illness) is listed as questionable for Wednesday's game against the Hornets."
+     },
+     {
+      "name": "Isaac Okoro",
+      "jersey": "35",
+      "mpg": 24.8,
+      "onoff": -2.97,
+      "impact": -0.63,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Nic Claxton",
+      "jersey": "9",
+      "mpg": 21,
+      "onoff": 12.37,
+      "impact": 1.06,
+      "played_share": 0.47,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Patrick Williams",
+      "jersey": "44",
+      "mpg": 20.7,
+      "onoff": 19.91,
+      "impact": 2.2,
+      "played_share": 0.67,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Tre Jones",
+      "jersey": "30",
+      "mpg": 19.5,
+      "onoff": -2.17,
+      "impact": -0.31,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Buddy Hield",
+      "jersey": "7",
+      "mpg": 19.1,
+      "onoff": 1.81,
+      "impact": 0.23,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Noa Essengue",
+      "jersey": "2",
+      "mpg": 12.1,
+      "onoff": 6.07,
+      "impact": 0.38,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Zach Collins",
+      "jersey": "12",
+      "mpg": 11.7,
+      "onoff": -5.28,
+      "impact": -0.22,
+      "played_share": 0.67,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jordan Hawkins",
+      "jersey": "15",
+      "mpg": 11,
+      "onoff": 20.14,
+      "impact": 0.65,
+      "played_share": 0.6,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": 3.12
+   },
+   "projection": {
+    "base_margin": 0.34,
+    "home_court": 1.66,
+    "adjustments": [
+     {
+      "label": "CHI playing 3rd game in 4 nights",
+      "pts": 0.8,
+      "favours": "CHA",
+      "size": 0.8
+     },
+     {
+      "label": "CHI travelled 949 km on short rest",
+      "pts": 0.28,
+      "favours": "CHA",
+      "size": 0.28
+     },
+     {
+      "label": "CHI crossed 1 time zone(s) on short rest",
+      "pts": 0.25,
+      "favours": "CHA",
+      "size": 0.25
+     },
+     {
+      "label": "CHA injuries / lineup",
+      "pts": -2.62,
+      "favours": "CHI",
+      "size": 2.62
+     },
+     {
+      "label": "CHI injuries / lineup",
+      "pts": -3.12,
+      "favours": "CHI",
+      "size": 3.12
+     }
+    ],
+    "margin": -4.07,
+    "total": 227.6,
+    "home_pts": 111.8,
+    "away_pts": 115.8,
+    "margin_lo": -20.1,
+    "margin_hi": 12.0,
+    "total_lo": 204.6,
+    "total_hi": 250.7,
+    "home_win_p": 0.3725,
+    "interval": 0.8
+   },
+   "markets": [
+    {
+     "market": "h2h",
+     "title": "Moneyline",
+     "sides": [
+      {
+       "side": "home",
+       "label": "CHA",
+       "line": null,
+       "model_p": 0.3724,
+       "market_p": 0.5949,
+       "blend_p": 0.4614,
+       "edge": -0.1335,
+       "best_price": 1.65,
+       "best_book": "Betfair",
+       "ev": -0.2387,
+       "kelly": 0.0,
+       "n_books": 13
+      },
+      {
+       "side": "away",
+       "label": "CHI",
+       "line": null,
+       "model_p": 0.6276,
+       "market_p": 0.4051,
+       "blend_p": 0.5386,
+       "edge": 0.1335,
+       "best_price": 2.5,
+       "best_book": "Betfair",
+       "ev": 0.3465,
+       "kelly": 0.231,
+       "n_books": 13
+      }
+     ],
+     "pick": {
+      "side": "away",
+      "label": "CHI",
+      "line": null,
+      "verdict": "Value bet",
+      "edge": 0.1335,
+      "ev": 0.3465,
+      "price": 2.5,
+      "book": "Betfair",
+      "stake_pct": 0.0119,
+      "reason": ""
+     }
+    },
+    {
+     "market": "spreads",
+     "title": "Spread",
+     "sides": [
+      {
+       "side": "home",
+       "label": "CHA -3.5",
+       "line": -3.5,
+       "model_p": 0.2724,
+       "market_p": 0.5026,
+       "blend_p": 0.3645,
+       "edge": -0.1381,
+       "best_price": 1.9,
+       "best_book": "SportsBet",
+       "ev": -0.3075,
+       "kelly": 0.0,
+       "n_books": 5
+      },
+      {
+       "side": "away",
+       "label": "CHI +3.5",
+       "line": 3.5,
+       "model_p": 0.7276,
+       "market_p": 0.4974,
+       "blend_p": 0.6355,
+       "edge": 0.1381,
+       "best_price": 1.95,
+       "best_book": "PointsBet (AU)",
+       "ev": 0.2393,
+       "kelly": 0.2518,
+       "n_books": 5
+      }
+     ],
+     "pick": {
+      "side": "away",
+      "label": "CHI +3.5",
+      "line": 3.5,
+      "verdict": "Lean",
+      "edge": 0.1381,
+      "ev": 0.2393,
+      "price": 1.95,
+      "book": "PointsBet (AU)",
       "stake_pct": 0.0,
       "reason": "another bet on this game was stronger"
      }
@@ -1785,15 +1178,2480 @@
      "sides": [
       {
        "side": "over",
-       "label": "Over 234.5",
-       "line": 234.5,
+       "label": "Over 219.5",
+       "line": 219.5,
+       "model_p": 0.6736,
+       "market_p": 0.5,
+       "blend_p": 0.6042,
+       "edge": 0.1042,
+       "best_price": 1.9,
+       "best_book": "TAB",
+       "ev": 0.148,
+       "kelly": 0.1644,
+       "n_books": 3
+      },
+      {
+       "side": "under",
+       "label": "Under 219.5",
+       "line": 219.5,
+       "model_p": 0.3264,
+       "market_p": 0.5,
+       "blend_p": 0.3958,
+       "edge": -0.1042,
+       "best_price": 1.91,
+       "best_book": "TABtouch",
+       "ev": -0.244,
+       "kelly": 0.0,
+       "n_books": 3
+      }
+     ],
+     "pick": {
+      "side": "over",
+      "label": "Over 219.5",
+      "line": 219.5,
+      "verdict": "Lean",
+      "edge": 0.1042,
+      "ev": 0.148,
+      "price": 1.9,
+      "book": "TAB",
+      "stake_pct": 0.0,
+      "reason": "another bet on this game was stronger"
+     }
+    }
+   ],
+   "warnings": [],
+   "movement": {
+    "open": {
+     "home_p": 0.5949,
+     "spread": -3.5,
+     "total": 219.5,
+     "at": "2026-11-25T20:38:22.441179+00:00"
+    },
+    "now": {
+     "home_p": 0.5949,
+     "spread": -3.5,
+     "total": 219.5
+    }
+   },
+   "odds_updated": "2026-11-25T20:39:11Z"
+  },
+  {
+   "id": "401909319",
+   "tip_utc": "2026-11-26T00:30:00+00:00",
+   "tip_local": "Thu 26 Nov, 10:30am",
+   "et_date": "2026-11-25",
+   "state": "pre",
+   "status_text": "11/25 - 7:30 PM EST",
+   "score": null,
+   "home": {
+    "abbr": "NY",
+    "name": "New York Knicks",
+    "colors": [
+     "#006BB6",
+     "#F58426"
+    ],
+    "stats": {
+     "record": "11-6",
+     "last10": "8-2",
+     "last10_margin": 8.8,
+     "pace": 97.1,
+     "ortg": 112.2,
+     "drtg": 106.3,
+     "adj_off": -2.5,
+     "adj_def": 9.0,
+     "adj_net": 6.5,
+     "games": 17
+    },
+    "injuries": [
+     {
+      "name": "Karl-Anthony Towns",
+      "status": "questionable",
+      "detail": "Towns (knee) is probable for Wednesday's game against Cleveland.",
+      "impact": -1.99,
+      "exp_min": 32.8,
+      "note": ""
+     },
+     {
+      "name": "Jordan Clarkson",
+      "status": "out",
+      "detail": "Clarkson (foot) is out for Wednesday's game against Cleveland.",
+      "impact": -0.36,
+      "exp_min": 10.7,
+      "note": ""
+     },
+     {
+      "name": "OG Anunoby",
+      "status": "out",
+      "detail": "Anunoby (calf) is out for Wednesday's game against Cleveland.",
+      "impact": -0.12,
+      "exp_min": 34.2,
+      "note": ""
+     },
+     {
+      "name": "Jalen Brunson",
+      "status": "questionable",
+      "detail": "Brunson (illness) has been downgraded to questionable for Wednesday's game against the Cavaliers.",
+      "impact": 0.14,
+      "exp_min": 34.1,
+      "note": ""
+     },
+     {
+      "name": "Miles McBride",
+      "status": "out",
+      "detail": "McBride (adductor) has been ruled out for Wednesday's game against the Cavaliers.",
+      "impact": 0.36,
+      "exp_min": 16.5,
+      "note": ""
+     },
+     {
+      "name": "Josh Hart",
+      "status": "questionable",
+      "detail": "Hart (shoulder) has been upgraded to probable for Wednesday's game against the Cavaliers.",
+      "impact": 0.52,
+      "exp_min": 30.3,
+      "note": ""
+     }
+    ],
+    "lineup": [
+     {
+      "name": "Karl-Anthony Towns",
+      "note": "questionable"
+     },
+     {
+      "name": "Josh Hart",
+      "note": "questionable"
+     },
+     {
+      "name": "Mikal Bridges",
+      "note": ""
+     },
+     {
+      "name": "Landry Shamet",
+      "note": ""
+     },
+     {
+      "name": "Jalen Brunson",
+      "note": "questionable"
+     }
+    ],
+    "roster": [
+     {
+      "name": "OG Anunoby",
+      "jersey": "8",
+      "mpg": 34.2,
+      "onoff": 0.41,
+      "impact": 0.13,
+      "played_share": 0.87,
+      "status": "out",
+      "detail": "Anunoby (calf) is out for Wednesday's game against Cleveland."
+     },
+     {
+      "name": "Jalen Brunson",
+      "jersey": "11",
+      "mpg": 34.1,
+      "onoff": -0.81,
+      "impact": -0.28,
+      "played_share": 1.0,
+      "status": "questionable",
+      "detail": "Brunson (illness) has been downgraded to questionable for Wednesday's game against the Cavaliers."
+     },
+     {
+      "name": "Karl-Anthony Towns",
+      "jersey": "32",
+      "mpg": 32.8,
+      "onoff": 14.51,
+      "impact": 4.6,
+      "played_share": 0.93,
+      "status": "questionable",
+      "detail": "Towns (knee) is probable for Wednesday's game against Cleveland."
+     },
+     {
+      "name": "Josh Hart",
+      "jersey": "3",
+      "mpg": 30.3,
+      "onoff": -6.54,
+      "impact": -1.73,
+      "played_share": 0.8,
+      "status": "questionable",
+      "detail": "Hart (shoulder) has been upgraded to probable for Wednesday's game against the Cavaliers."
+     },
+     {
+      "name": "Landry Shamet",
+      "jersey": "44",
+      "mpg": 27.5,
+      "onoff": 24.89,
+      "impact": 6.17,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Mikal Bridges",
+      "jersey": "25",
+      "mpg": 26.3,
+      "onoff": -23.19,
+      "impact": -5.43,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Miles McBride",
+      "jersey": "2",
+      "mpg": 16.5,
+      "onoff": -3.56,
+      "impact": -0.38,
+      "played_share": 0.93,
+      "status": "out",
+      "detail": "McBride (adductor) has been ruled out for Wednesday's game against the Cavaliers."
+     },
+     {
+      "name": "Andre Drummond",
+      "jersey": "0",
+      "mpg": 13.7,
+      "onoff": -7.13,
+      "impact": -0.58,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Tyler Kolek",
+      "jersey": "13",
+      "mpg": 13.3,
+      "onoff": 8.74,
+      "impact": 0.6,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Mohamed Diawara",
+      "jersey": "51",
+      "mpg": 11.3,
+      "onoff": 3.13,
+      "impact": 0.09,
+      "played_share": 0.47,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jordan Clarkson",
+      "jersey": "00",
+      "mpg": 10.7,
+      "onoff": 14.75,
+      "impact": 0.54,
+      "played_share": 0.67,
+      "status": "out",
+      "detail": "Clarkson (foot) is out for Wednesday's game against Cleveland."
+     },
+     {
+      "name": "Jose Alvarado",
+      "jersey": "5",
+      "mpg": 10.4,
+      "onoff": -5.05,
+      "impact": -0.17,
+      "played_share": 0.53,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "James Wiseman",
+      "jersey": "35",
+      "mpg": 8.5,
+      "onoff": -7.04,
+      "impact": -0.1,
+      "played_share": 0.4,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": -1.89
+   },
+   "away": {
+    "abbr": "CLE",
+    "name": "Cleveland Cavaliers",
+    "colors": [
+     "#860038",
+     "#FDBB30"
+    ],
+    "stats": {
+     "record": "9-9",
+     "last10": "5-5",
+     "last10_margin": 0.9,
+     "pace": 102.1,
+     "ortg": 115.8,
+     "drtg": 114.4,
+     "adj_off": 2.9,
+     "adj_def": -1.9,
+     "adj_net": 0.9,
+     "games": 18
+    },
+    "injuries": [
+     {
+      "name": "Nae'Qwan Tomlin",
+      "status": "out",
+      "detail": "Tomlin (back) will remain on the inactive list for Wednesday's game against the Grizzlies.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     },
+     {
+      "name": "Evan Mobley",
+      "status": "out",
+      "detail": "Mobley will receive treatment and participate in rehab after the team confirmed a diagnosis of a right great toe sprain, and he'll be re-evaluated in the next 7-to-10 days.",
+      "impact": 1.03,
+      "exp_min": 30.9,
+      "note": ""
+     }
+    ],
+    "lineup": [
+     {
+      "name": "Jarrett Allen",
+      "note": ""
+     },
+     {
+      "name": "James Harden",
+      "note": ""
+     },
+     {
+      "name": "Donovan Mitchell",
+      "note": ""
+     },
+     {
+      "name": "Sam Merrill",
+      "note": ""
+     },
+     {
+      "name": "Peyton Watson",
+      "note": ""
+     }
+    ],
+    "roster": [
+     {
+      "name": "James Harden",
+      "jersey": "1",
+      "mpg": 33.4,
+      "onoff": -4.72,
+      "impact": -1.61,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Donovan Mitchell",
+      "jersey": "45",
+      "mpg": 32.6,
+      "onoff": 1.24,
+      "impact": 0.41,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Evan Mobley",
+      "jersey": "4",
+      "mpg": 30.9,
+      "onoff": -6.84,
+      "impact": -1.72,
+      "played_share": 0.6,
+      "status": "out",
+      "detail": "Mobley will receive treatment and participate in rehab after the team confirmed a diagnosis of a right great toe sprain, and he'll be re-evaluated in the next 7-to-10 days."
+     },
+     {
+      "name": "Jarrett Allen",
+      "jersey": "31",
+      "mpg": 26.8,
+      "onoff": -0.24,
+      "impact": -0.06,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Peyton Watson",
+      "jersey": "8",
+      "mpg": 26.4,
+      "onoff": -4.84,
+      "impact": -1.04,
+      "played_share": 0.73,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Meleek Thomas",
+      "jersey": "15",
+      "mpg": 23.7,
+      "onoff": 2.18,
+      "impact": 0.4,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jaylon Tyson",
+      "jersey": "20",
+      "mpg": 23,
+      "onoff": 4.3,
+      "impact": 0.52,
+      "played_share": 0.4,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Sam Merrill",
+      "jersey": "5",
+      "mpg": 22.8,
+      "onoff": 12.78,
+      "impact": 1.93,
+      "played_share": 0.6,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Tyrese Proctor",
+      "jersey": "24",
+      "mpg": 22.3,
+      "onoff": -1.26,
+      "impact": -0.22,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Mario Hezonja",
+      "jersey": "33",
+      "mpg": 19.5,
+      "onoff": -8.16,
+      "impact": -1.21,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Thomas Bryant",
+      "jersey": "3",
+      "mpg": 14.3,
+      "onoff": 1.34,
+      "impact": 0.09,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Craig Porter Jr.",
+      "jersey": "9",
+      "mpg": 12.7,
+      "onoff": -1.36,
+      "impact": -0.07,
+      "played_share": 0.73,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Norchad Omier",
+      "jersey": "77",
+      "mpg": 12.1,
+      "onoff": 18.44,
+      "impact": 0.58,
+      "played_share": 0.47,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": 2.08
+   },
+   "projection": {
+    "base_margin": 7.18,
+    "home_court": 1.66,
+    "adjustments": [
+     {
+      "label": "CLE travelled 1,148 km on short rest",
+      "pts": 0.34,
+      "favours": "NY",
+      "size": 0.34
+     },
+     {
+      "label": "CLE crossed 1 time zone(s) on short rest",
+      "pts": 0.25,
+      "favours": "NY",
+      "size": 0.25
+     },
+     {
+      "label": "NY has 1 more day(s) of rest",
+      "pts": 0.4,
+      "favours": "NY",
+      "size": 0.4
+     },
+     {
+      "label": "NY injuries / lineup",
+      "pts": -1.89,
+      "favours": "CLE",
+      "size": 1.89
+     },
+     {
+      "label": "CLE injuries / lineup",
+      "pts": -2.08,
+      "favours": "CLE",
+      "size": 2.08
+     }
+    ],
+    "margin": 4.2,
+    "total": 220.7,
+    "home_pts": 112.4,
+    "away_pts": 108.2,
+    "margin_lo": -11.8,
+    "margin_hi": 20.2,
+    "total_lo": 197.6,
+    "total_hi": 243.7,
+    "home_win_p": 0.6315,
+    "interval": 0.8
+   },
+   "markets": [
+    {
+     "market": "h2h",
+     "title": "Moneyline",
+     "sides": [
+      {
+       "side": "home",
+       "label": "NY",
+       "line": null,
+       "model_p": 0.6316,
+       "market_p": 0.5426,
+       "blend_p": 0.596,
+       "edge": 0.0534,
+       "best_price": 1.81,
+       "best_book": "Unibet",
+       "ev": 0.0787,
+       "kelly": 0.0972,
+       "n_books": 13
+      },
+      {
+       "side": "away",
+       "label": "CLE",
+       "line": null,
+       "model_p": 0.3684,
+       "market_p": 0.4574,
+       "blend_p": 0.404,
+       "edge": -0.0534,
+       "best_price": 2.2,
+       "best_book": "Betfair",
+       "ev": -0.1112,
+       "kelly": 0.0,
+       "n_books": 13
+      }
+     ],
+     "pick": {
+      "side": "home",
+      "label": "NY",
+      "line": null,
+      "verdict": "Value bet",
+      "edge": 0.0534,
+      "ev": 0.0787,
+      "price": 1.81,
+      "book": "Unibet",
+      "stake_pct": 0.0119,
+      "reason": ""
+     }
+    },
+    {
+     "market": "spreads",
+     "title": "Spread",
+     "sides": [
+      {
+       "side": "home",
+       "label": "NY -1.5",
+       "line": -1.5,
+       "model_p": 0.5855,
+       "market_p": 0.5006,
+       "blend_p": 0.5516,
+       "edge": 0.0509,
+       "best_price": 1.89,
+       "best_book": "Unibet",
+       "ev": 0.0424,
+       "kelly": 0.0477,
+       "n_books": 4
+      },
+      {
+       "side": "away",
+       "label": "CLE +1.5",
+       "line": 1.5,
+       "model_p": 0.4145,
+       "market_p": 0.4994,
+       "blend_p": 0.4484,
+       "edge": -0.0509,
+       "best_price": 1.92,
+       "best_book": "SportsBet",
+       "ev": -0.139,
+       "kelly": 0.0,
+       "n_books": 4
+      }
+     ],
+     "pick": {
+      "side": "home",
+      "label": "NY -1.5",
+      "line": -1.5,
+      "verdict": "Lean",
+      "edge": 0.0509,
+      "ev": 0.0424,
+      "price": 1.89,
+      "book": "Unibet",
+      "stake_pct": 0.0,
+      "reason": "another bet on this game was stronger"
+     }
+    },
+    {
+     "market": "totals",
+     "title": "Total",
+     "sides": [
+      {
+       "side": "over",
+       "label": "Over 216.5",
+       "line": 216.5,
+       "model_p": 0.5922,
+       "market_p": 0.5,
+       "blend_p": 0.5553,
+       "edge": 0.0553,
+       "best_price": 1.9,
+       "best_book": "SportsBet",
+       "ev": 0.0552,
+       "kelly": 0.0613,
+       "n_books": 5
+      },
+      {
+       "side": "under",
+       "label": "Under 216.5",
+       "line": 216.5,
+       "model_p": 0.4078,
+       "market_p": 0.5,
+       "blend_p": 0.4447,
+       "edge": -0.0553,
+       "best_price": 1.92,
+       "best_book": "PlayUp",
+       "ev": -0.1463,
+       "kelly": 0.0,
+       "n_books": 5
+      }
+     ],
+     "pick": {
+      "side": "over",
+      "label": "Over 216.5",
+      "line": 216.5,
+      "verdict": "Lean",
+      "edge": 0.0553,
+      "ev": 0.0552,
+      "price": 1.9,
+      "book": "SportsBet",
+      "stake_pct": 0.0,
+      "reason": "another bet on this game was stronger"
+     }
+    }
+   ],
+   "warnings": [
+    "Karl-Anthony Towns (NY) is questionable: worth ~2.0 pts. Re-check before tip-off."
+   ],
+   "movement": {
+    "open": {
+     "home_p": 0.5426,
+     "spread": -1.5,
+     "total": 216.5,
+     "at": "2026-11-25T20:38:22.441179+00:00"
+    },
+    "now": {
+     "home_p": 0.5426,
+     "spread": -1.5,
+     "total": 216.5
+    }
+   },
+   "odds_updated": "2026-11-25T20:39:11Z"
+  },
+  {
+   "id": "401909320",
+   "tip_utc": "2026-11-26T00:30:00+00:00",
+   "tip_local": "Thu 26 Nov, 10:30am",
+   "et_date": "2026-11-25",
+   "state": "pre",
+   "status_text": "11/25 - 7:30 PM EST",
+   "score": null,
+   "home": {
+    "abbr": "OKC",
+    "name": "Oklahoma City Thunder",
+    "colors": [
+     "#007AC1",
+     "#EF3B24"
+    ],
+    "stats": {
+     "record": "10-8",
+     "last10": "4-6",
+     "last10_margin": 4.7,
+     "pace": 101.1,
+     "ortg": 112.1,
+     "drtg": 109.0,
+     "adj_off": 0.6,
+     "adj_def": 3.9,
+     "adj_net": 4.5,
+     "games": 18
+    },
+    "injuries": [
+     {
+      "name": "Aday Mara",
+      "status": "out",
+      "detail": "Mara (leg) is out for Wednesday's game versus the Timberwolves.",
+      "impact": -0.16,
+      "exp_min": 24.6,
+      "note": ""
+     },
+     {
+      "name": "Jalen Williams",
+      "status": "out",
+      "detail": "Williams (ankle) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
+      "impact": -0.0,
+      "exp_min": 31.7,
+      "note": "Out for a while - already reflected in team ratings"
+     },
+     {
+      "name": "Thomas Sorber",
+      "status": "out",
+      "detail": "Sorber underwent an arthroscopic knee procedure Tuesday to address inflammation at the patellofemoral joint in his right knee, and he's expected to return to on-court activities in 6-8 weeks, Steve McGehee of News 9 Oklahoma City reports.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     },
+     {
+      "name": "Cason Wallace",
+      "status": "out",
+      "detail": "Wallace underwent surgery Friday to repair a torn labrum in his left shoulder and will be re-evaluated before the end of the regular season, Clemente Almanza of USA Today reports.",
+      "impact": 0.0,
+      "exp_min": 16.3,
+      "note": "Out for a while - already reflected in team ratings"
+     },
+     {
+      "name": "Chet Holmgren",
+      "status": "out",
+      "detail": "Holmgren underwent a biological treatment Friday to address a small patellar tendon tear and will miss at least 8-10 weeks, Nick Crain of Slam reports.",
+      "impact": -0.0,
+      "exp_min": 30.0,
+      "note": "Out for a while - already reflected in team ratings"
+     },
+     {
+      "name": "Nikola Topic",
+      "status": "out",
+      "detail": "Topic (hip) is listed as out for Wednesday's game versus Minnesota.",
+      "impact": 0.1,
+      "exp_min": 11.3,
+      "note": ""
+     },
+     {
+      "name": "Jaylin Williams",
+      "status": "out",
+      "detail": "Williams (back) is listed as out for Wednesday's game against Minnesota.",
+      "impact": 0.48,
+      "exp_min": 19.5,
+      "note": ""
+     }
+    ],
+    "lineup": [
+     {
+      "name": "Isaiah Hartenstein",
+      "note": ""
+     },
+     {
+      "name": "Shai Gilgeous-Alexander",
+      "note": ""
+     },
+     {
+      "name": "Micah Peavy",
+      "note": ""
+     },
+     {
+      "name": "Jared McCain",
+      "note": ""
+     },
+     {
+      "name": "Ajay Mitchell",
+      "note": ""
+     }
+    ],
+    "roster": [
+     {
+      "name": "Shai Gilgeous-Alexander",
+      "jersey": "2",
+      "mpg": 33.4,
+      "onoff": 9.49,
+      "impact": 3.23,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jalen Williams",
+      "jersey": "8",
+      "mpg": 31.7,
+      "onoff": -2.42,
+      "impact": -0.22,
+      "played_share": 0.0,
+      "status": "out",
+      "detail": "Williams (ankle) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report."
+     },
+     {
+      "name": "Chet Holmgren",
+      "jersey": "7",
+      "mpg": 30.0,
+      "onoff": -0.55,
+      "impact": -0.05,
+      "played_share": 0.0,
+      "status": "out",
+      "detail": "Holmgren underwent a biological treatment Friday to address a small patellar tendon tear and will miss at least 8-10 weeks, Nick Crain of Slam reports."
+     },
+     {
+      "name": "Jared McCain",
+      "jersey": "3",
+      "mpg": 29.5,
+      "onoff": -5.74,
+      "impact": -1.61,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Ajay Mitchell",
+      "jersey": "25",
+      "mpg": 28.8,
+      "onoff": 5.43,
+      "impact": 1.4,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Isaiah Hartenstein",
+      "jersey": "55",
+      "mpg": 25.9,
+      "onoff": -2.68,
+      "impact": -0.63,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Aday Mara",
+      "jersey": "15",
+      "mpg": 24.6,
+      "onoff": 0.99,
+      "impact": 0.19,
+      "played_share": 0.87,
+      "status": "out",
+      "detail": "Mara (leg) is out for Wednesday's game versus the Timberwolves."
+     },
+     {
+      "name": "Kenrich Williams",
+      "jersey": "34",
+      "mpg": 24.4,
+      "onoff": -5.94,
+      "impact": -1.18,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Bennett Stirtz",
+      "jersey": "14",
+      "mpg": 22.1,
+      "onoff": 0.52,
+      "impact": 0.09,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jaylin Williams",
+      "jersey": "6",
+      "mpg": 19.5,
+      "onoff": -14.47,
+      "impact": -1.2,
+      "played_share": 0.4,
+      "status": "out",
+      "detail": "Williams (back) is listed as out for Wednesday's game against Minnesota."
+     },
+     {
+      "name": "Josh Dix",
+      "jersey": "21",
+      "mpg": 18.7,
+      "onoff": 2.81,
+      "impact": 0.24,
+      "played_share": 0.6,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Micah Peavy",
+      "jersey": "16",
+      "mpg": 17.7,
+      "onoff": -7.19,
+      "impact": -0.69,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Nique Clifford",
+      "jersey": "18",
+      "mpg": 16.5,
+      "onoff": -15.32,
+      "impact": -0.95,
+      "played_share": 0.53,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": 0.3
+   },
+   "away": {
+    "abbr": "MIN",
+    "name": "Minnesota Timberwolves",
+    "colors": [
+     "#0C2340",
+     "#78BE20"
+    ],
+    "stats": {
+     "record": "13-5",
+     "last10": "8-2",
+     "last10_margin": 10.0,
+     "pace": 102.7,
+     "ortg": 113.3,
+     "drtg": 103.0,
+     "adj_off": 1.2,
+     "adj_def": 4.9,
+     "adj_net": 6.1,
+     "games": 18
+    },
+    "injuries": [
+     {
+      "name": "Anthony Edwards",
+      "status": "out",
+      "detail": "Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced.",
+      "impact": -0.15,
+      "exp_min": 41,
+      "note": ""
+     },
+     {
+      "name": "Donte DiVincenzo",
+      "status": "out",
+      "detail": "DiVincenzo (Achilles) has been cleared for team basketball activities and is targeting a return to game action in January, Jon Krawczynski of The Athletic reports.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     },
+     {
+      "name": "Jaylen Clark",
+      "status": "out",
+      "detail": "Clark (hamstring) has been ruled out for the next two weeks.",
+      "impact": 0.01,
+      "exp_min": 16.9,
+      "note": ""
+     }
+    ],
+    "lineup": [
+     {
+      "name": "Jaden McDaniels",
+      "note": ""
+     },
+     {
+      "name": "Jonathan Kuminga",
+      "note": ""
+     },
+     {
+      "name": "Rudy Gobert",
+      "note": ""
+     },
+     {
+      "name": "Ayo Dosunmu",
+      "note": ""
+     },
+     {
+      "name": "LaMelo Ball",
+      "note": ""
+     }
+    ],
+    "roster": [
+     {
+      "name": "Anthony Edwards",
+      "jersey": "5",
+      "mpg": 41,
+      "onoff": 14.46,
+      "impact": 2.27,
+      "played_share": 0.07,
+      "status": "out",
+      "detail": "Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced."
+     },
+     {
+      "name": "Jaden McDaniels",
+      "jersey": "3",
+      "mpg": 34.8,
+      "onoff": 10.49,
+      "impact": 3.84,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Ayo Dosunmu",
+      "jersey": "13",
+      "mpg": 32.7,
+      "onoff": 7.54,
+      "impact": 2.51,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jonathan Kuminga",
+      "jersey": "24",
+      "mpg": 31.4,
+      "onoff": -0.87,
+      "impact": -0.27,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "LaMelo Ball",
+      "jersey": "1",
+      "mpg": 29.6,
+      "onoff": 8.3,
+      "impact": 2.36,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Rudy Gobert",
+      "jersey": "27",
+      "mpg": 28.9,
+      "onoff": -0.29,
+      "impact": -0.08,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Terrence Shannon Jr.",
+      "jersey": "4",
+      "mpg": 23.3,
+      "onoff": -8.47,
+      "impact": -1.5,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Trey Lyles",
+      "jersey": "41",
+      "mpg": 19.7,
+      "onoff": 7.79,
+      "impact": 1.16,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Joan Beringer",
+      "jersey": "19",
+      "mpg": 17.6,
+      "onoff": -0.77,
+      "impact": -0.09,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jaylen Clark",
+      "jersey": "7",
+      "mpg": 16.9,
+      "onoff": -0.28,
+      "impact": -0.02,
+      "played_share": 0.6,
+      "status": "out",
+      "detail": "Clark (hamstring) has been ruled out for the next two weeks."
+     },
+     {
+      "name": "Bones Hyland",
+      "jersey": "8",
+      "mpg": 15.3,
+      "onoff": -11.74,
+      "impact": -1.12,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Cody Williams",
+      "jersey": "9",
+      "mpg": 5.3,
+      "onoff": -51.37,
+      "impact": -0.42,
+      "played_share": 0.47,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Isaiah Evans",
+      "jersey": "33",
+      "mpg": 3.6,
+      "onoff": -35.6,
+      "impact": -0.11,
+      "played_share": 0.33,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": -0.81
+   },
+   "projection": {
+    "base_margin": 0.08,
+    "home_court": 1.66,
+    "adjustments": [
+     {
+      "label": "OKC playing 3rd game in 4 nights",
+      "pts": -0.8,
+      "favours": "MIN",
+      "size": 0.8
+     },
+     {
+      "label": "OKC travelled 1,108 km on short rest",
+      "pts": -0.33,
+      "favours": "MIN",
+      "size": 0.33
+     },
+     {
+      "label": "OKC crossed 1 time zone(s) on short rest",
+      "pts": -0.25,
+      "favours": "MIN",
+      "size": 0.25
+     },
+     {
+      "label": "MIN travelled 1,117 km on short rest",
+      "pts": 0.34,
+      "favours": "OKC",
+      "size": 0.34
+     },
+     {
+      "label": "OKC injuries / lineup",
+      "pts": 0.3,
+      "favours": "OKC",
+      "size": 0.3
+     },
+     {
+      "label": "MIN injuries / lineup",
+      "pts": 0.81,
+      "favours": "OKC",
+      "size": 0.81
+     }
+    ],
+    "margin": 0.14,
+    "total": 220.3,
+    "home_pts": 110.2,
+    "away_pts": 110.1,
+    "margin_lo": -15.9,
+    "margin_hi": 16.2,
+    "total_lo": 197.2,
+    "total_hi": 243.3,
+    "home_win_p": 0.5046,
+    "interval": 0.8
+   },
+   "markets": [
+    {
+     "market": "h2h",
+     "title": "Moneyline",
+     "sides": [
+      {
+       "side": "home",
+       "label": "OKC",
+       "line": null,
+       "model_p": 0.5045,
+       "market_p": 0.5325,
+       "blend_p": 0.5157,
+       "edge": -0.0168,
+       "best_price": 1.83,
+       "best_book": "Unibet",
+       "ev": -0.0563,
+       "kelly": 0.0,
+       "n_books": 13
+      },
+      {
+       "side": "away",
+       "label": "MIN",
+       "line": null,
+       "model_p": 0.4955,
+       "market_p": 0.4675,
+       "blend_p": 0.4843,
+       "edge": 0.0168,
+       "best_price": 2.2,
+       "best_book": "Betfair",
+       "ev": 0.0655,
+       "kelly": 0.0546,
+       "n_books": 13
+      }
+     ],
+     "pick": {
+      "side": "away",
+      "label": "MIN",
+      "line": null,
+      "verdict": "Lean",
+      "edge": 0.0168,
+      "ev": 0.0655,
+      "price": 2.2,
+      "book": "Betfair",
+      "stake_pct": 0.0,
+      "reason": ""
+     }
+    },
+    {
+     "market": "spreads",
+     "title": "Spread",
+     "sides": [
+      {
+       "side": "home",
+       "label": "OKC -1.5",
+       "line": -1.5,
+       "model_p": 0.4567,
+       "market_p": 0.5092,
+       "blend_p": 0.4777,
+       "edge": -0.0315,
+       "best_price": 1.9,
+       "best_book": "Unibet",
+       "ev": -0.0924,
+       "kelly": 0.0,
+       "n_books": 5
+      },
+      {
+       "side": "away",
+       "label": "MIN +1.5",
+       "line": 1.5,
+       "model_p": 0.5433,
+       "market_p": 0.4908,
+       "blend_p": 0.5223,
+       "edge": 0.0315,
+       "best_price": 1.95,
+       "best_book": "SportsBet",
+       "ev": 0.0185,
+       "kelly": 0.0195,
+       "n_books": 5
+      }
+     ],
+     "pick": {
+      "side": "away",
+      "label": "MIN +1.5",
+      "line": 1.5,
+      "verdict": "Value bet",
+      "edge": 0.0315,
+      "ev": 0.0185,
+      "price": 1.95,
+      "book": "SportsBet",
+      "stake_pct": 0.0029,
+      "reason": ""
+     }
+    },
+    {
+     "market": "totals",
+     "title": "Total",
+     "sides": [
+      {
+       "side": "over",
+       "label": "Over 221.5",
+       "line": 221.5,
        "model_p": 0.4734,
        "market_p": 0.5,
        "blend_p": 0.4841,
        "edge": -0.0159,
-       "best_price": 1.9,
+       "best_price": 1.91,
+       "best_book": "SportsBet",
+       "ev": -0.0755,
+       "kelly": 0.0,
+       "n_books": 3
+      },
+      {
+       "side": "under",
+       "label": "Under 221.5",
+       "line": 221.5,
+       "model_p": 0.5266,
+       "market_p": 0.5,
+       "blend_p": 0.5159,
+       "edge": 0.0159,
+       "best_price": 1.91,
        "best_book": "PlayUp",
-       "ev": -0.0803,
+       "ev": -0.0145,
+       "kelly": 0.0,
+       "n_books": 3
+      }
+     ],
+     "pick": {
+      "side": "under",
+      "label": "Under 221.5",
+      "line": 221.5,
+      "verdict": "Pass",
+      "edge": 0.0159,
+      "ev": -0.0145,
+      "price": 1.91,
+      "book": "PlayUp",
+      "stake_pct": 0.0,
+      "reason": ""
+     }
+    }
+   ],
+   "warnings": [],
+   "movement": {
+    "open": {
+     "home_p": 0.5325,
+     "spread": -1.5,
+     "total": 221.5,
+     "at": "2026-11-25T20:38:22.441179+00:00"
+    },
+    "now": {
+     "home_p": 0.5325,
+     "spread": -1.5,
+     "total": 221.5
+    }
+   },
+   "odds_updated": "2026-11-25T20:39:11Z"
+  },
+  {
+   "id": "401909321",
+   "tip_utc": "2026-11-26T01:00:00+00:00",
+   "tip_local": "Thu 26 Nov, 11:00am",
+   "et_date": "2026-11-25",
+   "state": "pre",
+   "status_text": "11/25 - 8:00 PM EST",
+   "score": null,
+   "home": {
+    "abbr": "MEM",
+    "name": "Memphis Grizzlies",
+    "colors": [
+     "#5D76A9",
+     "#12173F"
+    ],
+    "stats": {
+     "record": "13-5",
+     "last10": "7-3",
+     "last10_margin": 7.4,
+     "pace": 101.3,
+     "ortg": 118.8,
+     "drtg": 110.1,
+     "adj_off": 3.8,
+     "adj_def": -1.1,
+     "adj_net": 2.8,
+     "games": 18
+    },
+    "injuries": [
+     {
+      "name": "Richie Saunders",
+      "status": "out",
+      "detail": "Saunders signed a two-way contract with the Grizzlies on Saturday, Shams Charania of ESPN reports.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     },
+     {
+      "name": "Scotty Pippen Jr.",
+      "status": "out",
+      "detail": "Pippen (back) is out for Wednesday's game against the Clippers.",
+      "impact": 0.03,
+      "exp_min": 13.5,
+      "note": ""
+     },
+     {
+      "name": "GG Jackson",
+      "status": "out",
+      "detail": "Jackson underwent a procedure Wednesday to repair a broken fifth metatarsal in his left foot. He is expected to recover fully and will be re-evaluated in approximately three months.",
+      "impact": 0.22,
+      "exp_min": 15.1,
+      "note": ""
+     },
+     {
+      "name": "Jerami Grant",
+      "status": "out",
+      "detail": "Grant was diagnosed with a grade 1 left calf strain and will be re-evaluated in two weeks.",
+      "impact": 0.84,
+      "exp_min": 21.7,
+      "note": ""
+     },
+     {
+      "name": "Cameron Boozer",
+      "status": "out",
+      "detail": "Boozer (ankle) will be re-evaluated in four weeks, Brett Siegel of ClutchPoints.com reports.",
+      "impact": 0.91,
+      "exp_min": 30.1,
+      "note": ""
+     }
+    ],
+    "lineup": [
+     {
+      "name": "Kris Murray",
+      "note": ""
+     },
+     {
+      "name": "Cedric Coward",
+      "note": ""
+     },
+     {
+      "name": "Jaylen Wells",
+      "note": ""
+     },
+     {
+      "name": "Zach Edey",
+      "note": ""
+     },
+     {
+      "name": "Ty Jerome",
+      "note": ""
+     }
+    ],
+    "roster": [
+     {
+      "name": "Cameron Boozer",
+      "jersey": "27",
+      "mpg": 30.1,
+      "onoff": -3.7,
+      "impact": -1.04,
+      "played_share": 0.87,
+      "status": "out",
+      "detail": "Boozer (ankle) will be re-evaluated in four weeks, Brett Siegel of ClutchPoints.com reports."
+     },
+     {
+      "name": "Ty Jerome",
+      "jersey": "2",
+      "mpg": 29.7,
+      "onoff": 6.18,
+      "impact": 1.51,
+      "played_share": 0.67,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Cedric Coward",
+      "jersey": "23",
+      "mpg": 28.7,
+      "onoff": 8.24,
+      "impact": 2.22,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jaylen Wells",
+      "jersey": "0",
+      "mpg": 25.9,
+      "onoff": 1.3,
+      "impact": 0.31,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Cam Spencer",
+      "jersey": "24",
+      "mpg": 24.1,
+      "onoff": 1.42,
+      "impact": 0.29,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Javon Small",
+      "jersey": "10",
+      "mpg": 21.9,
+      "onoff": -5.35,
+      "impact": -0.65,
+      "played_share": 0.67,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jerami Grant",
+      "jersey": "3",
+      "mpg": 21.7,
+      "onoff": -6.56,
+      "impact": -1.05,
+      "played_share": 0.8,
+      "status": "out",
+      "detail": "Grant was diagnosed with a grade 1 left calf strain and will be re-evaluated in two weeks."
+     },
+     {
+      "name": "Zach Edey",
+      "jersey": "14",
+      "mpg": 21.1,
+      "onoff": 16.36,
+      "impact": 2.37,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Isaiah Stewart",
+      "jersey": "28",
+      "mpg": 18.5,
+      "onoff": -9.18,
+      "impact": -1.01,
+      "played_share": 0.73,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Taylor Hendricks",
+      "jersey": "22",
+      "mpg": 16.4,
+      "onoff": 0.46,
+      "impact": 0.04,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "GG Jackson",
+      "jersey": "45",
+      "mpg": 15.1,
+      "onoff": -5.08,
+      "impact": -0.37,
+      "played_share": 0.6,
+      "status": "out",
+      "detail": "Jackson underwent a procedure Wednesday to repair a broken fifth metatarsal in his left foot. He is expected to recover fully and will be re-evaluated in approximately three months."
+     },
+     {
+      "name": "Scotty Pippen Jr.",
+      "jersey": "1",
+      "mpg": 13.5,
+      "onoff": -7.12,
+      "impact": -0.24,
+      "played_share": 0.13,
+      "status": "out",
+      "detail": "Pippen (back) is out for Wednesday's game against the Clippers."
+     },
+     {
+      "name": "Olivier-Maxence Prosper",
+      "jersey": "18",
+      "mpg": 12.2,
+      "onoff": 7.96,
+      "impact": 0.39,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": 2.33
+   },
+   "away": {
+    "abbr": "LAC",
+    "name": "Los Angeles Clippers",
+    "colors": [
+     "#C8102E",
+     "#1D428A"
+    ],
+    "stats": {
+     "record": "4-12",
+     "last10": "3-7",
+     "last10_margin": -6.5,
+     "pace": 101.5,
+     "ortg": 109.1,
+     "drtg": 115.8,
+     "adj_off": -1.1,
+     "adj_def": -2.4,
+     "adj_net": -3.5,
+     "games": 16
+    },
+    "injuries": [
+     {
+      "name": "Bradley Beal",
+      "status": "out",
+      "detail": "Beal (knee) will not be ready for the start of the regular season, NBA writer Justin Russo reports.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     },
+     {
+      "name": "Jordan Miller",
+      "status": "out",
+      "detail": "Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-evaluated in six months, per Law Murray of The Athletic.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     }
+    ],
+    "lineup": [
+     {
+      "name": "Brandon Ingram",
+      "note": ""
+     },
+     {
+      "name": "Derrick Jones Jr.",
+      "note": ""
+     },
+     {
+      "name": "Rui Hachimura",
+      "note": ""
+     },
+     {
+      "name": "Brook Lopez",
+      "note": ""
+     },
+     {
+      "name": "Darius Garland",
+      "note": ""
+     }
+    ],
+    "roster": [
+     {
+      "name": "Darius Garland",
+      "jersey": "10",
+      "mpg": 33.2,
+      "onoff": -20.23,
+      "impact": -6.56,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Rui Hachimura",
+      "jersey": "28",
+      "mpg": 28.8,
+      "onoff": -6.14,
+      "impact": -1.49,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Derrick Jones Jr.",
+      "jersey": "5",
+      "mpg": 28.3,
+      "onoff": -1.14,
+      "impact": -0.28,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Brandon Ingram",
+      "jersey": "7",
+      "mpg": 27,
+      "onoff": -7.73,
+      "impact": -0.19,
+      "played_share": 0.07,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Kris Dunn",
+      "jersey": "8",
+      "mpg": 25.7,
+      "onoff": -0.45,
+      "impact": -0.1,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Max Strus",
+      "jersey": "31",
+      "mpg": 24.3,
+      "onoff": -4.83,
+      "impact": -0.7,
+      "played_share": 0.67,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Brook Lopez",
+      "jersey": "11",
+      "mpg": 24.2,
+      "onoff": 5.7,
+      "impact": 1.13,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Kobe Sanders",
+      "jersey": "4",
+      "mpg": 21.5,
+      "onoff": 8.07,
+      "impact": 1.31,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Keaton Wagler",
+      "jersey": "1",
+      "mpg": 21.3,
+      "onoff": 2.55,
+      "impact": 0.42,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Isaiah Jackson",
+      "jersey": "23",
+      "mpg": 18,
+      "onoff": -6.14,
+      "impact": -0.71,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Gradey Dick",
+      "jersey": "9",
+      "mpg": 15.7,
+      "onoff": 11.24,
+      "impact": 1.05,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Yanic Konan Niederhauser",
+      "jersey": "14",
+      "mpg": 11.7,
+      "onoff": -30.26,
+      "impact": -0.41,
+      "played_share": 0.2,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Baba Miller",
+      "jersey": "18",
+      "mpg": 7.5,
+      "onoff": 9.93,
+      "impact": 0.24,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": -0.72
+   },
+   "projection": {
+    "base_margin": 7.9,
+    "home_court": 1.66,
+    "adjustments": [
+     {
+      "label": "MEM travelled 837 km on short rest",
+      "pts": -0.25,
+      "favours": "LAC",
+      "size": 0.25
+     },
+     {
+      "label": "MEM crossed 1 time zone(s) on short rest",
+      "pts": -0.25,
+      "favours": "LAC",
+      "size": 0.25
+     },
+     {
+      "label": "LAC travelled 779 km on short rest",
+      "pts": 0.23,
+      "favours": "MEM",
+      "size": 0.23
+     },
+     {
+      "label": "MEM injuries / lineup",
+      "pts": 2.33,
+      "favours": "MEM",
+      "size": 2.33
+     },
+     {
+      "label": "LAC injuries / lineup",
+      "pts": 0.72,
+      "favours": "MEM",
+      "size": 0.72
+     }
+    ],
+    "margin": 10.69,
+    "total": 233.8,
+    "home_pts": 122.3,
+    "away_pts": 111.6,
+    "margin_lo": -5.3,
+    "margin_hi": 26.7,
+    "total_lo": 210.8,
+    "total_hi": 256.9,
+    "home_win_p": 0.8038,
+    "interval": 0.8
+   },
+   "markets": [
+    {
+     "market": "h2h",
+     "title": "Moneyline",
+     "sides": [
+      {
+       "side": "home",
+       "label": "MEM",
+       "line": null,
+       "model_p": 0.8038,
+       "market_p": 0.6969,
+       "blend_p": 0.761,
+       "edge": 0.0641,
+       "best_price": 1.4,
+       "best_book": "Betfair",
+       "ev": 0.0654,
+       "kelly": 0.1636,
+       "n_books": 13
+      },
+      {
+       "side": "away",
+       "label": "LAC",
+       "line": null,
+       "model_p": 0.1962,
+       "market_p": 0.3031,
+       "blend_p": 0.239,
+       "edge": -0.0641,
+       "best_price": 3.4,
+       "best_book": "Betfair",
+       "ev": -0.1875,
+       "kelly": 0.0,
+       "n_books": 13
+      }
+     ],
+     "pick": {
+      "side": "home",
+      "label": "MEM",
+      "line": null,
+      "verdict": "Lean",
+      "edge": 0.0641,
+      "ev": 0.0654,
+      "price": 1.4,
+      "book": "Betfair",
+      "stake_pct": 0.0,
+      "reason": "another bet on this game was stronger"
+     }
+    },
+    {
+     "market": "spreads",
+     "title": "Spread",
+     "sides": [
+      {
+       "side": "home",
+       "label": "MEM -7.5",
+       "line": -7.5,
+       "model_p": 0.6007,
+       "market_p": 0.48,
+       "blend_p": 0.5524,
+       "edge": 0.0724,
+       "best_price": 1.98,
+       "best_book": "SportsBet",
+       "ev": 0.0938,
+       "kelly": 0.0957,
+       "n_books": 3
+      },
+      {
+       "side": "away",
+       "label": "LAC +7.5",
+       "line": 7.5,
+       "model_p": 0.3993,
+       "market_p": 0.52,
+       "blend_p": 0.4476,
+       "edge": -0.0724,
+       "best_price": 1.9,
+       "best_book": "PointsBet (AU)",
+       "ev": -0.1496,
+       "kelly": 0.0,
+       "n_books": 3
+      }
+     ],
+     "pick": {
+      "side": "home",
+      "label": "MEM -7.5",
+      "line": -7.5,
+      "verdict": "Lean",
+      "edge": 0.0724,
+      "ev": 0.0938,
+      "price": 1.98,
+      "book": "SportsBet",
+      "stake_pct": 0.0,
+      "reason": "another bet on this game was stronger"
+     }
+    },
+    {
+     "market": "totals",
+     "title": "Total",
+     "sides": [
+      {
+       "side": "over",
+       "label": "Over 227.5",
+       "line": 227.5,
+       "model_p": 0.6368,
+       "market_p": 0.5,
+       "blend_p": 0.5821,
+       "edge": 0.0821,
+       "best_price": 1.91,
+       "best_book": "PlayUp",
+       "ev": 0.1118,
+       "kelly": 0.1229,
+       "n_books": 4
+      },
+      {
+       "side": "under",
+       "label": "Under 227.5",
+       "line": 227.5,
+       "model_p": 0.3632,
+       "market_p": 0.5,
+       "blend_p": 0.4179,
+       "edge": -0.0821,
+       "best_price": 1.91,
+       "best_book": "PlayUp",
+       "ev": -0.2018,
+       "kelly": 0.0,
+       "n_books": 4
+      }
+     ],
+     "pick": {
+      "side": "over",
+      "label": "Over 227.5",
+      "line": 227.5,
+      "verdict": "Value bet",
+      "edge": 0.0821,
+      "ev": 0.1118,
+      "price": 1.91,
+      "book": "PlayUp",
+      "stake_pct": 0.0119,
+      "reason": ""
+     }
+    }
+   ],
+   "warnings": [],
+   "movement": {
+    "open": {
+     "home_p": 0.6969,
+     "spread": -7.5,
+     "total": 227.5,
+     "at": "2026-11-25T20:38:22.441179+00:00"
+    },
+    "now": {
+     "home_p": 0.6969,
+     "spread": -7.5,
+     "total": 227.5
+    }
+   },
+   "odds_updated": "2026-11-25T20:39:11Z"
+  },
+  {
+   "id": "401909322",
+   "tip_utc": "2026-11-26T01:00:00+00:00",
+   "tip_local": "Thu 26 Nov, 11:00am",
+   "et_date": "2026-11-25",
+   "state": "pre",
+   "status_text": "11/25 - 8:00 PM EST",
+   "score": null,
+   "home": {
+    "abbr": "MIL",
+    "name": "Milwaukee Bucks",
+    "colors": [
+     "#00471B",
+     "#EEE1C6"
+    ],
+    "stats": {
+     "record": "2-16",
+     "last10": "1-9",
+     "last10_margin": -10.7,
+     "pace": 101.8,
+     "ortg": 107.8,
+     "drtg": 118.9,
+     "adj_off": -2.5,
+     "adj_def": -5.0,
+     "adj_net": -7.4,
+     "games": 18
+    },
+    "injuries": [],
+    "lineup": [
+     {
+      "name": "Kyle Kuzma",
+      "note": ""
+     },
+     {
+      "name": "Jaime Jaquez Jr.",
+      "note": ""
+     },
+     {
+      "name": "Myles Turner",
+      "note": ""
+     },
+     {
+      "name": "Tyler Herro",
+      "note": ""
+     },
+     {
+      "name": "Ryan Rollins",
+      "note": ""
+     }
+    ],
+    "roster": [
+     {
+      "name": "Tyler Herro",
+      "jersey": "11",
+      "mpg": 30.9,
+      "onoff": 0.27,
+      "impact": 0.08,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Kyle Kuzma",
+      "jersey": "18",
+      "mpg": 27.1,
+      "onoff": -0.92,
+      "impact": -0.23,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Myles Turner",
+      "jersey": "3",
+      "mpg": 26.5,
+      "onoff": -4.39,
+      "impact": -1.01,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jaime Jaquez Jr.",
+      "jersey": "24",
+      "mpg": 26.2,
+      "onoff": 0.27,
+      "impact": 0.07,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Brayden Burries",
+      "jersey": "0",
+      "mpg": 24.9,
+      "onoff": -2.59,
+      "impact": -0.55,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Ryan Rollins",
+      "jersey": "13",
+      "mpg": 22.9,
+      "onoff": 7.05,
+      "impact": 1.31,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Nate Ament",
+      "jersey": "15",
+      "mpg": 19.4,
+      "onoff": -0.59,
+      "impact": -0.08,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Kel'el Ware",
+      "jersey": "9",
+      "mpg": 19,
+      "onoff": 0.07,
+      "impact": 0.01,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Kasparas Jakucionis",
+      "jersey": "25",
+      "mpg": 16.4,
+      "onoff": -6.8,
+      "impact": -0.78,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Pete Nance",
+      "jersey": "35",
+      "mpg": 16,
+      "onoff": 44.53,
+      "impact": 0.75,
+      "played_share": 0.13,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "AJ Green",
+      "jersey": "20",
+      "mpg": 15.8,
+      "onoff": -3.21,
+      "impact": -0.32,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jericho Sims",
+      "jersey": "00",
+      "mpg": 11,
+      "onoff": 8.15,
+      "impact": 0.29,
+      "played_share": 0.67,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Gary Trent Jr.",
+      "jersey": "5",
+      "mpg": 10.8,
+      "onoff": -11.15,
+      "impact": -0.35,
+      "played_share": 0.6,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": 0.85
+   },
+   "away": {
+    "abbr": "BKN",
+    "name": "Brooklyn Nets",
+    "colors": [
+     "#111111",
+     "#777D84"
+    ],
+    "stats": {
+     "record": "3-13",
+     "last10": "2-8",
+     "last10_margin": -9.8,
+     "pace": 101.7,
+     "ortg": 109.3,
+     "drtg": 118.3,
+     "adj_off": -2.6,
+     "adj_def": -5.4,
+     "adj_net": -8.0,
+     "games": 16
+    },
+    "injuries": [
+     {
+      "name": "Nolan Traore",
+      "status": "out",
+      "detail": "Traore will be re-evaluated in approximately 8-10 weeks due to a right hamstring strain, Michael Scotto of HoopsHype.com reports.",
+      "impact": 0.6,
+      "exp_min": 22.8,
+      "note": ""
+     }
+    ],
+    "lineup": [
+     {
+      "name": "Julius Randle",
+      "note": ""
+     },
+     {
+      "name": "Michael Porter Jr.",
+      "note": ""
+     },
+     {
+      "name": "Danny Wolf",
+      "note": ""
+     },
+     {
+      "name": "Day'Ron Sharpe",
+      "note": ""
+     },
+     {
+      "name": "Mikel Brown Jr.",
+      "note": ""
+     }
+    ],
+    "roster": [
+     {
+      "name": "Julius Randle",
+      "jersey": "30",
+      "mpg": 32.7,
+      "onoff": 9.89,
+      "impact": 3.16,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Michael Porter Jr.",
+      "jersey": "17",
+      "mpg": 32.6,
+      "onoff": 10.46,
+      "impact": 3.19,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Egor Demin",
+      "jersey": "8",
+      "mpg": 23.7,
+      "onoff": 2.63,
+      "impact": 0.37,
+      "played_share": 0.6,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Mikel Brown Jr.",
+      "jersey": "0",
+      "mpg": 23.7,
+      "onoff": -7.05,
+      "impact": -1.11,
+      "played_share": 0.73,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Day'Ron Sharpe",
+      "jersey": "20",
+      "mpg": 23.5,
+      "onoff": 13.9,
+      "impact": 2.66,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Danny Wolf",
+      "jersey": "2",
+      "mpg": 23.2,
+      "onoff": 11.21,
+      "impact": 1.61,
+      "played_share": 0.73,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Nolan Traore",
+      "jersey": "10",
+      "mpg": 22.8,
+      "onoff": -4.24,
+      "impact": -0.69,
+      "played_share": 0.87,
+      "status": "out",
+      "detail": "Traore will be re-evaluated in approximately 8-10 weeks due to a right hamstring strain, Michael Scotto of HoopsHype.com reports."
+     },
+     {
+      "name": "Noah Clowney",
+      "jersey": "21",
+      "mpg": 21.4,
+      "onoff": -13.75,
+      "impact": -2.23,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Moritz Wagner",
+      "jersey": "13",
+      "mpg": 18,
+      "onoff": -10.47,
+      "impact": -1.27,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Keon Ellis",
+      "jersey": "1",
+      "mpg": 17.9,
+      "onoff": 3.34,
+      "impact": 0.4,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Chaney Johnson",
+      "jersey": "31",
+      "mpg": 17,
+      "onoff": -7.38,
+      "impact": -0.71,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Terance Mann",
+      "jersey": "14",
+      "mpg": 12.6,
+      "onoff": 7.08,
+      "impact": 0.29,
+      "played_share": 0.6,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Grant Nelson",
+      "jersey": "16",
+      "mpg": 8,
+      "onoff": -33.33,
+      "impact": -0.07,
+      "played_share": 0.07,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": 0.95
+   },
+   "projection": {
+    "base_margin": 2.22,
+    "home_court": 1.66,
+    "adjustments": [
+     {
+      "label": "MIL travelled 693 km on short rest",
+      "pts": -0.21,
+      "favours": "BKN",
+      "size": 0.21
+     },
+     {
+      "label": "MIL crossed 1 time zone(s) on short rest",
+      "pts": -0.25,
+      "favours": "BKN",
+      "size": 0.25
+     },
+     {
+      "label": "MIL injuries / lineup",
+      "pts": 0.85,
+      "favours": "MIL",
+      "size": 0.85
+     },
+     {
+      "label": "BKN injuries / lineup",
+      "pts": -0.95,
+      "favours": "BKN",
+      "size": 0.95
+     }
+    ],
+    "margin": 1.66,
+    "total": 233.1,
+    "home_pts": 117.4,
+    "away_pts": 115.7,
+    "margin_lo": -14.4,
+    "margin_hi": 17.7,
+    "total_lo": 210.0,
+    "total_hi": 256.1,
+    "home_win_p": 0.5529,
+    "interval": 0.8
+   },
+   "markets": [
+    {
+     "market": "h2h",
+     "title": "Moneyline",
+     "sides": [
+      {
+       "side": "home",
+       "label": "MIL",
+       "line": null,
+       "model_p": 0.5528,
+       "market_p": 0.5169,
+       "blend_p": 0.5384,
+       "edge": 0.0216,
+       "best_price": 1.92,
+       "best_book": "Betfair",
+       "ev": 0.0338,
+       "kelly": 0.0368,
+       "n_books": 13
+      },
+      {
+       "side": "away",
+       "label": "BKN",
+       "line": null,
+       "model_p": 0.4472,
+       "market_p": 0.4831,
+       "blend_p": 0.4616,
+       "edge": -0.0216,
+       "best_price": 2.06,
+       "best_book": "Betfair",
+       "ev": -0.0492,
+       "kelly": 0.0,
+       "n_books": 13
+      }
+     ],
+     "pick": {
+      "side": "home",
+      "label": "MIL",
+      "line": null,
+      "verdict": "Lean",
+      "edge": 0.0216,
+      "ev": 0.0338,
+      "price": 1.92,
+      "book": "Betfair",
+      "stake_pct": 0.0,
+      "reason": ""
+     }
+    },
+    {
+     "market": "spreads",
+     "title": "Spread",
+     "sides": [
+      {
+       "side": "home",
+       "label": "MIL -1.5",
+       "line": -1.5,
+       "model_p": 0.5051,
+       "market_p": 0.4974,
+       "blend_p": 0.502,
+       "edge": 0.0046,
+       "best_price": 1.93,
+       "best_book": "TABtouch",
+       "ev": -0.0311,
+       "kelly": 0.0,
+       "n_books": 6
+      },
+      {
+       "side": "away",
+       "label": "BKN +1.5",
+       "line": 1.5,
+       "model_p": 0.4949,
+       "market_p": 0.5026,
+       "blend_p": 0.498,
+       "edge": -0.0046,
+       "best_price": 1.9,
+       "best_book": "TAB",
+       "ev": -0.0538,
+       "kelly": 0.0,
+       "n_books": 6
+      }
+     ],
+     "pick": {
+      "side": "home",
+      "label": "MIL -1.5",
+      "line": -1.5,
+      "verdict": "Pass",
+      "edge": 0.0046,
+      "ev": -0.0311,
+      "price": 1.93,
+      "book": "TABtouch",
+      "stake_pct": 0.0,
+      "reason": ""
+     }
+    },
+    {
+     "market": "totals",
+     "title": "Total",
+     "sides": [
+      {
+       "side": "over",
+       "label": "Over 234.5",
+       "line": 234.5,
+       "model_p": 0.469,
+       "market_p": 0.5,
+       "blend_p": 0.4814,
+       "edge": -0.0186,
+       "best_price": 1.93,
+       "best_book": "PlayUp",
+       "ev": -0.0709,
        "kelly": 0.0,
        "n_books": 3
       },
@@ -1801,13 +3659,13 @@
        "side": "under",
        "label": "Under 234.5",
        "line": 234.5,
-       "model_p": 0.5266,
+       "model_p": 0.531,
        "market_p": 0.5,
-       "blend_p": 0.5159,
-       "edge": 0.0159,
+       "blend_p": 0.5186,
+       "edge": 0.0186,
        "best_price": 1.9,
-       "best_book": "PlayUp",
-       "ev": -0.0197,
+       "best_book": "TAB",
+       "ev": -0.0147,
        "kelly": 0.0,
        "n_books": 3
       }
@@ -1817,32 +3675,1846 @@
       "label": "Under 234.5",
       "line": 234.5,
       "verdict": "Pass",
-      "edge": 0.0159,
-      "ev": -0.0197,
+      "edge": 0.0186,
+      "ev": -0.0147,
       "price": 1.9,
-      "book": "PlayUp",
+      "book": "TAB",
       "stake_pct": 0.0,
       "reason": ""
      }
     }
    ],
-   "warnings": [
-    "P.J. Washington (DAL) is questionable: worth ~1.2 pts. Re-check before tip-off."
-   ],
+   "warnings": [],
    "movement": {
     "open": {
-     "home_p": 0.7202,
-     "spread": -8.5,
+     "home_p": 0.5169,
+     "spread": -1.5,
      "total": 234.5,
-     "at": "2026-11-24T20:41:24.417973+00:00"
+     "at": "2026-11-25T20:38:22.441179+00:00"
     },
     "now": {
-     "home_p": 0.7202,
-     "spread": -8.5,
+     "home_p": 0.5169,
+     "spread": -1.5,
      "total": 234.5
     }
    },
-   "odds_updated": "2026-11-25T01:31:21Z"
+   "odds_updated": "2026-11-25T20:39:11Z"
+  },
+  {
+   "id": "401909323",
+   "tip_utc": "2026-11-26T01:30:00+00:00",
+   "tip_local": "Thu 26 Nov, 11:30am",
+   "et_date": "2026-11-25",
+   "state": "pre",
+   "status_text": "11/25 - 8:30 PM EST",
+   "score": null,
+   "home": {
+    "abbr": "HOU",
+    "name": "Houston Rockets",
+    "colors": [
+     "#CE1141",
+     "#000000"
+    ],
+    "stats": {
+     "record": "13-5",
+     "last10": "6-4",
+     "last10_margin": 3.9,
+     "pace": 99.0,
+     "ortg": 119.3,
+     "drtg": 111.3,
+     "adj_off": 2.4,
+     "adj_def": 3.3,
+     "adj_net": 5.7,
+     "games": 18
+    },
+    "injuries": [],
+    "lineup": [
+     {
+      "name": "Kevin Durant",
+      "note": ""
+     },
+     {
+      "name": "Jabari Smith Jr.",
+      "note": ""
+     },
+     {
+      "name": "Alperen Sengun",
+      "note": ""
+     },
+     {
+      "name": "Fred VanVleet",
+      "note": ""
+     },
+     {
+      "name": "Amen Thompson",
+      "note": ""
+     }
+    ],
+    "roster": [
+     {
+      "name": "Kevin Durant",
+      "jersey": "7",
+      "mpg": 32.9,
+      "onoff": 6.53,
+      "impact": 2.24,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Alperen Sengun",
+      "jersey": "28",
+      "mpg": 32.8,
+      "onoff": 10.86,
+      "impact": 3.47,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jabari Smith Jr.",
+      "jersey": "10",
+      "mpg": 32.7,
+      "onoff": 12.53,
+      "impact": 4.24,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Amen Thompson",
+      "jersey": "1",
+      "mpg": 31.6,
+      "onoff": -13.36,
+      "impact": -4.22,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Fred VanVleet",
+      "jersey": "5",
+      "mpg": 30,
+      "onoff": 8.18,
+      "impact": 2.2,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Tari Eason",
+      "jersey": "17",
+      "mpg": 25.6,
+      "onoff": -7.15,
+      "impact": -1.62,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Marcus Smart",
+      "jersey": "36",
+      "mpg": 21.1,
+      "onoff": 2.02,
+      "impact": 0.27,
+      "played_share": 0.67,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Reed Sheppard",
+      "jersey": "15",
+      "mpg": 19.6,
+      "onoff": -1.83,
+      "impact": -0.25,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Steven Adams",
+      "jersey": "12",
+      "mpg": 14,
+      "onoff": 2.82,
+      "impact": 0.08,
+      "played_share": 0.27,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Bogdan Bogdanovic",
+      "jersey": "31",
+      "mpg": 11.8,
+      "onoff": -6.16,
+      "impact": -0.41,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Oscar Tshiebwe",
+      "jersey": "9",
+      "mpg": 7,
+      "onoff": 2.97,
+      "impact": 0.05,
+      "played_share": 0.73,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Isaiah Crawford",
+      "jersey": "27",
+      "mpg": 6.8,
+      "onoff": -9.33,
+      "impact": -0.13,
+      "played_share": 0.6,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jae'Sean Tate",
+      "jersey": "8",
+      "mpg": 4.4,
+      "onoff": -26.75,
+      "impact": -0.15,
+      "played_share": 0.53,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": 0.42
+   },
+   "away": {
+    "abbr": "PHX",
+    "name": "Phoenix Suns",
+    "colors": [
+     "#1D1160",
+     "#E56020"
+    ],
+    "stats": {
+     "record": "9-7",
+     "last10": "8-2",
+     "last10_margin": 5.7,
+     "pace": 101.0,
+     "ortg": 113.3,
+     "drtg": 113.9,
+     "adj_off": 0.5,
+     "adj_def": -0.3,
+     "adj_net": 0.3,
+     "games": 16
+    },
+    "injuries": [
+     {
+      "name": "Mark Williams",
+      "status": "out",
+      "detail": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     }
+    ],
+    "lineup": [
+     {
+      "name": "Dillon Brooks",
+      "note": ""
+     },
+     {
+      "name": "Miles Bridges",
+      "note": ""
+     },
+     {
+      "name": "Oso Ighodaro",
+      "note": ""
+     },
+     {
+      "name": "Devin Booker",
+      "note": ""
+     },
+     {
+      "name": "Jalen Green",
+      "note": ""
+     }
+    ],
+    "roster": [
+     {
+      "name": "Devin Booker",
+      "jersey": "15",
+      "mpg": 34.8,
+      "onoff": -17.39,
+      "impact": -6.04,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Miles Bridges",
+      "jersey": "22",
+      "mpg": 29.4,
+      "onoff": -2.74,
+      "impact": -0.74,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Dillon Brooks",
+      "jersey": "3",
+      "mpg": 29.3,
+      "onoff": -9.47,
+      "impact": -2.53,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jalen Green",
+      "jersey": "4",
+      "mpg": 27.6,
+      "onoff": -21.18,
+      "impact": -5.15,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Collin Gillespie",
+      "jersey": "12",
+      "mpg": 25.1,
+      "onoff": 9.08,
+      "impact": 1.89,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Oso Ighodaro",
+      "jersey": "11",
+      "mpg": 24.1,
+      "onoff": -6.9,
+      "impact": -1.22,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jordan Goodwin",
+      "jersey": "23",
+      "mpg": 20.4,
+      "onoff": 8.54,
+      "impact": 1.05,
+      "played_share": 0.73,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Khaman Maluach",
+      "jersey": "10",
+      "mpg": 18.5,
+      "onoff": -3.84,
+      "impact": -0.49,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Luke Kennard",
+      "jersey": "8",
+      "mpg": 17.1,
+      "onoff": 21.28,
+      "impact": 2.26,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Ryan Dunn",
+      "jersey": "0",
+      "mpg": 15.9,
+      "onoff": 9.85,
+      "impact": 0.97,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Rasheer Fleming",
+      "jersey": "20",
+      "mpg": 7,
+      "onoff": 6.92,
+      "impact": 0.06,
+      "played_share": 0.27,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jamaree Bouyea",
+      "jersey": "17",
+      "mpg": 4.8,
+      "onoff": 10.37,
+      "impact": 0.06,
+      "played_share": 0.4,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Koa Peat",
+      "jersey": "18",
+      "mpg": 4,
+      "onoff": 31.32,
+      "impact": 0.17,
+      "played_share": 0.6,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": 0.27
+   },
+   "projection": {
+    "base_margin": 7.05,
+    "home_court": 1.66,
+    "adjustments": [
+     {
+      "label": "PHX travelled 510 km on short rest",
+      "pts": 0.15,
+      "favours": "HOU",
+      "size": 0.15
+     },
+     {
+      "label": "HOU injuries / lineup",
+      "pts": 0.42,
+      "favours": "HOU",
+      "size": 0.42
+     },
+     {
+      "label": "PHX injuries / lineup",
+      "pts": -0.27,
+      "favours": "PHX",
+      "size": 0.27
+     }
+    ],
+    "margin": 7.34,
+    "total": 227.3,
+    "home_pts": 117.3,
+    "away_pts": 110.0,
+    "margin_lo": -8.7,
+    "margin_hi": 23.4,
+    "total_lo": 204.2,
+    "total_hi": 250.4,
+    "home_win_p": 0.7215,
+    "interval": 0.8
+   },
+   "markets": [
+    {
+     "market": "h2h",
+     "title": "Moneyline",
+     "sides": [
+      {
+       "side": "home",
+       "label": "HOU",
+       "line": null,
+       "model_p": 0.7215,
+       "market_p": 0.7605,
+       "blend_p": 0.7371,
+       "edge": -0.0234,
+       "best_price": 1.28,
+       "best_book": "Betfair",
+       "ev": -0.0566,
+       "kelly": 0.0,
+       "n_books": 13
+      },
+      {
+       "side": "away",
+       "label": "PHX",
+       "line": null,
+       "model_p": 0.2785,
+       "market_p": 0.2395,
+       "blend_p": 0.2629,
+       "edge": 0.0234,
+       "best_price": 4.2,
+       "best_book": "Betfair",
+       "ev": 0.1043,
+       "kelly": 0.0326,
+       "n_books": 13
+      }
+     ],
+     "pick": {
+      "side": "away",
+      "label": "PHX",
+      "line": null,
+      "verdict": "Lean",
+      "edge": 0.0234,
+      "ev": 0.1043,
+      "price": 4.2,
+      "book": "Betfair",
+      "stake_pct": 0.0,
+      "reason": ""
+     }
+    },
+    {
+     "market": "spreads",
+     "title": "Spread",
+     "sides": [
+      {
+       "side": "home",
+       "label": "HOU -9.5",
+       "line": -9.5,
+       "model_p": 0.4314,
+       "market_p": 0.4928,
+       "blend_p": 0.4559,
+       "edge": -0.0368,
+       "best_price": 1.94,
+       "best_book": "SportsBet",
+       "ev": -0.1155,
+       "kelly": 0.0,
+       "n_books": 4
+      },
+      {
+       "side": "away",
+       "label": "PHX +9.5",
+       "line": 9.5,
+       "model_p": 0.5686,
+       "market_p": 0.5072,
+       "blend_p": 0.5441,
+       "edge": 0.0368,
+       "best_price": 1.89,
+       "best_book": "Unibet",
+       "ev": 0.0283,
+       "kelly": 0.0318,
+       "n_books": 4
+      }
+     ],
+     "pick": {
+      "side": "away",
+      "label": "PHX +9.5",
+      "line": 9.5,
+      "verdict": "Lean",
+      "edge": 0.0368,
+      "ev": 0.0283,
+      "price": 1.89,
+      "book": "Unibet",
+      "stake_pct": 0.0,
+      "reason": "another bet on this game was stronger"
+     }
+    },
+    {
+     "market": "totals",
+     "title": "Total",
+     "sides": [
+      {
+       "side": "over",
+       "label": "Over 222.5",
+       "line": 222.5,
+       "model_p": 0.6051,
+       "market_p": 0.5,
+       "blend_p": 0.5631,
+       "edge": 0.0631,
+       "best_price": 1.9,
+       "best_book": "TAB",
+       "ev": 0.0699,
+       "kelly": 0.0776,
+       "n_books": 4
+      },
+      {
+       "side": "under",
+       "label": "Under 222.5",
+       "line": 222.5,
+       "model_p": 0.3949,
+       "market_p": 0.5,
+       "blend_p": 0.4369,
+       "edge": -0.0631,
+       "best_price": 1.91,
+       "best_book": "SportsBet",
+       "ev": -0.1655,
+       "kelly": 0.0,
+       "n_books": 4
+      }
+     ],
+     "pick": {
+      "side": "over",
+      "label": "Over 222.5",
+      "line": 222.5,
+      "verdict": "Value bet",
+      "edge": 0.0631,
+      "ev": 0.0699,
+      "price": 1.9,
+      "book": "TAB",
+      "stake_pct": 0.0115,
+      "reason": ""
+     }
+    }
+   ],
+   "warnings": [],
+   "movement": {
+    "open": {
+     "home_p": 0.7605,
+     "spread": -9.5,
+     "total": 222.5,
+     "at": "2026-11-25T20:38:22.441179+00:00"
+    },
+    "now": {
+     "home_p": 0.7605,
+     "spread": -9.5,
+     "total": 222.5
+    }
+   },
+   "odds_updated": "2026-11-25T20:39:11Z"
+  },
+  {
+   "id": "401909324",
+   "tip_utc": "2026-11-26T03:00:00+00:00",
+   "tip_local": "Thu 26 Nov, 1:00pm",
+   "et_date": "2026-11-25",
+   "state": "pre",
+   "status_text": "11/25 - 10:00 PM EST",
+   "score": null,
+   "home": {
+    "abbr": "GS",
+    "name": "Golden State Warriors",
+    "colors": [
+     "#1D428A",
+     "#FFC72C"
+    ],
+    "stats": {
+     "record": "9-8",
+     "last10": "5-5",
+     "last10_margin": -3.4,
+     "pace": 100.0,
+     "ortg": 111.3,
+     "drtg": 112.1,
+     "adj_off": -2.4,
+     "adj_def": 1.7,
+     "adj_net": -0.7,
+     "games": 17
+    },
+    "injuries": [
+     {
+      "name": "Stephen Curry",
+      "status": "out",
+      "detail": "Curry has been diagnosed with an oblique abdominal tear and will be re-evaluated in two weeks, Shams Charania of ESPN reports.",
+      "impact": -2.11,
+      "exp_min": 26.8,
+      "note": ""
+     },
+     {
+      "name": "Brandon Williams",
+      "status": "questionable",
+      "detail": "Head coach Steve Kerr said Tuesday that Williams (hamstring) is questionable to play Wednesday against the Kings, per Dalton Johnson of NBC Sports Bay Area.",
+      "impact": -0.04,
+      "exp_min": 16.9,
+      "note": ""
+     },
+     {
+      "name": "Kristaps Porzingis",
+      "status": "out",
+      "detail": "Porzingis announced on his social media that he's stepping away from basketball.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     },
+     {
+      "name": "Moses Moody",
+      "status": "out",
+      "detail": "Moody (knee) is progressing toward a potential return between December and January after rupturing his left patellar tendon in March, Anthony Slater of ESPN reports.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     },
+     {
+      "name": "Jimmy Butler III",
+      "status": "out",
+      "detail": "Butler (knee) could return sometime between January and February as he continues recovering from a torn right ACL, Anthony Slater of ESPN reports.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     },
+     {
+      "name": "Yaxel Lendeborg",
+      "status": "questionable",
+      "detail": "Lendeborg is questionable for Wednesday's game against the Kings with an illness.",
+      "impact": 3.5,
+      "exp_min": 31.5,
+      "note": ""
+     }
+    ],
+    "lineup": [
+     {
+      "name": "Draymond Green",
+      "note": ""
+     },
+     {
+      "name": "Yaxel Lendeborg",
+      "note": "questionable"
+     },
+     {
+      "name": "Charles Bassey",
+      "note": ""
+     },
+     {
+      "name": "De'Anthony Melton",
+      "note": ""
+     },
+     {
+      "name": "Brandin Podziemski",
+      "note": ""
+     }
+    ],
+    "roster": [
+     {
+      "name": "Brandin Podziemski",
+      "jersey": "2",
+      "mpg": 32.4,
+      "onoff": 0.31,
+      "impact": 0.09,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Yaxel Lendeborg",
+      "jersey": "1",
+      "mpg": 31.5,
+      "onoff": -27.64,
+      "impact": -7.0,
+      "played_share": 1.0,
+      "status": "questionable",
+      "detail": "Lendeborg is questionable for Wednesday's game against the Kings with an illness."
+     },
+     {
+      "name": "Stephen Curry",
+      "jersey": "30",
+      "mpg": 26.8,
+      "onoff": 23.13,
+      "impact": 3.95,
+      "played_share": 0.53,
+      "status": "out",
+      "detail": "Curry has been diagnosed with an oblique abdominal tear and will be re-evaluated in two weeks, Shams Charania of ESPN reports."
+     },
+     {
+      "name": "Draymond Green",
+      "jersey": "23",
+      "mpg": 25.7,
+      "onoff": -8.51,
+      "impact": -1.71,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "De'Anthony Melton",
+      "jersey": "8",
+      "mpg": 22.5,
+      "onoff": -12.82,
+      "impact": -2.33,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Will Richard",
+      "jersey": "3",
+      "mpg": 20.8,
+      "onoff": -9.31,
+      "impact": -1.39,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Gui Santos",
+      "jersey": "15",
+      "mpg": 18.7,
+      "onoff": 11.56,
+      "impact": 1.39,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Georges Niang",
+      "jersey": "32",
+      "mpg": 18.5,
+      "onoff": 6.04,
+      "impact": 0.79,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Brandon Williams",
+      "jersey": "12",
+      "mpg": 16.9,
+      "onoff": 16.15,
+      "impact": 1.21,
+      "played_share": 0.53,
+      "status": "questionable",
+      "detail": "Head coach Steve Kerr said Tuesday that Williams (hamstring) is questionable to play Wednesday against the Kings, per Dalton Johnson of NBC Sports Bay Area."
+     },
+     {
+      "name": "Al Horford",
+      "jersey": "20",
+      "mpg": 16.8,
+      "onoff": 2.57,
+      "impact": 0.26,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Charles Bassey",
+      "jersey": "28",
+      "mpg": 15.6,
+      "onoff": -0.86,
+      "impact": -0.08,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Gary Payton II",
+      "jersey": "0",
+      "mpg": 13.8,
+      "onoff": -0.45,
+      "impact": -0.03,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "LJ Cryer",
+      "jersey": "18",
+      "mpg": 12.4,
+      "onoff": -7.26,
+      "impact": -0.39,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": 1.36
+   },
+   "away": {
+    "abbr": "SAC",
+    "name": "Sacramento Kings",
+    "colors": [
+     "#5A2D81",
+     "#63727A"
+    ],
+    "stats": {
+     "record": "2-15",
+     "last10": "1-9",
+     "last10_margin": -11.4,
+     "pace": 100.8,
+     "ortg": 105.9,
+     "drtg": 118.4,
+     "adj_off": -4.2,
+     "adj_def": -3.5,
+     "adj_net": -7.7,
+     "games": 17
+    },
+    "injuries": [
+     {
+      "name": "Maxime Raynaud",
+      "status": "out",
+      "detail": "Raynaud (knee) was assigned to the G League's Stockton Kings on Wednesday, James Ham of ESPN 1320 Sacramento reports.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     },
+     {
+      "name": "Ben Simmons",
+      "status": "out",
+      "detail": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     }
+    ],
+    "lineup": [
+     {
+      "name": "Domantas Sabonis",
+      "note": ""
+     },
+     {
+      "name": "De'Andre Hunter",
+      "note": ""
+     },
+     {
+      "name": "Keegan Murray",
+      "note": ""
+     },
+     {
+      "name": "Zach LaVine",
+      "note": ""
+     },
+     {
+      "name": "Darius Acuff Jr.",
+      "note": ""
+     }
+    ],
+    "roster": [
+     {
+      "name": "Darius Acuff Jr.",
+      "jersey": "5",
+      "mpg": 36.7,
+      "onoff": 8.27,
+      "impact": 3.22,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "De'Andre Hunter",
+      "jersey": "15",
+      "mpg": 35.6,
+      "onoff": 0.42,
+      "impact": 0.14,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Domantas Sabonis",
+      "jersey": "11",
+      "mpg": 32.8,
+      "onoff": 0.5,
+      "impact": 0.16,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Zach LaVine",
+      "jersey": "8",
+      "mpg": 32.4,
+      "onoff": -1.64,
+      "impact": -0.52,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Keegan Murray",
+      "jersey": "13",
+      "mpg": 32.2,
+      "onoff": -1.62,
+      "impact": -0.37,
+      "played_share": 0.53,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Precious Achiuwa",
+      "jersey": "9",
+      "mpg": 22.9,
+      "onoff": -1.67,
+      "impact": -0.28,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Leaky Black",
+      "jersey": "19",
+      "mpg": 18.9,
+      "onoff": 0.67,
+      "impact": 0.07,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Emanuel Sharp",
+      "jersey": "34",
+      "mpg": 16.6,
+      "onoff": 9.69,
+      "impact": 1.07,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Malik Monk",
+      "jersey": "0",
+      "mpg": 16.5,
+      "onoff": 1.33,
+      "impact": 0.14,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Dylan Cardwell",
+      "jersey": "32",
+      "mpg": 14.6,
+      "onoff": 2.45,
+      "impact": 0.15,
+      "played_share": 0.67,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Alex Karaban",
+      "jersey": "33",
+      "mpg": 11.1,
+      "onoff": -9.87,
+      "impact": -0.28,
+      "played_share": 0.47,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Daeqwon Plowden",
+      "jersey": "29",
+      "mpg": 8.5,
+      "onoff": -11.03,
+      "impact": -0.32,
+      "played_share": 0.67,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Gabe Vincent",
+      "jersey": "10",
+      "mpg": 3,
+      "onoff": -83.77,
+      "impact": -0.03,
+      "played_share": 0.07,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": -0.45
+   },
+   "projection": {
+    "base_margin": 8.71,
+    "home_court": 1.66,
+    "adjustments": [
+     {
+      "label": "GS has 1 more day(s) of rest",
+      "pts": 0.4,
+      "favours": "GS",
+      "size": 0.4
+     },
+     {
+      "label": "GS injuries / lineup",
+      "pts": 1.36,
+      "favours": "GS",
+      "size": 1.36
+     },
+     {
+      "label": "SAC injuries / lineup",
+      "pts": 0.45,
+      "favours": "GS",
+      "size": 0.45
+     }
+    ],
+    "margin": 10.92,
+    "total": 222.7,
+    "home_pts": 116.8,
+    "away_pts": 105.9,
+    "margin_lo": -5.1,
+    "margin_hi": 26.9,
+    "total_lo": 199.6,
+    "total_hi": 245.7,
+    "home_win_p": 0.8089,
+    "interval": 0.8
+   },
+   "markets": [
+    {
+     "market": "h2h",
+     "title": "Moneyline",
+     "sides": [
+      {
+       "side": "home",
+       "label": "GS",
+       "line": null,
+       "model_p": 0.8088,
+       "market_p": 0.692,
+       "blend_p": 0.7621,
+       "edge": 0.0701,
+       "best_price": 1.41,
+       "best_book": "Betfair",
+       "ev": 0.0745,
+       "kelly": 0.1818,
+       "n_books": 13
+      },
+      {
+       "side": "away",
+       "label": "SAC",
+       "line": null,
+       "model_p": 0.1912,
+       "market_p": 0.308,
+       "blend_p": 0.2379,
+       "edge": -0.0701,
+       "best_price": 3.3,
+       "best_book": "Betfair",
+       "ev": -0.2149,
+       "kelly": 0.0,
+       "n_books": 13
+      }
+     ],
+     "pick": {
+      "side": "home",
+      "label": "GS",
+      "line": null,
+      "verdict": "Lean",
+      "edge": 0.0701,
+      "ev": 0.0745,
+      "price": 1.41,
+      "book": "Betfair",
+      "stake_pct": 0.0,
+      "reason": "another bet on this game was stronger"
+     }
+    },
+    {
+     "market": "spreads",
+     "title": "Spread",
+     "sides": [
+      {
+       "side": "home",
+       "label": "GS -6.5",
+       "line": -6.5,
+       "model_p": 0.6382,
+       "market_p": 0.512,
+       "blend_p": 0.5877,
+       "edge": 0.0757,
+       "best_price": 1.87,
+       "best_book": "PlayUp",
+       "ev": 0.099,
+       "kelly": 0.1138,
+       "n_books": 5
+      },
+      {
+       "side": "away",
+       "label": "SAC +6.5",
+       "line": 6.5,
+       "model_p": 0.3618,
+       "market_p": 0.488,
+       "blend_p": 0.4123,
+       "edge": -0.0757,
+       "best_price": 1.96,
+       "best_book": "SportsBet",
+       "ev": -0.1919,
+       "kelly": 0.0,
+       "n_books": 5
+      }
+     ],
+     "pick": {
+      "side": "home",
+      "label": "GS -6.5",
+      "line": -6.5,
+      "verdict": "Lean",
+      "edge": 0.0757,
+      "ev": 0.099,
+      "price": 1.87,
+      "book": "PlayUp",
+      "stake_pct": 0.0,
+      "reason": "another bet on this game was stronger"
+     }
+    },
+    {
+     "market": "totals",
+     "title": "Total",
+     "sides": [
+      {
+       "side": "over",
+       "label": "Over 216.5",
+       "line": 216.5,
+       "model_p": 0.6347,
+       "market_p": 0.502,
+       "blend_p": 0.5816,
+       "edge": 0.0797,
+       "best_price": 1.9,
+       "best_book": "TAB",
+       "ev": 0.1051,
+       "kelly": 0.1168,
+       "n_books": 4
+      },
+      {
+       "side": "under",
+       "label": "Under 216.5",
+       "line": 216.5,
+       "model_p": 0.3653,
+       "market_p": 0.498,
+       "blend_p": 0.4184,
+       "edge": -0.0797,
+       "best_price": 1.91,
+       "best_book": "TABtouch",
+       "ev": -0.2009,
+       "kelly": 0.0,
+       "n_books": 4
+      }
+     ],
+     "pick": {
+      "side": "over",
+      "label": "Over 216.5",
+      "line": 216.5,
+      "verdict": "Value bet",
+      "edge": 0.0797,
+      "ev": 0.1051,
+      "price": 1.9,
+      "book": "TAB",
+      "stake_pct": 0.0119,
+      "reason": ""
+     }
+    }
+   ],
+   "warnings": [
+    "Yaxel Lendeborg (GS) is questionable: worth ~3.5 pts. Re-check before tip-off."
+   ],
+   "movement": {
+    "open": {
+     "home_p": 0.692,
+     "spread": -6.5,
+     "total": 216.5,
+     "at": "2026-11-25T20:38:22.441179+00:00"
+    },
+    "now": {
+     "home_p": 0.692,
+     "spread": -6.5,
+     "total": 216.5
+    }
+   },
+   "odds_updated": "2026-11-25T20:39:11Z"
+  },
+  {
+   "id": "401909325",
+   "tip_utc": "2026-11-26T03:00:00+00:00",
+   "tip_local": "Thu 26 Nov, 1:00pm",
+   "et_date": "2026-11-25",
+   "state": "pre",
+   "status_text": "11/25 - 10:00 PM EST",
+   "score": null,
+   "home": {
+    "abbr": "POR",
+    "name": "Portland Trail Blazers",
+    "colors": [
+     "#E03A3E",
+     "#000000"
+    ],
+    "stats": {
+     "record": "11-6",
+     "last10": "5-5",
+     "last10_margin": 3.2,
+     "pace": 101.4,
+     "ortg": 115.2,
+     "drtg": 108.8,
+     "adj_off": 2.4,
+     "adj_def": 2.9,
+     "adj_net": 5.3,
+     "games": 17
+    },
+    "injuries": [
+     {
+      "name": "Ja Morant",
+      "status": "out",
+      "detail": "Head coach Micah Nori said Morant met with a doctor in Los Angeles, who gave him a positive outlook on his recovery from the hamstring injury. While Nori declined to update Morant's timetable, he added Morant \"may not be out for as long as we thought,\" Trail Blazers Insider Sean Highkin reports.",
+      "impact": -0.16,
+      "exp_min": 27,
+      "note": ""
+     },
+     {
+      "name": "Chris Youngblood",
+      "status": "out",
+      "detail": "Youngblood (heel) has been ruled out for Saturday's game against the Knicks.",
+      "impact": -0.02,
+      "exp_min": 13.5,
+      "note": ""
+     },
+     {
+      "name": "Shaedon Sharpe",
+      "status": "out",
+      "detail": "Sharpe suffered a torn meniscus in his knee and is expected to miss six months, per Shams Charania of ESPN.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     },
+     {
+      "name": "Vit Krejci",
+      "status": "out",
+      "detail": "Krejci underwent surgery on his fractured left ankle Wednesday and will be re-evaluated in eight weeks, Brett Siegel of ClutchPoints.com reports.",
+      "impact": 0.04,
+      "exp_min": 10.6,
+      "note": ""
+     }
+    ],
+    "lineup": [
+     {
+      "name": "Toumani Camara",
+      "note": ""
+     },
+     {
+      "name": "Deni Avdija",
+      "note": ""
+     },
+     {
+      "name": "Donovan Clingan",
+      "note": ""
+     },
+     {
+      "name": "Damian Lillard",
+      "note": ""
+     },
+     {
+      "name": "Sidy Cissoko",
+      "note": ""
+     }
+    ],
+    "roster": [
+     {
+      "name": "Deni Avdija",
+      "jersey": "8",
+      "mpg": 32.9,
+      "onoff": 7.62,
+      "impact": 2.35,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Toumani Camara",
+      "jersey": "33",
+      "mpg": 30.6,
+      "onoff": -3.13,
+      "impact": -0.92,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Damian Lillard",
+      "jersey": "0",
+      "mpg": 29.9,
+      "onoff": 16.66,
+      "impact": 4.75,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jrue Holiday",
+      "jersey": "5",
+      "mpg": 27.6,
+      "onoff": 5.96,
+      "impact": 1.49,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Ja Morant",
+      "jersey": "1",
+      "mpg": 27,
+      "onoff": 14.28,
+      "impact": 1.19,
+      "played_share": 0.13,
+      "status": "out",
+      "detail": "Head coach Micah Nori said Morant met with a doctor in Los Angeles, who gave him a positive outlook on his recovery from the hamstring injury. While Nori declined to update Morant's timetable, he added Morant \"may not be out for as long as we thought,\" Trail Blazers Insider Sean Highkin reports."
+     },
+     {
+      "name": "Donovan Clingan",
+      "jersey": "23",
+      "mpg": 26.9,
+      "onoff": 10.18,
+      "impact": 2.44,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Sidy Cissoko",
+      "jersey": "91",
+      "mpg": 24.3,
+      "onoff": -15.05,
+      "impact": -3.12,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Scoot Henderson",
+      "jersey": "00",
+      "mpg": 23.7,
+      "onoff": -10.87,
+      "impact": -2.13,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Robert Williams III",
+      "jersey": "35",
+      "mpg": 16.2,
+      "onoff": -2.25,
+      "impact": -0.21,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jayson Kent",
+      "jersey": "29",
+      "mpg": 13.6,
+      "onoff": -1.47,
+      "impact": -0.06,
+      "played_share": 0.47,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Chris Youngblood",
+      "jersey": "11",
+      "mpg": 13.5,
+      "onoff": 1.38,
+      "impact": 0.05,
+      "played_share": 0.4,
+      "status": "out",
+      "detail": "Youngblood (heel) has been ruled out for Saturday's game against the Knicks."
+     },
+     {
+      "name": "Vit Krejci",
+      "jersey": "27",
+      "mpg": 10.6,
+      "onoff": -5.63,
+      "impact": -0.13,
+      "played_share": 0.33,
+      "status": "out",
+      "detail": "Krejci underwent surgery on his fractured left ankle Wednesday and will be re-evaluated in eight weeks, Brett Siegel of ClutchPoints.com reports."
+     },
+     {
+      "name": "Branden Carlson",
+      "jersey": "10",
+      "mpg": 9.2,
+      "onoff": -9.49,
+      "impact": -0.28,
+      "played_share": 0.8,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": -0.14
+   },
+   "away": {
+    "abbr": "SA",
+    "name": "San Antonio Spurs",
+    "colors": [
+     "#1F1F1F",
+     "#C4CED4"
+    ],
+    "stats": {
+     "record": "15-3",
+     "last10": "9-1",
+     "last10_margin": 15.3,
+     "pace": 100.4,
+     "ortg": 117.2,
+     "drtg": 105.0,
+     "adj_off": 3.2,
+     "adj_def": 6.0,
+     "adj_net": 9.2,
+     "games": 18
+    },
+    "injuries": [
+     {
+      "name": "Dylan Harper",
+      "status": "out",
+      "detail": "Harper (hip) is expected to miss two to three weeks, Brett Siegel of ClutchPoints.com reports.",
+      "impact": -5.33,
+      "exp_min": 31.8,
+      "note": ""
+     },
+     {
+      "name": "Victor Wembanyama",
+      "status": "questionable",
+      "detail": "Wembanyama (back) is questionable for Wednesday's game in Portland.",
+      "impact": -3.03,
+      "exp_min": 30,
+      "note": ""
+     },
+     {
+      "name": "De'Aaron Fox",
+      "status": "questionable",
+      "detail": "Fox (shin) is questionable to play Wednesday's game against the Trail Blazers.",
+      "impact": -2.1,
+      "exp_min": 28.6,
+      "note": ""
+     },
+     {
+      "name": "Tobias Harris",
+      "status": "out",
+      "detail": "Harris (calf) is likely to be sidelined until early December, per Jeff Garcia of KENS 5 San Antonio.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     },
+     {
+      "name": "Jayden Quaintance",
+      "status": "out",
+      "detail": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports.",
+      "impact": 0.0,
+      "exp_min": 0,
+      "note": "No minutes this season"
+     }
+    ],
+    "lineup": [
+     {
+      "name": "Harrison Barnes",
+      "note": ""
+     },
+     {
+      "name": "Julian Champagnie",
+      "note": ""
+     },
+     {
+      "name": "Luke Kornet",
+      "note": ""
+     },
+     {
+      "name": "Devin Vassell",
+      "note": ""
+     },
+     {
+      "name": "Stephon Castle",
+      "note": ""
+     }
+    ],
+    "roster": [
+     {
+      "name": "Dylan Harper",
+      "jersey": "2",
+      "mpg": 31.8,
+      "onoff": 22.8,
+      "impact": 6.66,
+      "played_share": 0.8,
+      "status": "out",
+      "detail": "Harper (hip) is expected to miss two to three weeks, Brett Siegel of ClutchPoints.com reports."
+     },
+     {
+      "name": "Victor Wembanyama",
+      "jersey": "1",
+      "mpg": 30,
+      "onoff": 39.65,
+      "impact": 7.0,
+      "played_share": 0.93,
+      "status": "questionable",
+      "detail": "Wembanyama (back) is questionable for Wednesday's game in Portland."
+     },
+     {
+      "name": "Stephon Castle",
+      "jersey": "5",
+      "mpg": 29.9,
+      "onoff": 5.7,
+      "impact": 1.68,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Devin Vassell",
+      "jersey": "24",
+      "mpg": 29.8,
+      "onoff": 6.88,
+      "impact": 1.91,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "De'Aaron Fox",
+      "jersey": "4",
+      "mpg": 28.6,
+      "onoff": 21.99,
+      "impact": 5.72,
+      "played_share": 0.87,
+      "status": "questionable",
+      "detail": "Fox (shin) is questionable to play Wednesday's game against the Trail Blazers."
+     },
+     {
+      "name": "Julian Champagnie",
+      "jersey": "30",
+      "mpg": 26.1,
+      "onoff": -4.81,
+      "impact": -1.16,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Keldon Johnson",
+      "jersey": "3",
+      "mpg": 24.5,
+      "onoff": -1.81,
+      "impact": -0.39,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Harrison Barnes",
+      "jersey": "40",
+      "mpg": 17.5,
+      "onoff": -12.26,
+      "impact": -1.3,
+      "played_share": 0.87,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Luke Kornet",
+      "jersey": "7",
+      "mpg": 15.5,
+      "onoff": -34.06,
+      "impact": -3.47,
+      "played_share": 1.0,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Ja'Kobi Gillespie",
+      "jersey": "17",
+      "mpg": 15,
+      "onoff": -9.79,
+      "impact": -0.09,
+      "played_share": 0.07,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Carter Bryant",
+      "jersey": "11",
+      "mpg": 11.9,
+      "onoff": -34.3,
+      "impact": -2.04,
+      "played_share": 0.93,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Jordan McLaughlin",
+      "jersey": "0",
+      "mpg": 11.3,
+      "onoff": -19.49,
+      "impact": -0.8,
+      "played_share": 0.73,
+      "status": "available",
+      "detail": ""
+     },
+     {
+      "name": "Tarris Reed Jr.",
+      "jersey": "10",
+      "mpg": 7.4,
+      "onoff": -25.16,
+      "impact": -0.43,
+      "played_share": 0.6,
+      "status": "available",
+      "detail": ""
+     }
+    ],
+    "injury_adj": -11.13
+   },
+   "projection": {
+    "base_margin": -2.29,
+    "home_court": 1.66,
+    "adjustments": [
+     {
+      "label": "POR travelled 3,873 km on short rest",
+      "pts": -1.16,
+      "favours": "SA",
+      "size": 1.16
+     },
+     {
+      "label": "POR crossed 3 time zone(s) on short rest",
+      "pts": -0.75,
+      "favours": "SA",
+      "size": 0.75
+     },
+     {
+      "label": "SA travelled 779 km on short rest",
+      "pts": 0.23,
+      "favours": "POR",
+      "size": 0.23
+     },
+     {
+      "label": "POR injuries / lineup",
+      "pts": -0.14,
+      "favours": "SA",
+      "size": 0.14
+     },
+     {
+      "label": "SA injuries / lineup",
+      "pts": 11.13,
+      "favours": "POR",
+      "size": 11.13
+     }
+    ],
+    "margin": 7.02,
+    "total": 221.9,
+    "home_pts": 114.4,
+    "away_pts": 107.4,
+    "margin_lo": -9.0,
+    "margin_hi": 23.0,
+    "total_lo": 198.8,
+    "total_hi": 244.9,
+    "home_win_p": 0.7129,
+    "interval": 0.8
+   },
+   "markets": [
+    {
+     "market": "h2h",
+     "title": "Moneyline",
+     "sides": [
+      {
+       "side": "home",
+       "label": "POR",
+       "line": null,
+       "model_p": 0.7128,
+       "market_p": 0.4081,
+       "blend_p": 0.5909,
+       "edge": 0.1828,
+       "best_price": 2.42,
+       "best_book": "Betfair",
+       "ev": 0.43,
+       "kelly": 0.3028,
+       "n_books": 13
+      },
+      {
+       "side": "away",
+       "label": "SA",
+       "line": null,
+       "model_p": 0.2872,
+       "market_p": 0.5919,
+       "blend_p": 0.4091,
+       "edge": -0.1828,
+       "best_price": 1.7,
+       "best_book": "Betfair",
+       "ev": -0.3045,
+       "kelly": 0.0,
+       "n_books": 13
+      }
+     ],
+     "pick": {
+      "side": "home",
+      "label": "POR",
+      "line": null,
+      "verdict": "Value bet",
+      "edge": 0.1828,
+      "ev": 0.43,
+      "price": 2.42,
+      "book": "Betfair",
+      "stake_pct": 0.0119,
+      "reason": ""
+     }
+    },
+    {
+     "market": "spreads",
+     "title": "Spread",
+     "sides": [
+      {
+       "side": "home",
+       "label": "POR +3.5",
+       "line": 3.5,
+       "model_p": 0.8,
+       "market_p": 0.5026,
+       "blend_p": 0.681,
+       "edge": 0.1784,
+       "best_price": 1.9,
+       "best_book": "PointsBet (AU)",
+       "ev": 0.294,
+       "kelly": 0.3266,
+       "n_books": 6
+      },
+      {
+       "side": "away",
+       "label": "SA -3.5",
+       "line": -3.5,
+       "model_p": 0.2,
+       "market_p": 0.4974,
+       "blend_p": 0.319,
+       "edge": -0.1784,
+       "best_price": 1.94,
+       "best_book": "PlayUp",
+       "ev": -0.3812,
+       "kelly": 0.0,
+       "n_books": 6
+      }
+     ],
+     "pick": {
+      "side": "home",
+      "label": "POR +3.5",
+      "line": 3.5,
+      "verdict": "Lean",
+      "edge": 0.1784,
+      "ev": 0.294,
+      "price": 1.9,
+      "book": "PointsBet (AU)",
+      "stake_pct": 0.0,
+      "reason": "another bet on this game was stronger"
+     }
+    },
+    {
+     "market": "totals",
+     "title": "Total",
+     "sides": [
+      {
+       "side": "over",
+       "label": "Over 225.5",
+       "line": 225.5,
+       "model_p": 0.4207,
+       "market_p": 0.5,
+       "blend_p": 0.4524,
+       "edge": -0.0476,
+       "best_price": 1.93,
+       "best_book": "PlayUp",
+       "ev": -0.1268,
+       "kelly": 0.0,
+       "n_books": 3
+      },
+      {
+       "side": "under",
+       "label": "Under 225.5",
+       "line": 225.5,
+       "model_p": 0.5793,
+       "market_p": 0.5,
+       "blend_p": 0.5476,
+       "edge": 0.0476,
+       "best_price": 1.9,
+       "best_book": "PointsBet (AU)",
+       "ev": 0.0404,
+       "kelly": 0.0448,
+       "n_books": 3
+      }
+     ],
+     "pick": {
+      "side": "under",
+      "label": "Under 225.5",
+      "line": 225.5,
+      "verdict": "Lean",
+      "edge": 0.0476,
+      "ev": 0.0404,
+      "price": 1.9,
+      "book": "PointsBet (AU)",
+      "stake_pct": 0.0,
+      "reason": "another bet on this game was stronger"
+     }
+    }
+   ],
+   "warnings": [
+    "Victor Wembanyama (SA) is questionable: worth ~3.0 pts. Re-check before tip-off.",
+    "De'Aaron Fox (SA) is questionable: worth ~2.1 pts. Re-check before tip-off."
+   ],
+   "movement": {
+    "open": {
+     "home_p": 0.4081,
+     "spread": 3.5,
+     "total": 225.5,
+     "at": "2026-11-25T20:38:22.441179+00:00"
+    },
+    "now": {
+     "home_p": 0.4081,
+     "spread": 3.5,
+     "total": 225.5
+    }
+   },
+   "odds_updated": "2026-11-25T20:39:11Z"
   }
  ],
  "settings": {
