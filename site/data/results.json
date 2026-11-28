@@ -1,7 +1,7 @@
 {
  "overall": {
   "bets": 148,
-  "pending": 14,
+  "pending": 16,
   "wins": 66,
   "losses": 82,
   "pushes": 0,
@@ -15,7 +15,7 @@
  "by_market": {
   "h2h": {
    "bets": 70,
-   "pending": 6,
+   "pending": 8,
    "wins": 27,
    "losses": 43,
    "pushes": 0,
@@ -76,7 +76,7 @@
    "close_line": null,
    "close_fair_p": 0.3468,
    "close_price": 2.88,
-   "close_at": "2026-11-28T00:36:15.452387+00:00",
+   "close_at": "2026-11-28T01:29:13.246128+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -103,7 +103,7 @@
    "close_line": null,
    "close_fair_p": 0.2381,
    "close_price": 4.4,
-   "close_at": "2026-11-28T00:36:15.452387+00:00",
+   "close_at": "2026-11-28T01:29:13.246128+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -130,7 +130,7 @@
    "close_line": 2.5,
    "close_fair_p": 0.5,
    "close_price": 1.91,
-   "close_at": "2026-11-28T00:36:15.452387+00:00",
+   "close_at": "2026-11-28T01:29:13.246128+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -157,7 +157,7 @@
    "close_line": 216.5,
    "close_fair_p": 0.5,
    "close_price": 1.9,
-   "close_at": "2026-11-28T00:36:15.452387+00:00",
+   "close_at": "2026-11-28T01:29:13.246128+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -184,7 +184,7 @@
    "close_line": null,
    "close_fair_p": 0.4444,
    "close_price": 2.2,
-   "close_at": "2026-11-28T00:36:15.452387+00:00",
+   "close_at": "2026-11-28T01:29:13.246128+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -211,7 +211,7 @@
    "close_line": null,
    "close_fair_p": 0.2739,
    "close_price": 3.85,
-   "close_at": "2026-11-28T00:36:15.452387+00:00",
+   "close_at": "2026-11-28T01:29:13.246128+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -238,7 +238,34 @@
    "close_line": 230.5,
    "close_fair_p": 0.4967,
    "close_price": 1.95,
-   "close_at": "2026-11-28T00:36:15.452387+00:00",
+   "close_at": "2026-11-28T01:29:13.246128+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  {
+   "id": "401909332:h2h:home",
+   "game_id": "401909332",
+   "date": "2026-11-27",
+   "tip": "2026-11-28T02:00:00+00:00",
+   "matchup": "DAL @ PHX",
+   "market": "h2h",
+   "side": "home",
+   "label": "PHX",
+   "line": null,
+   "price": 1.66,
+   "book": "Betfair",
+   "model_p": 0.679,
+   "blend_p": 0.648,
+   "fair_p": 0.6015,
+   "edge": 0.0465,
+   "ev": 0.0756,
+   "stake_pct": 0.0133,
+   "flagged_at": "2026-11-28T01:29:13.246128+00:00",
+   "close_line": null,
+   "close_fair_p": 0.6015,
+   "close_price": 1.66,
+   "close_at": "2026-11-28T01:29:13.246128+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -265,7 +292,34 @@
    "close_line": 219.5,
    "close_fair_p": 0.5007,
    "close_price": 1.9,
-   "close_at": "2026-11-28T00:36:15.452387+00:00",
+   "close_at": "2026-11-28T01:29:13.246128+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  {
+   "id": "401909331:h2h:away",
+   "game_id": "401909331",
+   "date": "2026-11-27",
+   "tip": "2026-11-28T01:30:00+00:00",
+   "matchup": "MEM @ MIN",
+   "market": "h2h",
+   "side": "away",
+   "label": "MEM",
+   "line": null,
+   "price": 2.38,
+   "book": "SportsBet",
+   "model_p": 0.5395,
+   "blend_p": 0.492,
+   "fair_p": 0.4207,
+   "edge": 0.0713,
+   "ev": 0.1709,
+   "stake_pct": 0.0133,
+   "flagged_at": "2026-11-28T01:29:13.246128+00:00",
+   "close_line": null,
+   "close_fair_p": 0.4207,
+   "close_price": 2.38,
+   "close_at": "2026-11-28T01:29:13.246128+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -4725,6 +4779,6 @@
    "flat_profit": -1.0
   }
  ],
- "generated_at": "2026-11-28T00:36:15.452387+00:00",
+ "generated_at": "2026-11-28T01:29:13.246128+00:00",
  "backtest": null
 }
