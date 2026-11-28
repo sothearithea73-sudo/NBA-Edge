@@ -1,59 +1,194 @@
 {
  "overall": {
-  "bets": 148,
-  "pending": 16,
-  "wins": 66,
-  "losses": 82,
+  "bets": 164,
+  "pending": 5,
+  "wins": 73,
+  "losses": 91,
   "pushes": 0,
-  "staked_units": 179.64,
-  "profit_units": -20.18,
-  "roi": -0.1123,
-  "flat_roi": -0.0606,
-  "avg_clv": -0.0116,
-  "beat_close_pct": 0.331
+  "staked_units": 193.99,
+  "profit_units": -21.94,
+  "roi": -0.1131,
+  "flat_roi": -0.0655,
+  "avg_clv": -0.0144,
+  "beat_close_pct": 0.317
  },
  "by_market": {
-  "h2h": {
-   "bets": 70,
-   "pending": 8,
-   "wins": 27,
-   "losses": 43,
+  "totals": {
+   "bets": 45,
+   "pending": 4,
+   "wins": 23,
+   "losses": 22,
    "pushes": 0,
-   "staked_units": 94.25,
-   "profit_units": -13.02,
-   "roi": -0.1381,
-   "flat_roi": -0.083,
-   "avg_clv": 0.0206,
-   "beat_close_pct": 0.543
+   "staked_units": 48.18,
+   "profit_units": -4.73,
+   "roi": -0.0981,
+   "flat_roi": -0.0196,
+   "avg_clv": -0.0504,
+   "beat_close_pct": 0.133
+  },
+  "h2h": {
+   "bets": 78,
+   "pending": 1,
+   "wins": 29,
+   "losses": 49,
+   "pushes": 0,
+   "staked_units": 102.09,
+   "profit_units": -16.46,
+   "roi": -0.1612,
+   "flat_roi": -0.1178,
+   "avg_clv": 0.0185,
+   "beat_close_pct": 0.513
   },
   "spreads": {
-   "bets": 38,
-   "pending": 3,
-   "wins": 19,
-   "losses": 19,
-   "pushes": 0,
-   "staked_units": 41.03,
-   "profit_units": -1.38,
-   "roi": -0.0336,
-   "flat_roi": -0.0403,
-   "avg_clv": -0.0366,
-   "beat_close_pct": 0.132
-  },
-  "totals": {
-   "bets": 40,
-   "pending": 5,
-   "wins": 20,
+   "bets": 41,
+   "pending": 0,
+   "wins": 21,
    "losses": 20,
    "pushes": 0,
-   "staked_units": 44.36,
-   "profit_units": -5.78,
-   "roi": -0.1303,
-   "flat_roi": -0.0407,
-   "avg_clv": -0.0441,
-   "beat_close_pct": 0.15
+   "staked_units": 43.72,
+   "profit_units": -0.75,
+   "roi": -0.0172,
+   "flat_roi": -0.0166,
+   "avg_clv": -0.0372,
+   "beat_close_pct": 0.146
   }
  },
  "picks": [
+  {
+   "id": "401910050:totals:over",
+   "game_id": "401910050",
+   "date": "2026-11-28",
+   "tip": "2026-11-29T01:30:00+00:00",
+   "matchup": "PHI @ HOU",
+   "market": "totals",
+   "side": "over",
+   "label": "Over 219.5",
+   "line": 219.5,
+   "price": 1.9,
+   "book": "SportsBet",
+   "model_p": 0.6716,
+   "blend_p": 0.603,
+   "fair_p": 0.5,
+   "edge": 0.103,
+   "ev": 0.1457,
+   "stake_pct": 0.0174,
+   "flagged_at": "2026-11-28T20:35:59.852296+00:00",
+   "close_line": 219.5,
+   "close_fair_p": 0.5,
+   "close_price": 1.9,
+   "close_at": "2026-11-28T20:35:59.852296+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  {
+   "id": "401910048:h2h:home",
+   "game_id": "401910048",
+   "date": "2026-11-28",
+   "tip": "2026-11-29T01:00:00+00:00",
+   "matchup": "IND @ CHI",
+   "market": "h2h",
+   "side": "home",
+   "label": "CHI",
+   "line": null,
+   "price": 2.12,
+   "book": "Betfair",
+   "model_p": 0.7701,
+   "blend_p": 0.6543,
+   "fair_p": 0.4805,
+   "edge": 0.1738,
+   "ev": 0.3871,
+   "stake_pct": 0.0174,
+   "flagged_at": "2026-11-28T20:35:59.852296+00:00",
+   "close_line": null,
+   "close_fair_p": 0.4805,
+   "close_price": 2.12,
+   "close_at": "2026-11-28T20:35:59.852296+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  {
+   "id": "401910049:totals:over",
+   "game_id": "401910049",
+   "date": "2026-11-28",
+   "tip": "2026-11-29T01:00:00+00:00",
+   "matchup": "OKC @ MIL",
+   "market": "totals",
+   "side": "over",
+   "label": "Over 223.5",
+   "line": 223.5,
+   "price": 1.98,
+   "book": "PlayUp",
+   "model_p": 0.5508,
+   "blend_p": 0.5284,
+   "fair_p": 0.4948,
+   "edge": 0.0336,
+   "ev": 0.0462,
+   "stake_pct": 0.0103,
+   "flagged_at": "2026-11-28T20:35:59.852296+00:00",
+   "close_line": 223.5,
+   "close_fair_p": 0.4948,
+   "close_price": 1.98,
+   "close_at": "2026-11-28T20:35:59.852296+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  {
+   "id": "401910047:totals:over",
+   "game_id": "401910047",
+   "date": "2026-11-28",
+   "tip": "2026-11-28T23:00:00+00:00",
+   "matchup": "BKN @ CHA",
+   "market": "totals",
+   "side": "over",
+   "label": "Over 212.5",
+   "line": 212.5,
+   "price": 1.9,
+   "book": "PointsBet (AU)",
+   "model_p": 0.6327,
+   "blend_p": 0.5796,
+   "fair_p": 0.5,
+   "edge": 0.0796,
+   "ev": 0.1012,
+   "stake_pct": 0.0174,
+   "flagged_at": "2026-11-28T20:35:59.852296+00:00",
+   "close_line": 212.5,
+   "close_fair_p": 0.5,
+   "close_price": 1.9,
+   "close_at": "2026-11-28T20:35:59.852296+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  {
+   "id": "401910046:totals:over",
+   "game_id": "401910046",
+   "date": "2026-11-28",
+   "tip": "2026-11-28T22:00:00+00:00",
+   "matchup": "ORL @ WSH",
+   "market": "totals",
+   "side": "over",
+   "label": "Over 217.5",
+   "line": 217.5,
+   "price": 1.9,
+   "book": "SportsBet",
+   "model_p": 0.6756,
+   "blend_p": 0.6054,
+   "fair_p": 0.5,
+   "edge": 0.1054,
+   "ev": 0.1502,
+   "stake_pct": 0.0174,
+   "flagged_at": "2026-11-28T20:35:59.852296+00:00",
+   "close_line": 217.5,
+   "close_fair_p": 0.5,
+   "close_price": 1.9,
+   "close_at": "2026-11-28T20:35:59.852296+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
   {
    "id": "401909333:h2h:away",
    "game_id": "401909333",
@@ -77,9 +212,11 @@
    "close_fair_p": 0.3468,
    "close_price": 2.88,
    "close_at": "2026-11-28T01:29:13.246128+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -0.97,
+   "clv": -0.0463,
+   "final": "LAL 96 - SA 99",
+   "flat_profit": -1.0
   },
   {
    "id": "401909334:h2h:home",
@@ -104,9 +241,11 @@
    "close_fair_p": 0.2381,
    "close_price": 4.4,
    "close_at": "2026-11-28T01:29:13.246128+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -0.97,
+   "clv": 0.0834,
+   "final": "DEN 120 - UTAH 107",
+   "flat_profit": -1.0
   },
   {
    "id": "401909335:spreads:away",
@@ -131,9 +270,11 @@
    "close_fair_p": 0.5,
    "close_price": 1.91,
    "close_at": "2026-11-28T01:29:13.246128+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 0.675,
+   "clv": 0.0106,
+   "final": "NO 105 - LAC 104",
+   "flat_profit": 0.9
   },
   {
    "id": "401909336:totals:over",
@@ -158,9 +299,11 @@
    "close_fair_p": 0.5,
    "close_price": 1.9,
    "close_at": "2026-11-28T01:29:13.246128+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -0.45,
+   "clv": -0.2129,
+   "final": "GS 94 - POR 116",
+   "flat_profit": -1.0
   },
   {
    "id": "401909335:h2h:away",
@@ -185,9 +328,11 @@
    "close_fair_p": 0.4444,
    "close_price": 2.2,
    "close_at": "2026-11-28T01:29:13.246128+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 0.682,
+   "clv": -0.0045,
+   "final": "NO 105 - LAC 104",
+   "flat_profit": 1.24
   },
   {
    "id": "401909336:h2h:away",
@@ -212,9 +357,11 @@
    "close_fair_p": 0.2739,
    "close_price": 3.85,
    "close_at": "2026-11-28T01:29:13.246128+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -0.86,
+   "clv": -0.0003,
+   "final": "GS 94 - POR 116",
+   "flat_profit": -1.0
   },
   {
    "id": "401909335:totals:over",
@@ -239,9 +386,11 @@
    "close_fair_p": 0.4967,
    "close_price": 1.95,
    "close_at": "2026-11-28T01:29:13.246128+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -0.83,
+   "clv": -0.0314,
+   "final": "NO 105 - LAC 104",
+   "flat_profit": -1.0
   },
   {
    "id": "401909332:h2h:home",
@@ -266,9 +415,11 @@
    "close_fair_p": 0.6015,
    "close_price": 1.66,
    "close_at": "2026-11-28T01:29:13.246128+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -1.33,
+   "clv": -0.0015,
+   "final": "DAL 113 - PHX 109",
+   "flat_profit": -1.0
   },
   {
    "id": "401909331:totals:over",
@@ -293,9 +444,11 @@
    "close_fair_p": 0.5007,
    "close_price": 1.9,
    "close_at": "2026-11-28T01:29:13.246128+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 0.873,
+   "clv": -0.0908,
+   "final": "MEM 114 - MIN 109",
+   "flat_profit": 0.9
   },
   {
    "id": "401909331:h2h:away",
@@ -320,9 +473,11 @@
    "close_fair_p": 0.4207,
    "close_price": 2.38,
    "close_at": "2026-11-28T01:29:13.246128+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 1.835,
+   "clv": 0.0013,
+   "final": "MEM 114 - MIN 109",
+   "flat_profit": 1.38
   },
   {
    "id": "401909330:totals:under",
@@ -347,9 +502,11 @@
    "close_fair_p": 0.5,
    "close_price": 1.95,
    "close_at": "2026-11-28T00:36:15.452387+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 0.54,
+   "clv": -0.05,
+   "final": "ATL 87 - BOS 86",
+   "flat_profit": 0.9
   },
   {
    "id": "401909327:spreads:home",
@@ -374,9 +531,11 @@
    "close_fair_p": 0.5013,
    "close_price": 1.96,
    "close_at": "2026-11-28T00:36:15.452387+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 0.921,
+   "clv": -0.0846,
+   "final": "MIL 98 - DET 113",
+   "flat_profit": 0.95
   },
   {
    "id": "401909328:h2h:home",
@@ -401,9 +560,11 @@
    "close_fair_p": 0.3842,
    "close_price": 2.64,
    "close_at": "2026-11-28T00:36:15.452387+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -0.97,
+   "clv": -0.0318,
+   "final": "PHI 111 - IND 87",
+   "flat_profit": -1.0
   },
   {
    "id": "401909329:totals:over",
@@ -428,9 +589,11 @@
    "close_fair_p": 0.4954,
    "close_price": 1.94,
    "close_at": "2026-11-28T00:36:15.452387+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "win",
+   "profit_units": 0.921,
+   "clv": -0.1202,
+   "final": "BKN 100 - TOR 124",
+   "flat_profit": 0.95
   },
   {
    "id": "401909326:spreads:home",
@@ -455,9 +618,11 @@
    "close_fair_p": 0.5,
    "close_price": 1.92,
    "close_at": "2026-11-27T23:36:59.602418+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -0.97,
+   "clv": -0.06,
+   "final": "MIA 108 - NY 105",
+   "flat_profit": -1.0
   },
   {
    "id": "401909326:h2h:home",
@@ -482,9 +647,11 @@
    "close_fair_p": 0.5823,
    "close_price": 1.67,
    "close_at": "2026-11-27T23:36:59.602418+00:00",
-   "result": null,
-   "profit_units": null,
-   "clv": null
+   "result": "loss",
+   "profit_units": -0.86,
+   "clv": -0.0043,
+   "final": "MIA 108 - NY 105",
+   "flat_profit": -1.0
   },
   {
    "id": "401909324:totals:over",
@@ -4779,6 +4946,6 @@
    "flat_profit": -1.0
   }
  ],
- "generated_at": "2026-11-28T01:29:13.246128+00:00",
+ "generated_at": "2026-11-28T20:35:59.852296+00:00",
  "backtest": null
 }
