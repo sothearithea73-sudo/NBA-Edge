@@ -1,7 +1,7 @@
 {
  "overall": {
   "bets": 164,
-  "pending": 5,
+  "pending": 6,
   "wins": 73,
   "losses": 91,
   "pushes": 0,
@@ -41,7 +41,7 @@
   },
   "spreads": {
    "bets": 41,
-   "pending": 0,
+   "pending": 1,
    "wins": 21,
    "losses": 20,
    "pushes": 0,
@@ -76,7 +76,7 @@
    "close_line": 219.5,
    "close_fair_p": 0.5,
    "close_price": 1.9,
-   "close_at": "2026-11-28T20:35:59.852296+00:00",
+   "close_at": "2026-11-28T21:00:07.037590+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -103,7 +103,7 @@
    "close_line": null,
    "close_fair_p": 0.4805,
    "close_price": 2.12,
-   "close_at": "2026-11-28T20:35:59.852296+00:00",
+   "close_at": "2026-11-28T21:00:07.037590+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -128,9 +128,36 @@
    "stake_pct": 0.0103,
    "flagged_at": "2026-11-28T20:35:59.852296+00:00",
    "close_line": 223.5,
-   "close_fair_p": 0.4948,
+   "close_fair_p": 0.4908,
    "close_price": 1.98,
-   "close_at": "2026-11-28T20:35:59.852296+00:00",
+   "close_at": "2026-11-28T21:00:07.037590+00:00",
+   "result": null,
+   "profit_units": null,
+   "clv": null
+  },
+  {
+   "id": "401910049:spreads:away",
+   "game_id": "401910049",
+   "date": "2026-11-28",
+   "tip": "2026-11-29T01:00:00+00:00",
+   "matchup": "OKC @ MIL",
+   "market": "spreads",
+   "side": "away",
+   "label": "OKC -12.5",
+   "line": -12.5,
+   "price": 1.9,
+   "book": "SportsBet",
+   "model_p": 0.5861,
+   "blend_p": 0.5559,
+   "fair_p": 0.5105,
+   "edge": 0.0454,
+   "ev": 0.0561,
+   "stake_pct": 0.0131,
+   "flagged_at": "2026-11-28T21:00:07.037590+00:00",
+   "close_line": -12.5,
+   "close_fair_p": 0.5105,
+   "close_price": 1.9,
+   "close_at": "2026-11-28T21:00:07.037590+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -157,7 +184,7 @@
    "close_line": 212.5,
    "close_fair_p": 0.5,
    "close_price": 1.9,
-   "close_at": "2026-11-28T20:35:59.852296+00:00",
+   "close_at": "2026-11-28T21:00:07.037590+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -184,7 +211,7 @@
    "close_line": 217.5,
    "close_fair_p": 0.5,
    "close_price": 1.9,
-   "close_at": "2026-11-28T20:35:59.852296+00:00",
+   "close_at": "2026-11-28T21:00:07.037590+00:00",
    "result": null,
    "profit_units": null,
    "clv": null
@@ -4946,6 +4973,6 @@
    "flat_profit": -1.0
   }
  ],
- "generated_at": "2026-11-28T20:35:59.852296+00:00",
+ "generated_at": "2026-11-28T21:00:07.037590+00:00",
  "backtest": null
 }
